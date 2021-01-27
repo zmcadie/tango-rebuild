@@ -1,0 +1,449 @@
+@import "~bulma/sass/utilities/initial-variables";
+
+// Config vars
+// Kaldi logo brand color: #FD461E
+$kaldi-red: #D64000;
+$kaldi-red-invert: #fff;
+
+$primary: $kaldi-red;
+$primary-invert: $kaldi-red-invert;
+$body-color: #333;
+$black: #2b2523;
+
+.navbar .navbar-menu {
+  box-shadow:none !important;
+}
+
+.content .taglist {
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  
+  li {
+    padding: 0 2rem 1rem 0;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+  }
+}
+
+// Helper Classes
+.full-width-image-container {
+  width: 100vw;
+  height: 400px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: 2em -50vw;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-width-image {
+  width: 100vw;
+  height: 400px;
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 16px 10px;
+  font-size: 18px;
+  font-size: 1rem;
+  line-height: 1.25;
+  background-color: #fff;
+  border-radius: .25rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: #CC3700;
+  text-align: center;
+  -webkit-box-shadow: inset 0 0 0 2px #CC3700;
+  box-shadow: inset 0 0 0 2px #f40;
+  -webkit-transition: all .15s ease;
+  transition: all .15s ease;
+}
+
+.margin-top-0 {
+  margin-top: 0 !important;
+}
+
+.navbar-item .icon {
+  color: $primary;
+}
+// Override for use of svg's from https://simpleicons.org/
+.icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+}
+.navbar-brand .navbar-item.logo {
+  padding: 0 1rem;
+}
+footer.footer {
+  padding: 3rem 0rem 0rem;
+  background-color: transparent;
+}
+
+//Menu overrides
+$menu-item-color: $white-ter;
+$menu-item-hover-color: $black !important;
+$menu-item-hover-background-color: $black;
+$menu-item-active-color: $kaldi-red-invert;
+$menu-item-active-background-color:	$kaldi-red-invert;
+$menu-list-border-left: 1px solid $kaldi-red-invert;
+$menu-label-color: $white-ter;
+
+
+.menu-label {
+  font-size: 1em !important;
+  text-align: left;
+}
+.menu-list {
+  list-style: none !important;
+  text-align: left;
+}
+.social {
+  padding: 2em;
+}
+.social a {
+  padding: .5em .5em .3em .5em;
+  border-radius: 1em;
+  background-color: $white-ter;
+  margin: .5em;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  display: inline;
+}
+
+// blog roll
+.blog-list-item.is-featured {
+  background-color: #d6400033;
+}
+.blog-list-item header {
+  display: flex;
+  margin-bottom: 1em;
+}
+.blog-list-item .featured-thumbnail {
+  flex-basis: 35%;
+  margin: 0 1.5em 0 0;
+}
+
+
+@import "~bulma";
+
+
+// responsiveness
++tablet-only {
+  .blog-list-item .featured-thumbnail {
+    flex-basis: 50%;
+  }
+}
+
++mobile {
+  .blog-list-item header {
+    display: block
+  }
+  .blog-list-item .featured-thumbnail {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 0 1em;
+  }
+}
+
+////////////////////////////////////////////////
+/////////                              /////////
+/////////          MAP STYLES          /////////
+/////////                              /////////
+////////////////////////////////////////////////
+
+.tango-logo-header {
+  margin-bottom: 20px;
+}
+
+#map-container {
+  // border: 2px solid #333;
+  height: 550px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+#map {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+#capture {
+  background-color: white;
+  border-right: 1px solid #333;
+  color: #444;
+  font-family: Roboto,Arial,sans-serif;
+  height: 100%;
+  left: -301px;
+  overflow: hidden;
+  position: absolute;
+  transition: left 0.5s ease;
+  width: calc(300px - 2px);
+  z-index: 2;
+}
+
+#capture.open {
+  left: 0;
+}
+
+#capture-close {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  height: 18px;
+  margin-top: -7px;
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+
+#capture-title {
+  background: #D63B30;
+  color: white;
+  min-height: 16px;
+  line-height: 16px;
+  padding: 10px;
+  padding-right: 30px;
+}
+
+#capture-content {
+  overflow-wrap: break-word;
+  padding: 10px;
+  width: calc(100% - 20px);
+}
+
+#capture-content > * {
+  width: 100%;
+}
+
+#capture-content .feature-item {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#capture-content .feature-item:first-child {
+  margin-top: 0;
+}
+
+#capture-content .feature-item-title {
+  color: #aaa;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+#capture-content .feature-item > img {
+  height: auto;
+  max-width: 100%;
+}
+
+#toggles-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  bottom: 25px;
+  color: #444;
+  font-size: 14px;
+  padding: 10px 18px 10px 10px;
+  position: absolute;
+  right: 10px;
+  z-index: 2;
+}
+
+#toggles-container label {
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+}
+
+#legend-container {
+  min-height: 210px;
+  overflow: auto;
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 20px;
+  width: 100%;
+}
+
+.legend-col {
+  float: left;
+  width: 380px;
+}
+
+@media (max-width: 1035px) {
+  .legend-col {
+    float: none;
+  }
+}
+
+@media (min-width: 1135px) {
+  .legend-col-2 {
+    margin-left: 140px;
+  }
+}
+
+@media (min-width: 1085px) and (max-width: 1145px) {
+  .legend-col-2 {
+    margin-left: 90px;
+  }
+}
+
+@media (min-width: 1035px) and (max-width: 1085px) {
+  .legend-col-2 {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1035px) {
+  .legend-col-2 {
+    margin-top: 10px;
+  }
+}
+
+.legend-header {
+  font-weight: bold;
+  margin: 15px 0 10px;
+}
+
+.legend-header:first-child {
+  margin-top: 0;
+}
+
+.legend-item {
+  margin: 5px 0;
+}
+
+.legend-item-break {
+  padding: 0 5px;
+}
+
+.legend-item-break::before {
+  content: "-";
+}
+
+.legend-item-symbol .square {
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+  height: 17px;
+  margin-bottom: -5px;
+  width: 17px;
+}
+
+.square.blue-square {
+  background-color: #00f8;
+  border-color: #00ff;
+}
+
+.square.red-square {
+  background-color: #f008;
+  border-color: #f00f;
+}
+
+.square.purple-square {
+  background-color: #8088;
+  border-color: #808f;
+}
+
+.square.green-square {
+  background-color: #0808;
+  border-color: #080f;
+}
+
+.square.yellow-square {
+  background-color: #FFFD5488;
+  border-color: #FFFD54ff;
+}
+
+.square.orange-square {
+  background-color: #ED9D4488;
+  border-color: #ED9D44ff;
+}
+
+.square.grey-square {
+  background-color: #0008;
+  border-color: #000f;
+}
+
+.square.empty {
+  background-color: transparent;
+}
+
+.legend-item-symbol img {
+  height: 25px;
+  margin: 0 -3px -5px -4px;
+}
+
+.legend-notes-label {
+  font-size: 12px;
+  margin-left: 46px;
+  margin-top: 2px;
+}
+
+#footer-container {
+  border-top: 1px solid #aaa;
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 20px;
+}
+
+#footer-logos {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  text-align: right;
+}
+
+#footer-logos .logo-link {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#footer-logos .logo-link img {
+  height: 42px;
+  margin-bottom: 10px;
+}
+
+//////////////////////////////////////////////////////
+/////////                                    /////////
+/////////          CUSTOM STYLES             /////////
+/////////                                    /////////
+//////////////////////////////////////////////////////
+
+.navbar {
+  height: 63px;
+}
+
+.navbar-item.selected {
+  text-decoration: underline;
+}
+
+.navbar-item.logo img {
+  max-height: 45px;
+  padding-bottom: 5px;
+}
+
+.navbar .navbar-menu {
+  justify-content: flex-end;
+}
