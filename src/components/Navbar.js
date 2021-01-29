@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo.svg'
 
@@ -10,10 +10,14 @@ const links = [
   { label: "Contact", path: "/contact" }
 ]
 
-const Navbar = (props) => {
-  const [active, setActive] = useState(false)
-  const navBarActiveClass = useMemo(() => active ? "is-active" : "", [ active ])
-  const pathname = useMemo(() => window.location.pathname, [])
+const Navbar = () => {
+  const [ active, setActive ] = useState(false)
+  const [ pathname, setPathname ] = useState()
+  const navBarActiveClass = active ? "is-active" : ""
+  
+  useEffect(() => {
+    setPathname(window.location.pathname)
+  }, [])
 
   const toggleHamburger = () => {
     setActive(!active)

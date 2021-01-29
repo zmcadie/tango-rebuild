@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    `gatsby-plugin-preload-fonts`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -27,21 +28,6 @@ module.exports = {
       options: {
         path: `${__dirname}/src/img`,
         name: 'images',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Didact Gothic`,
-            variants: [`400`]
-          },
-          {
-            family: `Roboto`,
-            variants: [`400`, `400i`, `700`, `700i`]
-          },
-        ],
       },
     },
     'gatsby-plugin-sharp',
