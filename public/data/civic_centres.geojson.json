@@ -1,0 +1,82 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "City Hall",
+        "address": "100 Queen St. W."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -79.3840939, 43.6534829 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East York Civic",
+        "address": "850 Coxwell Ave."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -79.3283362, 43.6911694 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Etobicoke Civic Centre",
+        "address": "399 The West Mall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -79.5665396, 43.6432951 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Metro Hall",
+        "address": "55 John St."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -79.388966, 43.6460888 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North York Civic Centre",
+        "address": "5100 Yonge St."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -79.41494709999999, 43.7672794 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scarborough Civic Centre",
+        "address": "150 Borough Dr."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -79.2576797, 43.7728978 ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "York Civic Centre",
+        "address": "2700 Eglinton Ave. W."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ -79.47849599999999, 43.6898885 ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.marker {
+  fill: slateblue;
+  stroke: white;
+  stroke-width: 1.5;
+
+  svg {
+    border-radius: 50%;
+    overflow: visible;
+
+  }
+  
+  &.selected svg {
+    background: #fff8;
+    box-shadow: 0 2px 4px 1px #0008;
+  }
+}
