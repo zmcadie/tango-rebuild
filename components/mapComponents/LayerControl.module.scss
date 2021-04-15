@@ -1,0 +1,66 @@
+.container {
+  background: white;
+  font-family: 'Didact Gothic', sans-serif;
+  width: 200px;
+}
+
+.section {
+  padding: 5px 10px;
+
+  > summary {
+    cursor: pointer;
+    font-size: 16px;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "▶";
+      display: inline-block;
+      font-size: 12px;
+      margin-right: 10px;
+      text-align: center;
+      width: 20px;
+    }
+  }
+
+  &[open] > summary::before {
+    content: "▼";
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    label {
+      height: 20px;
+      display: flex;
+      
+      input[type=checkbox] {
+        height: 13px;
+        margin: 4px 13px 4px 4px;
+        width: 13px;
+      }
+    }
+  }
+}
+
+// .header {
+//   font-size: 16px;
+//   padding: 5px 20px;
+//   position: relative;
+
+//   &::after {
+//     color: #aaa;
+//     content: "▲";
+//     position: absolute;
+//     right: 20px;
+//     transform: rotate(180deg);
+//   }
+
+//   &.open::after {
+//     transform: unset;
+//   }
+// }

@@ -34,19 +34,29 @@ const tileOptions = {
   accessToken: process.env.NEXT_PUBLIC_MAPBOX_API
 }
 
+const layers = [
+  {
+    label: "Neighbourhood Groups",
+    data: residentantsAssociations,
+    renderOnLoad: true
+  },
+  {
+    label: "Community Centres",
+    data: communityCentresJson
+  },
+  {
+    label: "Civic Centres",
+    data: civicCentresJson,
+    options: { style: { color: "salmon" }}
+  }
+]
+
 const Home = () => (
   <MapContainer {...mapOptions}>
     <SearchBar />
     <TileLayer {...tileOptions} />
     <MapBounds bounds={ torontoBounds } />
-    {/* <GeoJSONLayer data={ communityCentresJson } /> */}
-    {/* <GeoJSONLayer data={ residentantsAssociations } /> */}
-    {/* <GeoJSONLayer data={ civicCentresJson } /> */}
-    <GeoJSONDisplay layers={[
-      // { data: communityCentresJson },
-      { data: residentantsAssociations },
-      { data: civicCentresJson }
-    ]} />
+    <GeoJSONDisplay {...{ layers }} />
   </MapContainer>
 )
 

@@ -89,10 +89,11 @@ const Geo = GeoJSON.extend({
 })
 
 const createLayer = (data, options) => {
+  const style = data.style || options.style
   return new Geo(data, {
-    ...data.style && {
-      pointToLayer: (p,ll) => pointToLayer(p,ll,data.style),
-      style: (f) => propsToStyle(f,data.style)
+    ...style && {
+      pointToLayer: (p,ll) => pointToLayer(p,ll,style),
+      style: (f) => propsToStyle(f,style)
     },
     markersInheritOptions: true,
     ...options

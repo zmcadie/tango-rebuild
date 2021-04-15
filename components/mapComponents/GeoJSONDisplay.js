@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import L, { Control, Marker } from "leaflet";
 
 import GeoJSONLayer from "./GeoJSONLayer"
+import LayerControl from "./LayerControl"
 import { useMapContext } from "context/mapContext"
-import { domUtils } from "utils"
 
 import mapStyles from './MapContainer.module.scss'
 import styles from './GeoJSONDisplay.module.scss'
@@ -45,7 +45,10 @@ const GeoJSONDisplay = ({ layers = [] }) => {
   const selectedRef = useRef
 
   useEffect(() => {
-    const newLayers = layers.map(l => GeoJSONLayer.create(l.data, { onEachFeature }))
+    const newLayers = layers.map(l => {
+      const layer = GeoJSONLayer.create(l.data, { onEachFeature, ...l.options || {} })
+      return {...l, layer}
+    })
     setMapLayers(newLayers)
   }, [ layers ])
 
@@ -56,29 +59,13 @@ const GeoJSONDisplay = ({ layers = [] }) => {
       cur.resetStyle && cur.resetStyle()
       cur.classList  && cur.classList.remove(mapStyles.selected)
     }
-    mapLayers.forEach(layer => {
-      layer/*.on("click", e => {
-        console.log(e)
-        resetStyles()
-        const type = e.layer.feature && e.layer.feature.geometry.type
-
-        if (type === "Point") {
-          const elem = e.layer.getElement()
-          elem.classList.add(mapStyles.selected)
-          selectedRef.current = elem
-        } else {
-          e.layer.setStyle({
-            color: "white",
-            weight: 2
-          })
-          selectedRef.current = layer
-        }
-      })*/.addTo(map)
+    mapLayers.forEach(mapLayer => {
+      if (mapLayer.renderOnLoad) mapLayer.layer.addTo(map)
     })
     return () => mapLayers.forEach(layer => map.removeLayer(layer))
   }, [ map, mapLayers ])
 
-  return null
+  return <LayerControl layers={ mapLayers } />
 }
 
 export default GeoJSONDisplay
