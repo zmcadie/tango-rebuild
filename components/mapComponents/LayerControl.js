@@ -18,6 +18,7 @@ const Control = LeafletControl.extend({
     const container = createElement("div", `${styles.container} leaflet-bar`, null, {
       onClick: e => e.stopPropagation(),
       onDblClick: e => e.stopPropagation(),
+      style: `max-height: ${this.map.getSize().y - 36}px;`
     })
     const layersSection = createElement("details", styles.section, container)
     createElement("summary", "", layersSection, { text: "Layers" })
