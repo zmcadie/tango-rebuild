@@ -40,6 +40,8 @@ const Control = LeafletControl.extend({
       labelEl.append(label)
     })
 
+    L.DomEvent.on(container, "mousewheel", L.DomEvent.stopPropagation)
+
     return container
   },
 
