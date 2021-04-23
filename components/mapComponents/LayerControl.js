@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import L, { Control as LeafletControl } from "leaflet";
+import L, { Control, control } from "leaflet";
 
 import { useMapContext } from "context/mapContext"
 import { domUtils } from "utils"
@@ -8,7 +8,7 @@ import styles from './LayerControl.module.scss'
 
 const { createElement } = domUtils
 
-const Control = LeafletControl.extend({
+Control.LayerControl = Control.extend({
   initialize: function(options, layers) {
     L.setOptions(this, options)
     this.layers = layers
@@ -52,14 +52,18 @@ const Control = LeafletControl.extend({
   }
 })
 
+control.layerControl = function(opts, layers) {
+  return new Control.LayerControl(opts, layers)
+}
+
 const LayerControl = ({ layers=[] }) => {
   const { map } = useMapContext()
   
   useEffect(() => {
     if (map) {
-      const control = new Control({ position: "topright" }, layers)
-      map.addControl(control)
-      return () => map.removeControl(control)
+      const layerControl = control.layerControl({ position: "topright" }, layers)
+      map.addControl(layerControl)
+      return () => map.removeControl(layerControl)
     }
   }, [ map, layers ])
 
