@@ -60,7 +60,7 @@ export default function MapBounds({ bounds, visual=true }) {
   useEffect(() => {
     if (visual && map && bounds) {
       const newLayer = new BoundsLayer(bounds).addTo(map)
-      map.setMaxBounds(newLayer.getBounds())
+      // map.setMaxBounds(newLayer.getBounds())
 
       setLayer(newLayer)
     }

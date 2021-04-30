@@ -5,20 +5,29 @@
 //   
 //   PARAMETERS
 //     tagName: A string that specifies the type of element to be created.
-//     className (optional): A string that specifies the className attribute of the created element.
-//     parent (optional): An HTML Element that specifies the parent element to append the created element to.
 //     attributes (optional): An object in the format {key(HTML attribute): value(attribute value)}.
 //                            Keys can be HTML attribute names (i.e. height) or event listeners in the format onEvent or event.
 //                            If an attributes value is a function it will be evaluated as an event listener.
+//     parent (optional): An HTML Element that specifies the parent element to append the created element to.
 //   
 //   RETURN VALUE
 //     The created HTML element
 
-export const createElement = (tagName, className="", parent=null, attributes={}) => {
+export const createElement = (tagName, attributes, parent, prepend = false) => {
   const elem = document.createElement(tagName)
 
-  if (className) {
-    elem.className = className
+  attributes && setAttributes(elem, attributes)
+
+  if (parent) {
+    parent[prepend ? "prepend" : "appendChild"](elem)
+  }
+
+  return elem
+}
+
+export function setAttributes(element, attributes) {
+  if (typeof attributes === "string") {
+    return element.className = attributes
   }
 
   Object.keys(attributes).forEach(key => {
@@ -27,17 +36,11 @@ export const createElement = (tagName, className="", parent=null, attributes={})
       const eventType = (key.indexOf("on") === 0
         ? key.slice(2)
         : key).toLowerCase()
-      elem.addEventListener(eventType, value)
+      element.addEventListener(eventType, value)
     } else if (key === "text") {
-      elem.innerText = value
+      element.innerText = value
     } else {
-      elem.setAttribute(key, value)
+      element.setAttribute(key, value)
     }
   })
-
-  if (parent) {
-    parent.appendChild(elem)
-  }
-
-  return elem
 }

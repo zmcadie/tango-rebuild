@@ -25,13 +25,6 @@ class Selection {
   }
 }
 
-const select = newSelection => selected = newSelection || {}
-
-const resetStyles = () => {
-  selected.resetStyle && selected.resetStyle()
-  selected.classList  && selected.classList.remove(mapStyles.selected)
-}
-
 const onEachFeature = (feature, layer) => {
   layer.on("click", e => {
     console.log("FEATURE:", feature)
@@ -42,23 +35,16 @@ const onEachFeature = (feature, layer) => {
 const GeoJSONDisplay = ({ layers = [] }) => {
   const { map } = useMapContext()
   const [ mapLayers, setMapLayers ] = useState([])
-  const selectedRef = useRef
 
   useEffect(() => {
     const newLayers = layers.map(l => {
-      const layer = GeoJSONLayer.create(l.data, { onEachFeature, ...l.options || {} })
+      const layer = GeoJSONLayer.create(l.data, {...l.options})
       return {...l, layer}
     })
     setMapLayers(newLayers)
   }, [ layers ])
 
   useEffect(() => {
-    // const resetStyles = () => mapLayers.forEach(l => l.resetStyle())
-    const resetStyles = () => {
-      const cur = selectedRef.current || {}
-      cur.resetStyle && cur.resetStyle()
-      cur.classList  && cur.classList.remove(mapStyles.selected)
-    }
     mapLayers.forEach(mapLayer => {
       if (mapLayer.renderOnLoad) mapLayer.layer.addTo(map)
     })

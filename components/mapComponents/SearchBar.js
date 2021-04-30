@@ -58,7 +58,8 @@ const SearchControl = Control.extend({
     const fragment = document.createDocumentFragment()
     res.forEach((suggestion, i) => {
       const className = `${styles["suggestion-item"]} ${i ? "" : styles.selected}`
-      const el = domUtils.createElement("li", className, null, {
+      const el = domUtils.createElement("li", {
+        class: className,
         text: suggestion.text,
         "data-key": suggestion.magicKey
       })
@@ -77,12 +78,14 @@ const SearchControl = Control.extend({
   }, 250),
 
   createSearchContainer: function() {
-    const container = domUtils.createElement("div", `${styles.container} leaflet-bar`, null, {
+    const container = domUtils.createElement("div", {
+      class: `${styles.container} leaflet-bar`,
       onDblClick: e => e.stopPropagation(),
       onClick: e => e.stopPropagation(),
     })
     
-    domUtils.createElement("a", styles.toggle, container, {
+    domUtils.createElement("a", {
+      class: styles.toggle,
       title: "Search",
       role: "button",
       href: "#",
@@ -94,12 +97,14 @@ const SearchControl = Control.extend({
       }
     })
 
-    const form = domUtils.createElement("form", styles.form, container, {
+    const form = domUtils.createElement("form", {
+      class: styles.form,
       onSubmit: this.submitSearch
     })
     this.form = form
 
-    const input = domUtils.createElement("input", styles.input, form, {
+    const input = domUtils.createElement("input", {
+      class: styles.input,
       onInput: this.autoSearch,
       onKeyDown: e => {
         if (!form.classList.contains(styles["has-suggestions"])) return
@@ -124,7 +129,7 @@ const SearchControl = Control.extend({
           
         }
       }
-    })
+    }, form)
     this.input = input
 
     const suggestionsContainer = domUtils.createElement("ul", styles.suggestions, form)

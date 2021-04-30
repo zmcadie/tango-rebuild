@@ -3,8 +3,6 @@ import { GeoJSON, Marker, LatLng, LatLngBounds } from "leaflet"
 
 import { useMapContext } from "context/mapContext"
 
-import styles from './MapContainer.module.scss'
-
 const propsToStyle = (feature, style={}) => {
   const props = feature.properties
   
@@ -149,5 +147,6 @@ const GeoJSONLayer = ({ data, options={} }) => {
 }
 
 GeoJSONLayer.create = createLayer
+GeoJSONLayer.style = propsToStyle
 
 export default GeoJSONLayer
