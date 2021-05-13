@@ -115,9 +115,19 @@ Control.LayerControl = Control.extend({
         if (gx_media_links) createElement("img", { src: gx_media_links }, featureItem)
         const formattedDescription = description && description.replace(/<img.*\/>|<br>/g, "")
         
-        createElement("div", {
+        formattedDescription && createElement("div", {
           class: styles.description,
-          ...formattedDescription && { text: formattedDescription }
+          text: formattedDescription
+        }, featureItem)
+        
+        address && createElement("div", {
+          class: styles.description,
+          text: `Address: ${address}`
+        }, featureItem)
+        
+        formattedDescription && createElement("div", {
+          class: styles.description,
+          text: `Phone: ${number}`
         }, featureItem)
         
         featureLayer.on("click", () => this.selectFeature(featureLayer, featureItem, "map"))
