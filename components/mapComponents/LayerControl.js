@@ -16,6 +16,7 @@ Control.LayerControl = Control.extend({
     this.layers = layers
 
     this.highlightFeature = this.highlightFeature.bind(this)
+    this.createFeaturesContainer = this.createFeaturesContainer.bind(this)
   },
 
   resetStyle: function(layer) {
@@ -43,34 +44,40 @@ Control.LayerControl = Control.extend({
     layer.setStyle({ color: "white", weight: 3 })
   },
 
-  selectFeature: function(layer, item, moveTo = true) {
+  moveToLayer: function(layer) {
+    const type = layer.feature.geometry.type
+    type === "Point"
+      ? this.map.setView(layer.getLatLng(), 16)
+      : this.map.fitBounds(layer.getBounds())
+  },
+
+  scrollToItem: function(item) {
+    const parentContainer  = item.closest(`.${styles.item}`)
+    const layersContainer  = item.closest(`.${styles.layers}`)
+    const controlContainer = item.closest(`.${styles.container}`)
+
+    controlContainer.classList.add(styles.open)
+    parentContainer.classList.add(styles.open)
+    layersContainer.scrollTo(0, item.offsetTop - 10)
+  },
+
+  selectFeature: function(layer, item, source = "") {
     if (this.selected) this.selected.classList.remove(styles.selected)
     item.classList.add(styles.selected)
     this.selected = item
 
     this.highlightFeature(layer)
     
-    const type = layer.feature.geometry.type
-    if (moveTo) {
-      type === "Point"
-        ? this.map.setView(layer.getLatLng(), 16)
-        : this.map.fitBounds(layer.getBounds())
-    }
+    if (source !== "map")  this.moveToLayer(layer)
+    if (source !== "list") this.scrollToItem(item)
   },
 
-  createContainer: function() {
-    const container = createElement("div", {
-      class: `${styles.container} leaflet-bar`,
-      style: `max-height: ${this.map.getSize().y - 36}px;`
-    })
-
-    const featuresList = createElement("ul", styles["feature-list"], container)
-    
-    this.layers.forEach(({ label, renderOnLoad, layer }) => {
-      const layerFeaturesContainer = createElement("li", renderOnLoad ? styles["layer-visible"] : "", featuresList)
-      
+  createFeaturesContainer: function(container) {
+    return ({ label, renderOnLoad, layer }) => {
+      const layerFeaturesContainer = createElement("li", `${styles.item} ${renderOnLoad ? styles["layer-visible"] : ""}`, container)
       const layerFeaturesHeader = createElement("div", styles["layer-header"], layerFeaturesContainer)
       const labelEl = createElement("label", { text: label }, layerFeaturesHeader)
+      
       createElement("input", {
         type: "checkbox",
         name: `show-${label}`,
@@ -80,47 +87,57 @@ Control.LayerControl = Control.extend({
         },
         ...renderOnLoad && { checked: true }
       }, labelEl, true)
+      
       createElement("button", {
-        text: "expand",
         class: styles["features-toggle"],
-        onClick: e => {
-          const isOpen = layerFeaturesContainer.classList.toggle(styles.open)
-          e.target.innerText = isOpen ? "collapse" : "expand"
+        onClick: () => {
+          layerFeaturesContainer.classList.toggle(styles.open)
         }
       }, layerFeaturesHeader)
+      
       createElement("hr", null, layerFeaturesContainer)
       
       const layerFeaturesList = createElement("ul", null, layerFeaturesContainer)
+      
       Object.keys(layer._layers).forEach(key => {
         const featureLayer = layer._layers[key]
         const { name, description, address, "phone number": number, gx_media_links } = featureLayer.feature.properties
-
+        
         const featureItem = createElement("li", styles.feature, layerFeaturesList)
+        
         createElement("div", {
           text: name,
           class: styles["feature-header"],
           onMouseOver: () => this.highlightFeature(featureLayer),
-          onClick: () => this.selectFeature(featureLayer, featureItem)
+          onClick: () => this.selectFeature(featureLayer, featureItem, "list")
         }, featureItem)
+        
         if (gx_media_links) createElement("img", { src: gx_media_links }, featureItem)
         const formattedDescription = description && description.replace(/<img.*\/>|<br>/g, "")
+        
         createElement("div", {
           class: styles.description,
           ...formattedDescription && { text: formattedDescription }
         }, featureItem)
         
-        featureLayer.on("click", () => this.selectFeature(featureLayer, featureItem, false))
+        featureLayer.on("click", () => this.selectFeature(featureLayer, featureItem, "map"))
       })
-      
-      // const li = createElement("li", null, layersList)
-      // const labelEl = createElement("label", {text: label}, li)
-      // const checkbox = createElement("input", {
-      //   type: "checkbox",
-      //   name: `show-${label}`,
-      //   onClick: e => e.target.checked ? layer.addTo(this.map) : this.map.removeLayer(layer),
-      //   ...renderOnLoad && { checked: true }
-      // }, labelEl, true)
+    }
+  },
+
+  createContainer: function() {
+    const container = createElement("div", {
+      class: `${styles.container} leaflet-bar`,
+      style: `max-height: ${this.map.getSize().y - 36}px;`
     })
+
+    createElement("button", {
+      class: styles.toggle,
+      onClick: () => container.classList.toggle(styles.open)
+    }, container)
+
+    const layersList = createElement("ul", styles.layers, container)
+    this.layers.forEach(this.createFeaturesContainer(layersList))
 
     return container
   },
