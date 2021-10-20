@@ -73,71 +73,84 @@ Control.LayerControl = Control.extend({
   },
 
   createFeaturesContainer: function(container) {
-    return ({ label, renderOnLoad, layer }) => {
+    return ({ icon, label, renderOnLoad, layer }) => {
       const layerFeaturesContainer = createElement("li", `${styles.item} ${renderOnLoad ? styles["layer-visible"] : ""}`, container)
-      const layerFeaturesHeader = createElement("div", styles["layer-header"], layerFeaturesContainer)
-      const labelEl = createElement("label", { text: label }, layerFeaturesHeader)
       
-      createElement("input", {
-        type: "checkbox",
-        name: `show-${label}`,
-        onClick: e => {
-          e.target.checked ? layer.addTo(this.map) : this.map.removeLayer(layer)
-          layerFeaturesContainer.classList.toggle(styles["layer-visible"])
-        },
-        ...renderOnLoad && { checked: true }
-      }, labelEl, true)
-      
-      createElement("button", {
-        class: styles["features-toggle"],
+      const layerToggle = createElement("button", {
+        class: styles["layer-toggle"],
+        style: `background-image: url(${icon});`,
         onClick: () => {
-          layerFeaturesContainer.classList.toggle(styles.open)
+          const isVisible = layerFeaturesContainer.classList.contains(styles["layer-visible"])
+          isVisible ? layer.remove() : layer.add()
+          layerFeaturesContainer.classList.toggle(styles["layer-visible"])
         }
-      }, layerFeaturesHeader)
+      }, layerFeaturesContainer)
       
-      createElement("hr", null, layerFeaturesContainer)
+      createElement("div", { text: label, class: styles["layer-label"] }, layerFeaturesContainer)
+
+      // const layerFeaturesHeader = createElement("div", styles["layer-header"], layerFeaturesContainer)
+      // const labelEl = createElement("label", { text: label }, layerFeaturesHeader)
       
-      const layerFeaturesList = createElement("ul", null, layerFeaturesContainer)
+      // createElement("input", {
+      //   type: "checkbox",
+      //   name: `show-${label}`,
+      //   onClick: e => {
+      //     e.target.checked ? layer.addTo(this.map) : this.map.removeLayer(layer)
+      //     layerFeaturesContainer.classList.toggle(styles["layer-visible"])
+      //   },
+      //   ...renderOnLoad && { checked: true }
+      // }, labelEl, true)
       
-      Object.keys(layer._layers).forEach(key => {
-        const featureLayer = layer._layers[key]
-        const { name, description, address, "phone number": number, gx_media_links } = featureLayer.feature.properties
+      // createElement("button", {
+      //   class: styles["features-toggle"],
+      //   onClick: () => {
+      //     layerFeaturesContainer.classList.toggle(styles.open)
+      //   }
+      // }, layerFeaturesHeader)
+      
+      // createElement("hr", null, layerFeaturesContainer)
+      
+      // const layerFeaturesList = createElement("ul", null, layerFeaturesContainer)
+      
+      // Object.keys(layer._layers).forEach(key => {
+      //   const featureLayer = layer._layers[key]
+      //   const { name, description, address, "phone number": number, gx_media_links } = featureLayer.feature.properties
         
-        const featureItem = createElement("li", styles.feature, layerFeaturesList)
+      //   const featureItem = createElement("li", styles.feature, layerFeaturesList)
         
-        createElement("div", {
-          text: name,
-          class: styles["feature-header"],
-          onMouseOver: () => this.highlightFeature(featureLayer),
-          onClick: () => this.selectFeature(featureLayer, featureItem, "list")
-        }, featureItem)
+      //   createElement("div", {
+      //     text: name,
+      //     class: styles["feature-header"],
+      //     onMouseOver: () => this.highlightFeature(featureLayer),
+      //     onClick: () => this.selectFeature(featureLayer, featureItem, "list")
+      //   }, featureItem)
         
-        if (gx_media_links) createElement("img", { src: gx_media_links }, featureItem)
-        const formattedDescription = description && description.replace(/<img.*\/>|<br>/g, "")
+      //   if (gx_media_links) createElement("img", { src: gx_media_links }, featureItem)
+      //   const formattedDescription = description && description.replace(/<img.*\/>|<br>/g, "")
         
-        formattedDescription && createElement("div", {
-          class: styles.description,
-          text: formattedDescription
-        }, featureItem)
+      //   formattedDescription && createElement("div", {
+      //     class: styles.description,
+      //     text: formattedDescription
+      //   }, featureItem)
         
-        address && createElement("div", {
-          class: styles.description,
-          text: `Address: ${address}`
-        }, featureItem)
+      //   address && createElement("div", {
+      //     class: styles.description,
+      //     text: `Address: ${address}`
+      //   }, featureItem)
         
-        formattedDescription && createElement("div", {
-          class: styles.description,
-          text: `Phone: ${number}`
-        }, featureItem)
+      //   formattedDescription && createElement("div", {
+      //     class: styles.description,
+      //     text: `Phone: ${number}`
+      //   }, featureItem)
         
-        featureLayer.on("click", () => this.selectFeature(featureLayer, featureItem, "map"))
-      })
+      //   featureLayer.on("click", () => this.selectFeature(featureLayer, featureItem, "map"))
+      // })
     }
   },
 
   createContainer: function() {
     const container = createElement("div", {
-      class: `${styles.container} leaflet-bar`,
+      class: `${styles.container} ${styles.open} leaflet-bar`,
       style: `max-height: ${this.map.getSize().y - 36}px;`
     })
 
@@ -170,7 +183,7 @@ const LayerControl = ({ layers=[] }) => {
   
   useEffect(() => {
     if (map) {
-      const layerControl = control.layerControl({ position: "topright" }, layers)
+      const layerControl = control.layerControl({ position: "bottomright" }, layers)
       map.addControl(layerControl)
       return () => map.removeControl(layerControl)
     }
