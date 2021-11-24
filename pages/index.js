@@ -11,7 +11,7 @@ const torontoWards = require("public/data/toronto-wards.json")
 
 const MapContainer = dynamic(() => import("components/mapComponents/MapContainer"), { ssr: false })
 const TileLayer = dynamic(() => import("components/mapComponents/TileLayer"), { ssr: false })
-// const SearchBar = dynamic(() => import("components/mapComponents/SearchBar"), { ssr: false })
+const SearchBar = dynamic(() => import("components/mapComponents/SearchBar"), { ssr: false })
 const MapBounds = dynamic(() => import("components/mapComponents/MapBounds"), { ssr: false })
 const GeoJSONDisplay = dynamic(() => import("components/mapComponents/GeoJSONDisplay"), { ssr: false })
 
@@ -66,7 +66,7 @@ const layers = [
 
 const Home = () => (
   <MapContainer {...mapOptions}>
-    {/* <SearchBar /> */}
+    <SearchBar />
     <TileLayer {...tileOptions} />
     <MapBounds bounds={ torontoBounds } />
     <GeoJSONDisplay {...{ layers }} />

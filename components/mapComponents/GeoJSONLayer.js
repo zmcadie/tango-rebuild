@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
-import L, { GeoJSON, Marker, LatLng, LatLngBounds, MarkerClusterGroup, DivIcon } from "leaflet"
+import L, { GeoJSON, Marker, LatLng, LatLngBounds } from "leaflet"
 
 import { useMapContext } from "context/mapContext"
 
-import styles from './MapContainer.module.scss'
+import styles from './GeoJSONLayer.module.scss'
 
 const propsToStyle = (feature, style={}) => {
   const props = feature.properties
@@ -23,34 +23,6 @@ const propsToStyle = (feature, style={}) => {
   }
 }
 
-// const iconHTML = num => `
-//   <svg height="41" width="41" viewbox="0 0 41 41">
-//     <path d="M20.5,0C12.964,0,6.833,6.131,6.833,13.666c0,2.262,0.565,4.505,1.64,6.494L19.752,40.559c0.15,0.272,0.436,0.444,0.747,0.44s0.597-0.168,0.747-0.44l11.282-20.404c1.071-1.982,1.636-4.226,1.636-6.488C34.166,6.131,28.035,0,20.5,0z"></path>
-//     ${ num ? (
-//       `<text>${num}</text>`
-//     ) : (
-//       '<circle cx="50%" cy="33%" r="6" fill="white"></circle>'
-//     )}
-//   </svg>
-// `
-
-// const Icon = DivIcon.extend({
-//   options: {
-//     html: iconHTML(),
-//     className: styles.marker,
-//     iconAnchor: [21, 41],
-//     popupAnchor: [0, -30]
-//   },
-//   createIcon: function(oldIcon) {
-//     // console.log("createIcon:", this.getChildCount())
-//     // console.log(this)
-//     this.options.html = iconHTML(7)
-//     const icon = DivIcon.prototype.createIcon.call(this, oldIcon)
-//     icon.style.fill = this.options.color
-//     return icon
-//   }
-// })
-
 const pointToLayer = (point, latlng, style={}) => {
   const { color: colorProp, "icon-color": iconColor } = point.properties
   const color = colorProp || iconColor || style.color
@@ -58,38 +30,23 @@ const pointToLayer = (point, latlng, style={}) => {
   return new Marker(latlng, { icon })
 }
 
-const handleBlur = (type, element, reset={}) => () => {
-  if (type === "Point") {
-    element.children[0].style = ""
-    return
-  }
-
-  Object.keys(reset).forEach(key => {
-    console.log(key, reset[key])
-    element.setAttribute(key, reset[key])
-  })
-}
-
 function handleClick(e) {
   const type = e.target.feature.geometry.type
   let element = e.target.getElement()
+  let className = styles["selected-polygon"]
 
-  const resetStyles = {
-    stroke: element.getAttribute("stroke"),
-    "stroke-width": element.getAttribute("stroke-width")
-  }
-  
-  // const blur = handleBlur(type, element, resetStyles)
-  
   if (type === "Point") {
-    element.children[0].style = "background: #fff8; box-shadow: 0 2px 4px 1px #0008;"
-  } else {
-    console.log(element)
-    element.setAttribute("stroke", "white")
-    element.setAttribute("stroke-width", "2")
+    element = element.children[0]
+    className = styles["selected-point"]
   }
-  // console.log(element)
-  // element.addEventListener("blur", blur, { once: true })
+  
+  document.addEventListener("click", () => {
+    element.classList.add(className)
+
+    document.addEventListener("click", () => {
+      element.classList.remove(className)
+    }, { once: true })
+  }, { once: true })
 }
 
 const onEachFeature = function(feature, layer) {
@@ -99,15 +56,10 @@ const onEachFeature = function(feature, layer) {
   if (layer.bringToFront) {
     layer.on("mouseover", e => e.target.bringToFront())
   }
-  // if (layer.options.interactive) {
-  //   layer.on("click", handleClick)
-  // }
+  if (layer.options.interactive) {
+    layer.on("click", handleClick)
+  }
 }
-
-// &.selected {
-//   background: #fff8;
-//   box-shadow: 0 2px 4px 1px #0008;
-// }
 
 const Geo = GeoJSON.extend({
   options: {
@@ -135,36 +87,8 @@ const GeoJSONLayer = ({ data, options={} }) => {
 
   useEffect(() => {
     if (map && data) {
-      const newLayer = createLayer(data, options).bindPopup(layer => {
-        const { feature: { properties, geometry }} = layer
-        const { name, description } = properties
-
-        if (!name && !description) {
-          const latlng = geometry.type === "Point"
-            ? new LatLng(...geometry.coordinates)
-            : new LatLngBounds(geometry.coordinates)
-          return latlng.toString()
-        }
-
-        return (name ? "Name: " + name : "") + (name && description ? "\n" : "") + (description ? "Description: " + description : "")
-      })/*.on("click", e => {
-        // newLayer.resetStyle()
-        console.log(map)
-        
-        const type = e.layer.feature.geometry.type
-        const element = e.layer.getElement()
-
-        const style = type === "Point" ? {
-          className: styles.selected
-        } : {
-          color: "white",
-          weight: 2
-        }
-
-        // element.children[0].style = "background: #fff8; box-shadow: 0 2px 4px 1px #0008;"
-        e.layer.setStyle(style)
-      })*/.addTo(map)
-
+      const newLayer = createLayer(data, options)
+      newLayer.addTo(map)
       setLayer(newLayer)
     }
   }, [ map, data ])

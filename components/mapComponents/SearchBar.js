@@ -6,13 +6,14 @@ import { debounce, domUtils, Geocoder } from "utils"
 
 import styles from './SearchBar.module.scss'
 
-const geo = new Geocoder({ category: ["Street Address", "Intersection"] })
+const geo = new Geocoder({ category: ["Address", "Intersection"] })
 
 const SearchControl = Control.extend({
   initialize: function(options) {
     L.setOptions(this, options)
 
-    this.marker = new Marker(options.center, { interactive: false, color: "lightblue" })
+    const icon = new L.customIcon({color: "lightblue"})
+    this.marker = new Marker(options.center, { interactive: false, icon })
 
     this.autoSearch = this.autoSearch.bind(this)
     this.submitSearch = this.submitSearch.bind(this)
@@ -46,6 +47,8 @@ const SearchControl = Control.extend({
 
   autoSearch: debounce(async function(event) {
     this.query = event.target.value
+
+    console.log(this.query)
 
     const { query: text, map } = this
     const center = map.getCenter()
@@ -95,12 +98,12 @@ const SearchControl = Control.extend({
         container.classList.toggle(styles.open)
         input.focus()
       }
-    })
+    }, container)
 
     const form = domUtils.createElement("form", {
       class: styles.form,
       onSubmit: this.submitSearch
-    })
+    }, container)
     this.form = form
 
     const input = domUtils.createElement("input", {
@@ -135,8 +138,9 @@ const SearchControl = Control.extend({
     const suggestionsContainer = domUtils.createElement("ul", styles.suggestions, form)
     this.suggestionsContainer = suggestionsContainer
 
-    domUtils.createElement("a", styles.close, container, {
+    domUtils.createElement("a", {
       title: "Reset",
+      class: styles.close,
       role: "button",
       href: "#",
       "aria-label": "Reset search",
@@ -146,7 +150,7 @@ const SearchControl = Control.extend({
         this._reset()
         input.focus()
       }
-    })
+    }, container)
 
     return container
   },
