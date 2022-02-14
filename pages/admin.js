@@ -18,6 +18,7 @@ const FeatureInfoDisplay = dynamic(() => import("components/mapComponents/Featur
 
 const torontoCenter = { lat: 43.72, lng: -79.3849 };
 const mapOptions = {
+  drawControl: true,
   center: torontoCenter,
   zoom: 11,
   style: {
@@ -65,7 +66,7 @@ const layers = [
   }
 ]
 
-const Home = () => (
+const Admin = () => (
   <MapContainer {...mapOptions}>
     <SearchBar />
     <TileLayer {...tileOptions} />
@@ -75,4 +76,4 @@ const Home = () => (
   </MapContainer>
 )
 
-export default Home
+export default Admin

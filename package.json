@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4",
     "leaflet.markercluster": "^1.5.1",
     "mongodb": "^4.0.1",
     "next": "10.0.6",

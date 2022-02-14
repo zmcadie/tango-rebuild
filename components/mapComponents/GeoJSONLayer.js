@@ -4,6 +4,7 @@ import L, { GeoJSON, Marker, LatLng, LatLngBounds } from "leaflet"
 import { useMapContext } from "context/mapContext"
 
 import styles from './GeoJSONLayer.module.scss'
+import { domUtils } from "utils"
 
 const propsToStyle = (feature, style={}) => {
   const props = feature.properties
@@ -30,23 +31,26 @@ const pointToLayer = (point, latlng, style={}) => {
   return new Marker(latlng, { icon })
 }
 
-function handleClick(e) {
-  const type = e.target.feature.geometry.type
-  let element = e.target.getElement()
+function handleClick(event) {
+  const { _map: map, feature } = event.target
+
+  map._infoControl.display(feature)
+
+  const { type } = event.target.feature.geometry
+  
+  let element = event.target.getElement()
   let className = styles["selected-polygon"]
 
   if (type === "Point") {
     element = element.children[0]
     className = styles["selected-point"]
   }
-  
-  document.addEventListener("click", () => {
-    element.classList.add(className)
 
-    document.addEventListener("click", () => {
-      element.classList.remove(className)
-    }, { once: true })
-  }, { once: true })
+  map._resetHighlight && map._resetHighlight()
+  
+  element.classList.add(className)
+
+  map._resetHighlight = () => element.classList.remove(className)
 }
 
 const onEachFeature = function(feature, layer) {
