@@ -31,12 +31,22 @@ const InfoControl = Control.extend({
     return this.infoContainer
   },
 
-  display: function(feature) {
-    const { name, description, gx_media_links } = feature.properties
-    let formattedDescription = (description || "")
+  display: function(feature, displayProperties=[{ label: "Description", property: "description" }]) {
+    const { name, gx_media_links } = feature.properties
+    // let formattedDescription = (description || "")
+    //   .replace(/<img.*\/>/g, "")
+    //   .replace(/<br>/g, "\r")
+    //   .trim()
+
+    const formatDisplayValue = value => value
       .replace(/<img.*\/>/g, "")
       .replace(/<br>/g, "\r")
       .trim()
+
+    const displayPropValues = displayProperties.map(item => ({
+      ...item,
+      value: feature.properties[item.property]
+    }))
 
     this.infoContainer.innerHTML = ""
     
@@ -46,9 +56,16 @@ const InfoControl = Control.extend({
     if (gx_media_links) {
       domUtils.createElement("img", { src: gx_media_links }, this.infoContainer)
     }
-    if (formattedDescription) {
-      domUtils.createElement("p", { text: formattedDescription }, this.infoContainer)
-    }
+    // if (formattedDescription) {
+    //   domUtils.createElement("p", { text: formattedDescription }, this.infoContainer)
+    // }
+
+    displayPropValues.forEach(item => {
+      if (item.value) {
+        domUtils.createElement("h2", { text: item.label }, this.infoContainer)
+        domUtils.createElement("p", { text: formatDisplayValue(item.value) }, this.infoContainer)
+      }
+    })
 
     this.infoContainer.classList.add(styles.open)
   },

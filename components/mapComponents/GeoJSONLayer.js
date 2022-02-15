@@ -31,26 +31,28 @@ const pointToLayer = (point, latlng, style={}) => {
   return new Marker(latlng, { icon })
 }
 
-function handleClick(event) {
-  const { _map: map, feature } = event.target
+function handleClick(displayProperties) {
+  return function (event) {
+    const { _map: map, feature } = event.target
 
-  map._infoControl.display(feature)
+    map._infoControl.display(feature, displayProperties)
 
-  const { type } = event.target.feature.geometry
-  
-  let element = event.target.getElement()
-  let className = styles["selected-polygon"]
+    const { type } = event.target.feature.geometry
+    
+    let element = event.target.getElement()
+    let className = styles["selected-polygon"]
 
-  if (type === "Point") {
-    element = element.children[0]
-    className = styles["selected-point"]
+    if (type === "Point") {
+      element = element.children[0]
+      className = styles["selected-point"]
+    }
+
+    map._resetHighlight && map._resetHighlight()
+    
+    element.classList.add(className)
+
+    map._resetHighlight = () => element.classList.remove(className)
   }
-
-  map._resetHighlight && map._resetHighlight()
-  
-  element.classList.add(className)
-
-  map._resetHighlight = () => element.classList.remove(className)
 }
 
 const onEachFeature = function(feature, layer) {
@@ -61,7 +63,7 @@ const onEachFeature = function(feature, layer) {
     layer.on("mouseover", e => e.target.bringToFront())
   }
   if (layer.options.interactive) {
-    layer.on("click", handleClick)
+    layer.on("click", handleClick(this.displayProperties))
   }
 }
 
