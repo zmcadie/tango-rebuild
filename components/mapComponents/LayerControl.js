@@ -100,9 +100,16 @@ Control.LayerControl = Control.extend({
       class: styles.toggle,
       onClick: () => container.classList.toggle(styles.open)
     }, container)
-
+    
     const layersList = createElement("ul", styles.layers, container)
     this.layers.forEach(this.createFeaturesToggle(layersList))
+    
+    const closeListItem = createElement("li", "", layersList)
+
+    createElement("button", {
+      class: styles["inner-toggle"],
+      onClick: () => container.classList.toggle(styles.open)
+    }, closeListItem)
 
     return container
   },
