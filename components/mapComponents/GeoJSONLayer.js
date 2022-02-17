@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import L, { GeoJSON, Marker, LatLng, LatLngBounds } from "leaflet"
+import L, { GeoJSON, Marker } from "leaflet"
 
 import { useMapContext } from "context/mapContext"
 
@@ -33,6 +33,8 @@ const pointToLayer = (point, latlng, style={}) => {
 
 function handleClick(displayProperties) {
   return function (event) {
+    L.DomEvent.stopPropagation(event)
+
     const { _map: map, feature } = event.target
 
     map._infoControl.display(feature, displayProperties)

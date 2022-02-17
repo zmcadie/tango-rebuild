@@ -82,7 +82,16 @@ const FeatureInfoDisplay = () => {
       const infoControl = new InfoControl({ position: "topright" })
       map._infoControl = infoControl
       map.addControl(infoControl)
-      return () => map.removeControl(infoControl)
+
+      const handleMapClick = () => {
+        infoControl._closeContainer()
+      }
+
+      map.on("click", handleMapClick)
+      return () => {
+        map.removeControl(infoControl)
+        map.off("click", handleMapClick)
+      }
     }
   }, [ map ])
 
