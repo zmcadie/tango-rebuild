@@ -122,12 +122,12 @@ const MapLayers = ({ data }) => {
           },
           highlightClass: styles.highlight,
           onMouseOver: event => {
+            const { _map: map, feature, getElement } = event.target
+            map._infoControl.display(feature)
             let element = event.target.getElement()
-            element.classList.add(styles.hover)
-          },
-          onMouseOut: event => {
-            let element = event.target.getElement()
-            element.classList.remove(styles.hover)
+            map._resetHighlight && map._resetHighlight()
+            element.classList.add(styles.highlight)
+            map._resetHighlight = () => element.classList.remove(styles.highlight)
           }
         }
       })

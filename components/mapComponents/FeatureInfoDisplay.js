@@ -7,8 +7,9 @@ import { domUtils } from "utils"
 import styles from './FeatureInfoDisplay.module.scss'
 
 const InfoControl = Control.extend({
-  initialize: function(options) {
+  initialize: function(options, map) {
     L.setOptions(this, options)
+    this.map = map
     this._closeContainer = this._closeContainer.bind(this)
   },
 
@@ -71,6 +72,7 @@ const InfoControl = Control.extend({
   
   _closeContainer: function() {
     this.infoContainer.classList.remove(styles.open)
+    this.map._resetHighlight && this.map._resetHighlight()
   },
 })
 
@@ -79,7 +81,7 @@ const FeatureInfoDisplay = () => {
   
   useEffect(() => {
     if (map) {
-      const infoControl = new InfoControl({ position: "topright" })
+      const infoControl = new InfoControl({ position: "topright" }, map)
       map._infoControl = infoControl
       map.addControl(infoControl)
 
