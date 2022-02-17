@@ -14,7 +14,7 @@
           "properties": {
               "name": "Agincourt",
               "address": "155 Bonis Ave., Toronto, ON, M1T 3W6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB02'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB02</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB02"
           }
       },
       {
@@ -30,7 +30,7 @@
           "properties": {
               "name": "Albert Campbell",
               "address": "496 Birchmount Road, Toronto, ON, M1K 1N8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB03'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB03</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB03"
           }
       },
       {
@@ -46,7 +46,7 @@
           "properties": {
               "name": "Albion",
               "address": "1515 Albion Road, Toronto, ON, M9V 1B2",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB04'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB04</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB04"
           }
       },
       {
@@ -62,7 +62,7 @@
           "properties": {
               "name": "Alderwood",
               "address": "2 Orianna Drive, Toronto, ON, M8W 4Y1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB020'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB020</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB020"
           }
       },
       {
@@ -78,7 +78,7 @@
           "properties": {
               "name": "Amesbury Park",
               "address": "1565 Lawrence Ave. W., Toronto, ON, M6L 1A8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB021'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB021</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB021"
           }
       },
       {
@@ -94,7 +94,7 @@
           "properties": {
               "name": "Annette Street",
               "address": "145 Annette Street, Toronto, ON, M6P 1P3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB022'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB022</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB022"
           }
       },
       {
@@ -110,7 +110,7 @@
           "properties": {
               "name": "Armour Heights",
               "address": "2140 Avenue Road, Toronto, ON, M5M 4M7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB023'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB023</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB023"
           }
       },
       {
@@ -126,7 +126,7 @@
           "properties": {
               "name": "Barbara Frum",
               "address": "20 Covington Road, Toronto, ON, M6A 3C1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB05'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB05</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB05"
           }
       },
       {
@@ -142,7 +142,7 @@
           "properties": {
               "name": "Bayview",
               "address": "2901 Bayview Ave., Bayview Village Shopping Centre, Toronto, ON, M2K 1E6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB024'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB024</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB024"
           }
       },
       {
@@ -158,7 +158,7 @@
           "properties": {
               "name": "Beaches",
               "address": "2161 Queen Street East, Toronto, ON, M4L 1J1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB025'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB025</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB025"
           }
       },
       {
@@ -174,7 +174,7 @@
           "properties": {
               "name": "Bendale",
               "address": "1515 Danforth Road, Toronto, ON, M1J 1H5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB026'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB026</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB026"
           }
       },
       {
@@ -190,7 +190,7 @@
           "properties": {
               "name": "Black Creek",
               "address": "1700 Wilson Ave., North York Sheridan Mall, Toronto, ON, M3L 1B2",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB027'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB027</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB027"
           }
       },
       {
@@ -206,7 +206,7 @@
           "properties": {
               "name": "Bloor/Gladstone",
               "address": "1101 Bloor Street West, Toronto, ON, M6H 1M7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB06'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB06</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB06"
           }
       },
       {
@@ -222,7 +222,7 @@
           "properties": {
               "name": "Brentwood",
               "address": "36 Brentwood Road North, Toronto, ON, M8X 2B5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB07'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB07</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB07"
           }
       },
       {
@@ -238,7 +238,7 @@
           "properties": {
               "name": "Bridlewood",
               "address": "2900 Warden Ave., Bridlewood Mall, Toronto, ON, M1W 2S8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB028'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB028</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB028"
           }
       },
       {
@@ -254,7 +254,7 @@
           "properties": {
               "name": "Brookbanks",
               "address": "210 Brookbanks Dr., Toronto, ON, M3A 2T8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB029'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB029</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB029"
           }
       },
       {
@@ -270,7 +270,7 @@
           "properties": {
               "name": "Burrows Hall",
               "address": "1081 Progress Ave., Toronto, ON, M1B 5Z6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB030'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB030</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB030"
           }
       },
       {
@@ -286,7 +286,7 @@
           "properties": {
               "name": "Cedarbrae",
               "address": "545 Markham Road, Toronto, ON, M1H 2A1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB08'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB08</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB08"
           }
       },
       {
@@ -302,7 +302,7 @@
           "properties": {
               "name": "Centennial",
               "address": "578 Finch Ave. West, Toronto, ON, M2R 1N7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB031'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB031</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB031"
           }
       },
       {
@@ -318,7 +318,7 @@
           "properties": {
               "name": "City Hall",
               "address": "100 Queen Street West, Nathan Phillips Square, Toronto, ON, M5H 2N3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB032'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB032</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB032"
           }
       },
       {
@@ -334,7 +334,7 @@
           "properties": {
               "name": "Cliffcrest",
               "address": "3017 Kingston Road, Toronto, ON, M1M 1P1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB033'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB033</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB033"
           }
       },
       {
@@ -350,7 +350,7 @@
           "properties": {
               "name": "College/Shaw",
               "address": "766 College Street, Toronto, ON, M6G 1C4",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB034'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB034</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB034"
           }
       },
       {
@@ -366,7 +366,7 @@
           "properties": {
               "name": "Danforth/Coxwell",
               "address": "1675 Danforth Ave., Toronto, ON, M4C 5P2",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB035'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB035</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB035"
           }
       },
       {
@@ -382,7 +382,7 @@
           "properties": {
               "name": "Davenport",
               "address": "1246 Shaw Street, Toronto, ON, M6G 3P1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB036'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB036</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB036"
           }
       },
       {
@@ -398,7 +398,7 @@
           "properties": {
               "name": "Dawes Road",
               "address": "416 Dawes Road, Toronto, ON, M4B 2E8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB037'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB037</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB037"
           }
       },
       {
@@ -414,7 +414,7 @@
           "properties": {
               "name": "Deer Park",
               "address": "40 St. Clair Ave. E., Toronto, ON, M4T 1M9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB038'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB038</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB038"
           }
       },
       {
@@ -430,7 +430,7 @@
           "properties": {
               "name": "Don Mills",
               "address": "888 Lawrence Ave. East, Toronto, ON, M3C 1P6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB09'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB09</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB09"
           }
       },
       {
@@ -446,7 +446,7 @@
           "properties": {
               "name": "Downsview",
               "address": "2793 Keele Street, Toronto, ON, M3M 2G3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB039'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB039</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB039"
           }
       },
       {
@@ -462,7 +462,7 @@
           "properties": {
               "name": "Dufferin/St. Clair",
               "address": "1625 Dufferin Street, Toronto, ON, M6H 3L9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB040'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB040</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB040"
           }
       },
       {
@@ -478,7 +478,7 @@
           "properties": {
               "name": "Eatonville",
               "address": "430 Burnhamthorpe Road, Toronto, ON, M9B 2B1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB041'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB041</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB041"
           }
       },
       {
@@ -494,7 +494,7 @@
           "properties": {
               "name": "Eglinton Square",
               "address": "1 Eglinton Square, Unit 126, Eglinton Square Shopping Centre, Toronto, ON, M1L 2K1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB042'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB042</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB042"
           }
       },
       {
@@ -510,7 +510,7 @@
           "properties": {
               "name": "Elmbrook Park",
               "address": "2 Elmbrook Cres., Toronto, ON, M9C 5B4",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB043'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB043</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB043"
           }
       },
       {
@@ -526,7 +526,7 @@
           "properties": {
               "name": "Evelyn Gregory",
               "address": "120 Trowell Ave., Toronto, ON, M6M 1L7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB044'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB044</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB044"
           }
       },
       {
@@ -542,7 +542,7 @@
           "properties": {
               "name": "Fairview",
               "address": "35 Fairview Mall Dr., Toronto, ON, M2J 4S4",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB010'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB010</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB010"
           }
       },
       {
@@ -558,7 +558,7 @@
           "properties": {
               "name": "Flemingdon Park",
               "address": "29 St. Dennis Dr., Toronto, ON, M3C 3J3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB045'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB045</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB045"
           }
       },
       {
@@ -574,7 +574,7 @@
           "properties": {
               "name": "Forest Hill",
               "address": "700 Eglinton Ave. West, Toronto, ON, M5N 1B9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB046'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB046</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB046"
           }
       },
       {
@@ -590,7 +590,7 @@
           "properties": {
               "name": "Fort York",
               "address": "190 Fort York Boulevard, Toronto, ON M5V 0E7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB140'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB140</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB140"
           }
       },
       {
@@ -606,7 +606,7 @@
           "properties": {
               "name": "Gerrard/Ashdale",
               "address": "1432 Gerrard Street East, Toronto, ON, M4L 1Z6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB047'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB047</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB047"
           }
       },
       {
@@ -622,7 +622,7 @@
           "properties": {
               "name": "Goldhawk Park",
               "address": "295 Alton Towers Circle, Toronto, ON, M1V 4P1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB048'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB048</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB048"
           }
       },
       {
@@ -638,7 +638,7 @@
           "properties": {
               "name": "Guildwood",
               "address": "123 Guildwood Parkway, Guildwood Plaza, Toronto, ON, M1E 4V2",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB139'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB139</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB139"
           }
       },
       {
@@ -654,7 +654,7 @@
           "properties": {
               "name": "High Park",
               "address": "228 Roncesvalles Ave., Toronto, ON, M6R 2L7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB049'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB049</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB049"
           }
       },
       {
@@ -670,7 +670,7 @@
           "properties": {
               "name": "Highland Creek",
               "address": "3550 Ellesmere Road, Toronto, ON, M1C 3Z2",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB050'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB050</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB050"
           }
       },
       {
@@ -686,7 +686,7 @@
           "properties": {
               "name": "Hillcrest",
               "address": "5801 Leslie Street, Toronto, ON, M2H 1J8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB051'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB051</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB051"
           }
       },
       {
@@ -702,7 +702,7 @@
           "properties": {
               "name": "Humber Bay",
               "address": "200 Park Lawn Road, Toronto, ON, M8Y 3J1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB052'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB052</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB052"
           }
       },
       {
@@ -718,7 +718,7 @@
           "properties": {
               "name": "Humber Summit",
               "address": "2990 Islington Ave., Toronto, ON, M9L 2K6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB053'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB053</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB053"
           }
       },
       {
@@ -734,7 +734,7 @@
           "properties": {
               "name": "Humberwood",
               "address": "850 Humberwood Blvd., Toronto, ON, M9W 7A6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB054'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB054</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB054"
           }
       },
       {
@@ -750,7 +750,7 @@
           "properties": {
               "name": "Jane/Dundas",
               "address": "620 Jane Street, Toronto, ON, M6S 4A6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB055'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB055</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB055"
           }
       },
       {
@@ -766,7 +766,7 @@
           "properties": {
               "name": "Jane/Sheppard",
               "address": "1906 Sheppard Ave West, Toronto, ON, M3L 1Y7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB056'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB056</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB056"
           }
       },
       {
@@ -782,7 +782,7 @@
           "properties": {
               "name": "Jones",
               "address": "118 Jones Ave., Toronto, ON, M4M 2Z9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB057'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB057</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB057"
           }
       },
       {
@@ -798,7 +798,7 @@
           "properties": {
               "name": "Kennedy/Eglinton",
               "address": "2380 Eglinton Ave. East, Liberty Square Plaza, Toronto, ON, M1K 2P3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB138'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB138</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB138"
           }
       },
       {
@@ -814,7 +814,7 @@
           "properties": {
               "name": "Leaside",
               "address": "165 McRae Dr., Toronto, ON, M4G 1S8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB059'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB059</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB059"
           }
       },
       {
@@ -830,7 +830,7 @@
           "properties": {
               "name": "Lillian H. Smith",
               "address": "239 College Street, Toronto, ON, M5T 1R5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB011'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB011</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB011"
           }
       },
       {
@@ -846,7 +846,7 @@
           "properties": {
               "name": "Locke",
               "address": "3083 Yonge Street, Toronto, ON, M4N 2K7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB060'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB060</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB060"
           }
       },
       {
@@ -862,7 +862,7 @@
           "properties": {
               "name": "Long Branch",
               "address": "3500 Lake Shore Blvd. West, Toronto, ON, M8W 1N6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB061'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB061</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB061"
           }
       },
       {
@@ -878,7 +878,7 @@
           "properties": {
               "name": "Main Street",
               "address": "137 Main Street, Toronto, ON, M4E 2V9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB062'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB062</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB062"
           }
       },
       {
@@ -894,7 +894,7 @@
           "properties": {
               "name": "Malvern",
               "address": "30 Sewells Road, Toronto, ON, M1B 3G5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB012'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB012</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB012"
           }
       },
       {
@@ -910,7 +910,7 @@
           "properties": {
               "name": "Maria A. Shchuka",
               "address": "1745 Eglinton Avenue W, Toronto, ON, M6E 2H4",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB013'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB013</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB013"
           }
       },
       {
@@ -926,7 +926,7 @@
           "properties": {
               "name": "Maryvale",
               "address": "85 Ellesmere Road, Unit 16, Parkway Mall, Toronto, ON, M1R 4B9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB063'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB063</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB063"
           }
       },
       {
@@ -942,7 +942,7 @@
           "properties": {
               "name": "McGregor Park",
               "address": "2219 Lawrence Ave. East, Toronto, ON, M1P 2P5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB064'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB064</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB064"
           }
       },
       {
@@ -958,7 +958,7 @@
           "properties": {
               "name": "Mimico Centennial",
               "address": "47 Station Road, Toronto, ON, M8V 2R1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB065'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB065</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB065"
           }
       },
       {
@@ -974,7 +974,7 @@
           "properties": {
               "name": "Morningside",
               "address": "4279 Lawrence Ave. East, Toronto, ON, M1E 2S8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB066'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB066</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB066"
           }
       },
       {
@@ -990,7 +990,7 @@
           "properties": {
               "name": "Mount Dennis",
               "address": "1123 Weston Road, Toronto, ON, M6N 3S3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB067'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB067</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB067"
           }
       },
       {
@@ -1006,7 +1006,7 @@
           "properties": {
               "name": "Mount Pleasant",
               "address": "599 Mt. Pleasant Road, Toronto, ON, M4S 2M5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB068'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB068</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB068"
           }
       },
       {
@@ -1022,7 +1022,7 @@
           "properties": {
               "name": "New Toronto",
               "address": "110 Eleventh Street, Toronto, ON, M8V 3G5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB069'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB069</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB069"
           }
       },
       {
@@ -1038,7 +1038,7 @@
           "properties": {
               "name": "North York Central Library",
               "address": "5120 Yonge Street, Toronto, ON, M2N 5N9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB01'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB01</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB01"
           }
       },
       {
@@ -1054,7 +1054,7 @@
           "properties": {
               "name": "Northern District",
               "address": "40 Orchard View Blvd., Toronto, ON, M4R 1B9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB014'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB014</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB014"
           }
       },
       {
@@ -1070,7 +1070,7 @@
           "properties": {
               "name": "Northern Elms",
               "address": "123B Rexdale Blvd., Unit 5, Toronto, ON, M9W 1P1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB070'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB070</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB070"
           }
       },
       {
@@ -1086,7 +1086,7 @@
           "properties": {
               "name": "Oakwood Village Library and Arts Centre",
               "address": "341 Oakwood Ave., Toronto, ON, M6E 2W1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB071'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB071</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB071"
           }
       },
       {
@@ -1102,7 +1102,7 @@
           "properties": {
               "name": "Palmerston",
               "address": "560 Palmerston Ave., Toronto, ON, M6G 2P7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB072'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB072</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB072"
           }
       },
       {
@@ -1118,7 +1118,7 @@
           "properties": {
               "name": "Pape/Danforth",
               "address": "701 Pape Ave., Toronto, ON, M4K 3S6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB015'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB015</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB015"
           }
       },
       {
@@ -1134,7 +1134,7 @@
           "properties": {
               "name": "Parkdale",
               "address": "1303 Queen Street West, Toronto, ON, M6K 1L6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB073'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB073</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB073"
           }
       },
       {
@@ -1150,7 +1150,7 @@
           "properties": {
               "name": "Parliament Street",
               "address": "269 Gerrard Street East, Toronto, ON, M5A 2G3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB074'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB074</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB074"
           }
       },
       {
@@ -1166,7 +1166,7 @@
           "properties": {
               "name": "Perth/Dupont",
               "address": "1589 Dupont Street, Toronto, ON, M6P 3S5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB075'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB075</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB075"
           }
       },
       {
@@ -1182,7 +1182,7 @@
           "properties": {
               "name": "Pleasant View",
               "address": "575 Van Horne Ave., Toronto, ON, M2J 4S8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB076'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB076</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB076"
           }
       },
       {
@@ -1198,7 +1198,7 @@
           "properties": {
               "name": "Port Union",
               "address": "5450 Lawrence Ave. East, Toronto, ON, M1C 3B2",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB077'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB077</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB077"
           }
       },
       {
@@ -1214,7 +1214,7 @@
           "properties": {
               "name": "Queen/Saulter",
               "address": "765 Queen Street East, Toronto, ON, M4M 1H3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB078'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB078</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB078"
           }
       },
       {
@@ -1230,7 +1230,7 @@
           "properties": {
               "name": "Rexdale",
               "address": "2243 Kipling Avenue, Toronto, ON, M9W 4L5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB079'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB079</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB079"
           }
       },
       {
@@ -1246,7 +1246,7 @@
           "properties": {
               "name": "Richview",
               "address": "1806 Islington Ave., Toronto, ON, M9P 3N3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB016'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB016</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB016"
           }
       },
       {
@@ -1262,7 +1262,7 @@
           "properties": {
               "name": "Riverdale",
               "address": "370 Broadview Ave., Toronto, ON, M4K 2M8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB080'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB080</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB080"
           }
       },
       {
@@ -1278,7 +1278,7 @@
           "properties": {
               "name": "Runnymede",
               "address": "2178 Bloor Street West, Toronto, ON, M6S 1M8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB081'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB081</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB081"
           }
       },
       {
@@ -1294,7 +1294,7 @@
           "properties": {
               "name": "Scarborough Civic Centre",
               "address": "156 Borough Dr., Toronto, ON, M1P 4N7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB144'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB144</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB144"
           }
       },
       {
@@ -1310,7 +1310,7 @@
           "properties": {
               "name": "S. Walter Stewart",
               "address": "170 Memorial Park Ave., Toronto, ON, M4J 2K5",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB017'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB017</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB017"
           }
       },
       {
@@ -1326,7 +1326,7 @@
           "properties": {
               "name": "Sanderson",
               "address": "327 Bathurst Street, Toronto, ON, M5T 1J1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB085'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB085</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB085"
           }
       },
       {
@@ -1342,7 +1342,7 @@
           "properties": {
               "name": "Spadina Road",
               "address": "10 Spadina Road, Toronto, ON, M5R 2S7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB086'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB086</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB086"
           }
       },
       {
@@ -1358,7 +1358,7 @@
           "properties": {
               "name": "St. Clair/Silverthorn",
               "address": "1748 St. Clair Ave. West, Toronto, ON, M6N 1J3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB082'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB082</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB082"
           }
       },
       {
@@ -1374,7 +1374,7 @@
           "properties": {
               "name": "St. James Town",
               "address": "495 Sherbourne Street, Toronto, ON, M4X 1K7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB083'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB083</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB083"
           }
       },
       {
@@ -1390,7 +1390,7 @@
           "properties": {
               "name": "St. Lawrence",
               "address": "171 Front Street East, Toronto, ON, M5A 4H3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB084'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB084</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB084"
           }
       },
       {
@@ -1406,7 +1406,7 @@
           "properties": {
               "name": "Steeles",
               "address": "Bamburgh Gardens Shopping Plaza, C107-375 Bamburgh Circle, Toronto, ON, M1W 3Y1",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB087'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB087</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB087"
           }
       },
       {
@@ -1422,7 +1422,7 @@
           "properties": {
               "name": "Swansea Memorial",
               "address": "95 Lavinia Ave., Toronto, ON, M6S 3H9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB088'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB088</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB088"
           }
       },
       {
@@ -1438,7 +1438,7 @@
           "properties": {
               "name": "Taylor Memorial",
               "address": "1440 Kingston Road, Toronto, ON, M1N 1R3",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB089'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB089</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB089"
           }
       },
       {
@@ -1454,7 +1454,7 @@
           "properties": {
               "name": "Thorncliffe",
               "address": "48 Thorncliffe Park Dr., Toronto, ON, M4H 1J7",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB090'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB090</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB090"
           }
       },
       {
@@ -1470,7 +1470,7 @@
           "properties": {
               "name": "Todmorden Room",
               "address": "1081 1/2 Pape Ave (at Torrens), Toronto, ON, M4K 3W6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB091'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB091</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB091"
           }
       },
       {
@@ -1486,7 +1486,7 @@
           "properties": {
               "name": "Toronto Reference Library",
               "address": "789 Yonge Street, Toronto, ON, M4W 2G8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB018'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB018</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB018"
           }
       },
       {
@@ -1502,7 +1502,7 @@
           "properties": {
               "name": "Victoria Village",
               "address": "184 Sloane Ave., Toronto, ON, M4A 2C4",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB092'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB092</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB092"
           }
       },
       {
@@ -1518,7 +1518,7 @@
           "properties": {
               "name": "Weston",
               "address": "2 King Street, Toronto, ON, M9N 1K9",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB093'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB093</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB093"
           }
       },
       {
@@ -1534,7 +1534,7 @@
           "properties": {
               "name": "Woodside Square",
               "address": "Woodside Square Mall, 1571 Sandhurst Circle, Toronto, ON, M1V 1V2",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB094'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB094</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB094"
           }
       },
       {
@@ -1550,7 +1550,7 @@
           "properties": {
               "name": "Woodview Park",
               "address": "16 Bradstock Road, Toronto, ON, M9M 1M8",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB095'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB095</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB095"
           }
       },
       {
@@ -1566,7 +1566,7 @@
           "properties": {
               "name": "Wychwood",
               "address": "1431 Bathurst Street, Toronto, ON, M5R 3J2",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB096'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB096</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB096"
           }
       },
       {
@@ -1582,7 +1582,7 @@
           "properties": {
               "name": "York Woods",
               "address": "1785 Finch Ave. West, Toronto, ON, M3N 1M6",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB019'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB019</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB019"
           }
       },
       {
@@ -1598,7 +1598,7 @@
           "properties": {
               "name": "Yorkville",
               "address": "22 Yorkville Ave., Toronto, ON, M4W 1L4",
-              "link": "<a href='https://www.torontopubliclibrary.ca/detail.jsp?R=LIB097'>https://www.torontopubliclibrary.ca/detail.jsp?R=LIB097</a>"
+              "link": "https://www.torontopubliclibrary.ca/detail.jsp?R=LIB097"
           }
       }
   ]

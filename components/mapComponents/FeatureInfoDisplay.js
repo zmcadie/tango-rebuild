@@ -38,9 +38,12 @@ const InfoControl = Control.extend({
     //   .replace(/<br>/g, "\r")
     //   .trim()
 
+    const urlRegExp = /(https?:\/\/([a-zA-Z0-9]*\.)?|www\.)[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)?(\/[a-zA-Z0-9-]+)*(\/)?/g
+
     const formatDisplayValue = value => value
       .replace(/<img.*\/>/g, "")
-      .replace(/<br>/g, "\r")
+      .replace(/^\s*(<br>)*|(<br>)*\s*$/g, "")
+      .replace(urlRegExp, "<a href='$&'>$&</a>")
       .trim()
 
     const displayPropValues = displayProperties.map(item => ({
@@ -56,14 +59,10 @@ const InfoControl = Control.extend({
     if (gx_media_links) {
       domUtils.createElement("img", { src: gx_media_links }, this.infoContainer)
     }
-    // if (formattedDescription) {
-    //   domUtils.createElement("p", { text: formattedDescription }, this.infoContainer)
-    // }
-
     displayPropValues.forEach(item => {
       if (item.value) {
         domUtils.createElement("h2", { text: item.label }, this.infoContainer)
-        domUtils.createElement("p", { text: formatDisplayValue(item.value) }, this.infoContainer)
+        domUtils.createElement("p", { content: formatDisplayValue(item.value) }, this.infoContainer)
       }
     })
 

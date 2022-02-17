@@ -36,11 +36,17 @@ export function setAttributes(element, attributes) {
       const eventType = (key.indexOf("on") === 0
         ? key.slice(2)
         : key).toLowerCase()
-      element.addEventListener(eventType, value)
-    } else if (key === "text") {
-      element.innerText = value
-    } else {
-      element.setAttribute(key, value)
+      return element.addEventListener(eventType, value)
     }
+    
+    if (key === "text") {
+      return element.innerText = value
+    }
+    
+    if (key === "content") {
+      return element.innerHTML = value
+    }
+
+    element.setAttribute(key, value)
   })
 }

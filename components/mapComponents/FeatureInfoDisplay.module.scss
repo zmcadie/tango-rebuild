@@ -64,4 +64,17 @@
       margin-bottom: 20px;
     }
   }
+  
+  a {
+    border-bottom: none;
+    color: #0078A8;
+    display: initial;
+    line-height: unset !important;
+    text-decoration: underline;
+    word-break: break-all;
+
+    &:hover {
+      display: initial;
+    }
+  }
 }

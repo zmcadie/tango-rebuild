@@ -60,19 +60,32 @@ const layers = [
       {
         data: civicCentresJson,
         options: {
-          style: { color: "salmon" }
+          style: { color: "salmon" },
+          displayProperties: [
+            { property: "address", label: "Address" },
+          ]
         },
       },
       {
         data: schoolsJson,
         options: {
-          style: { color: "purple" }
+          style: { color: "purple" },
+          displayProperties: [
+            { property: "board name", label: "School Board" },
+            { property: "address", label: "Address" },
+            { property: "postal code", label: "Postal Code" },
+            { property: "municipality", label: "Municipality" },
+          ]
         },
       },
       {
         data: librariesJson,
         options: {
-          style: { color: "blue" }
+          style: { color: "blue" },
+          displayProperties: [
+            { property: "address", label: "Address" },
+            { property: "link", label: "Website" },
+          ]
         },
       },
     ],
