@@ -2791,18 +2791,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 16 — Don Valley East",
               "AREA_ID": "2551040",
               "AREA_TYPE": "WD18",
@@ -19680,18 +19668,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 03 — Etobicoke-Lakeshore",
               "AREA_ID": "2551044",
               "AREA_TYPE": "WD18",
@@ -24224,18 +24200,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 15 — Don Valley West",
               "AREA_ID": "2551048",
               "AREA_TYPE": "WD18",
@@ -26808,18 +26772,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 23 — Scarborough North",
               "AREA_ID": "2551052",
               "AREA_TYPE": "WD18",
@@ -30452,18 +30404,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 11 — University-Rosedale",
               "AREA_ID": "2551056",
               "AREA_TYPE": "WD18",
@@ -35601,18 +35541,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 10 — Spadina-Fort York",
               "AREA_ID": "2551035",
               "AREA_TYPE": "WD18",
@@ -37670,18 +37598,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 09 — Davenport",
               "AREA_ID": "2551039",
               "AREA_TYPE": "WD18",
@@ -40589,18 +40505,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 05 — York South-Weston",
               "AREA_ID": "2551037",
               "AREA_TYPE": "WD18",
@@ -42023,18 +41927,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 17 — Don Valley North",
               "AREA_ID": "2551041",
               "AREA_TYPE": "WD18",
@@ -44412,18 +44304,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 08 — Eglinton-Lawrence",
               "AREA_ID": "2551042",
               "AREA_TYPE": "WD18",
@@ -49821,18 +49701,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 02 — Etobicoke Centre",
               "AREA_ID": "2551043",
               "AREA_TYPE": "WD18",
@@ -54680,18 +54548,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 01 — Etobicoke North",
               "AREA_ID": "2551045",
               "AREA_TYPE": "WD18",
@@ -59424,18 +59280,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 04 — Parkdale-High Park",
               "AREA_ID": "2551046",
               "AREA_TYPE": "WD18",
@@ -60963,18 +60807,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 12 — Toronto-St. Paul's",
               "AREA_ID": "2551047",
               "AREA_TYPE": "WD18",
@@ -62532,18 +62364,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 22 — Scarborough-Agincourt",
               "AREA_ID": "2551049",
               "AREA_TYPE": "WD18",
@@ -64341,18 +64161,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 21 — Scarborough Centre",
               "AREA_ID": "2551050",
               "AREA_TYPE": "WD18",
@@ -68800,18 +68608,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 24 — Scarborough-Guildwood",
               "AREA_ID": "2551051",
               "AREA_TYPE": "WD18",
@@ -76619,18 +76415,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 25 — Scarborough-Rouge Park",
               "AREA_ID": "2551053",
               "AREA_TYPE": "WD18",
@@ -92783,18 +92567,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 20 — Scarborough Southwest",
               "AREA_ID": "2551054",
               "AREA_TYPE": "WD18",
@@ -99122,18 +98894,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 19 — Beaches-East York",
               "AREA_ID": "2551055",
               "AREA_TYPE": "WD18",
@@ -101071,18 +100831,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 18 — Willowdale",
               "AREA_ID": "2551057",
               "AREA_TYPE": "WD18",
@@ -104655,18 +104403,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 06 — York Centre",
               "AREA_ID": "2551058",
               "AREA_TYPE": "WD18",
@@ -108744,18 +108480,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 07 — Humber River-Black Creek",
               "AREA_ID": "2551059",
               "AREA_TYPE": "WD18",
@@ -125748,18 +125472,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 14 — Toronto-Danforth",
               "AREA_ID": "2551036",
               "AREA_TYPE": "WD18",
@@ -127962,18 +127674,6 @@
               ]
           },
           "properties": {
-              "styleUrl": "#poly-FF0000-1000-0",
-              "styleHash": "8f16845",
-              "styleMapHash": {
-                  "normal": "#poly-FF0000-1000-0-normal",
-                  "highlight": "#poly-FF0000-1000-0-highlight"
-              },
-              "description": "",
-              "stroke": "#ff0000",
-              "stroke-opacity": 1,
-              "stroke-width": 2,
-              "fill": "#ff0000",
-              "fill-opacity": 0.1,
               "name": "Ward 13 — Toronto Centre",
               "AREA_ID": "2551038",
               "AREA_TYPE": "WD18",

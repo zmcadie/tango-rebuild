@@ -6,6 +6,8 @@ import GeoJSONLayer from "./mapComponents/GeoJSONLayer"
 import LayerControl from "./mapComponents/LayerControl"
 import { useMapContext } from "context/mapContext"
 
+import styles from './MapLayers.module.scss'
+
 const createLayer = ({ data, options={} }) => {
   const isCollection = Array.isArray(data)
   const layer = isCollection
@@ -112,7 +114,22 @@ const MapLayers = ({ data }) => {
       })
 
       const cityWardsLayer = createLayer({
-        data: torontoWards
+        data: torontoWards,
+        options: {
+          style: {
+            color: "red",
+            fillOpacity: 0
+          },
+          highlightClass: styles.highlight,
+          onMouseOver: event => {
+            let element = event.target.getElement()
+            element.classList.add(styles.hover)
+          },
+          onMouseOut: event => {
+            let element = event.target.getElement()
+            element.classList.remove(styles.hover)
+          }
+        }
       })
       layers.push({
         label: "City Wards",

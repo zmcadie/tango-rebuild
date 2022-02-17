@@ -31,7 +31,7 @@ const pointToLayer = (point, latlng, style={}) => {
   return new Marker(latlng, { icon })
 }
 
-function handleClick(displayProperties) {
+function handleClick(displayProperties, highlightClass) {
   return function (event) {
     L.DomEvent.stopPropagation(event)
 
@@ -49,6 +49,8 @@ function handleClick(displayProperties) {
       className = styles["selected-point"]
     }
 
+    if (highlightClass) className = highlightClass
+
     map._resetHighlight && map._resetHighlight()
     
     element.classList.add(className)
@@ -65,7 +67,13 @@ const onEachFeature = function(feature, layer) {
     layer.on("mouseover", e => e.target.bringToFront())
   }
   if (layer.options.interactive) {
-    layer.on("click", handleClick(this.displayProperties))
+    layer.on("click", handleClick(this.displayProperties, this.highlightClass))
+  }
+  if (this.onMouseOver) {
+    layer.on("mouseover", this.onMouseOver)
+  }
+  if (this.onMouseOut) {
+    layer.on("mouseout", this.onMouseOut)
   }
 }
 
