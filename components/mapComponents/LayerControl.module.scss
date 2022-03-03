@@ -8,7 +8,14 @@
   overflow-y: auto;
   position: relative;
   overflow: hidden;
-  transition: width 0.3s;
+
+  height: 44px;
+  width: 48px;
+
+  &.open {
+    height: auto;
+    width: auto;
+  }
 }
 
 .toggle {
@@ -25,12 +32,12 @@
   height: 40px;
   padding: 0;
   position: absolute;
-  transition: opacity 0.2s;
   width: 44px;
   z-index: 1;
 
   .open > & {
     opacity: 0;
+    pointer-events: none;
   }
 }
 
@@ -44,28 +51,61 @@
   border: none;
   box-sizing: content-box;
   height: 30px;
+  position: absolute;
+  right: 0;
+  top: 10px;
   width: 34px;
 }
 
-.layers {
+.lists-container {
   background: white;
   background-clip: inherit;
   border: 2px solid #00000033;
   border-radius: 4px;
-  display: flex;
-  flex-shrink: 0;
-  list-style: none;
-  margin: 0;
+  padding-right: 38px;
   opacity: 0;
-  overflow: auto;
-  padding: 10px 0px 5px 20px;
   pointer-events: none;
-  transition: opacity 0.2s;
-  z-index: 2;
 
   .open & {
     opacity: 1;
     pointer-events: all;
+  }
+
+  .expanded & {
+    max-width: 331px;
+  }
+
+  .layers-list-label {
+    color: #444;
+    font-size: 14px;
+    margin: 10px 20px 0;
+  }
+}
+
+.only-expanded {
+  display: none;
+
+  .expanded & {
+    display: block;
+  }
+}
+
+.layers {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+  flex-wrap: wrap;
+  padding: 10px 0px 5px;
+  z-index: 2;
+
+  &.additional-layers {
+    display: none;
+  
+    .expanded & {
+      display: flex;
+    }
   }
 
   label {
@@ -83,11 +123,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 20px;
     margin-top: 5px;
-
-    &:not(:first-child) {
-      margin-left: 20px;
-    }
 
     .layer-toggle {
       background-size: contain;
@@ -95,7 +132,25 @@
       border: 2px solid #ddd;
       border-radius: 8px;
       height: 60px;
+      position: relative;
       width: 60px;
+
+      &.additional-layers-toggle::after {
+        color: #aaa;
+        content: "+";
+        font-family: monospace;
+        font-size: 48px;
+        position: absolute;
+        left: 1px;
+        right: 0;
+        top: 1px;
+        bottom: 0;
+
+        .expanded & {
+          content: "-";
+          top: -2px;
+        }
+      }
     }
 
     .layer-label {

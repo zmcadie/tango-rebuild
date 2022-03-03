@@ -11,66 +11,13 @@ import mapStyles from './MapContainer.module.scss'
 const { createElement } = domUtils
 
 Control.LayerControl = Control.extend({
-  initialize: function(options, layers) {
+  initialize: function(options, layers, additionalLayers) {
     L.setOptions(this, options)
     this.layers = layers
+    this.additionalLayers = additionalLayers
 
-    // this.highlightFeature = this.highlightFeature.bind(this)
     this.createFeaturesToggle = this.createFeaturesToggle.bind(this)
   },
-
-  // resetStyle: function(layer) {
-  //   const type = layer.feature.geometry.type
-  //   type === "Point"
-  //     ? (
-  //       layer.getElement() && layer.getElement().classList.remove(mapStyles.selected),
-  //       layer.setZIndexOffset(0)
-  //     ) : layer.setStyle(GeoJSONLayer.style(layer.feature, layer.options))
-  // },
-
-  // highlightFeature: function(layer) {
-  //   if (this.highlighted) this.resetStyle(this.highlighted)
-  //   this.highlighted = layer
-
-  //   const type = layer.feature.geometry.type
-    
-  //   if (type === "Point") {
-  //     layer.setZIndexOffset(1)
-  //     layer.getElement().classList.add(mapStyles.selected)
-  //     return
-  //   }
-    
-  //   layer.bringToFront()
-  //   layer.setStyle({ color: "white", weight: 3 })
-  // },
-
-  // moveToLayer: function(layer) {
-  //   const type = layer.feature.geometry.type
-  //   type === "Point"
-  //     ? this.map.setView(layer.getLatLng(), 16)
-  //     : this.map.fitBounds(layer.getBounds())
-  // },
-
-  // scrollToItem: function(item) {
-  //   const parentContainer  = item.closest(`.${styles.item}`)
-  //   const layersContainer  = item.closest(`.${styles.layers}`)
-  //   const controlContainer = item.closest(`.${styles.container}`)
-
-  //   controlContainer.classList.add(styles.open)
-  //   parentContainer.classList.add(styles.open)
-  //   layersContainer.scrollTo(0, item.offsetTop - 10)
-  // },
-
-  // selectFeature: function(layer, item, source = "") {
-  //   if (this.selected) this.selected.classList.remove(styles.selected)
-  //   item.classList.add(styles.selected)
-  //   this.selected = item
-
-  //   this.highlightFeature(layer)
-    
-  //   if (source !== "map")  this.moveToLayer(layer)
-  //   if (source !== "list") this.scrollToItem(item)
-  // },
 
   createFeaturesToggle: function(container) {
     return ({ icon, label, renderOnLoad, layer }) => {
@@ -100,16 +47,57 @@ Control.LayerControl = Control.extend({
       class: styles.toggle,
       onClick: () => container.classList.toggle(styles.open)
     }, container)
+
+    const listsContainer = createElement("div", styles["lists-container"], container)
+
+    createElement("h1", {
+      class: `${styles["only-expanded"]} ${styles["layers-list-label"]}`,
+      text: "Additional Layers"
+    }, listsContainer)
+
+    const additionalLayersList = createElement("ul", `${styles["additional-layers"]} ${styles.layers}`, listsContainer)
+    this.layers.forEach(this.createFeaturesToggle(additionalLayersList))
+
+    createElement("hr", {
+      class: styles["only-expanded"],
+      style: "margin-left: 20px; border-color: transparent; border-top: 1px solid #aaa;"
+    }, listsContainer)
     
-    const layersList = createElement("ul", styles.layers, container)
+    createElement("h1", {
+      class: `${styles["only-expanded"]} ${styles["layers-list-label"]}`,
+      text: "Primary Layers"
+    }, listsContainer)
+    
+    const layersList = createElement("ul", styles.layers, listsContainer)
     this.layers.forEach(this.createFeaturesToggle(layersList))
+
+    const additionalLayersToggleContainer = createElement("li", `${styles.item} ${styles["additional-layers-toggle-container"]}`, layersList)
+    const additionalLayersLabel = createElement("div", { text: "More", class: styles["layer-label"] }, additionalLayersToggleContainer)
+      
+    const expandContainer = () => {
+      container.classList.add(styles.expanded)
+      additionalLayersLabel.innerText = "Less"
+    }
+    const collapseContainer = () => {
+      container.classList.remove(styles.expanded)
+      additionalLayersLabel.innerText = "More"
+    }
     
-    const closeListItem = createElement("li", "", layersList)
+    createElement("button", {
+      class: `${styles["layer-toggle"]} ${styles["additional-layers-toggle"]}`,
+      onClick: function() {
+        const isExpanded = container.classList.contains(styles.expanded)
+        isExpanded ? collapseContainer() : expandContainer()
+      }
+    }, additionalLayersToggleContainer, true)
 
     createElement("button", {
       class: styles["inner-toggle"],
-      onClick: () => container.classList.toggle(styles.open)
-    }, closeListItem)
+      onClick: () => {
+        container.classList.toggle(styles.open)
+        collapseContainer()
+      }
+    }, listsContainer)
 
     return container
   },
@@ -123,20 +111,20 @@ Control.LayerControl = Control.extend({
   }
 })
 
-control.layerControl = function(opts, layers) {
-  return new Control.LayerControl(opts, layers)
+control.layerControl = function(opts, layers, additionalLayers) {
+  return new Control.LayerControl(opts, layers, additionalLayers)
 }
 
-const LayerControl = ({ layers=[] }) => {
+const LayerControl = ({ layers=[], additionalLayers=[] }) => {
   const { map } = useMapContext()
   
   useEffect(() => {
     if (map) {
-      const layerControl = control.layerControl({ position: "bottomright" }, layers)
+      const layerControl = control.layerControl({ position: "bottomright" }, layers, additionalLayers)
       map.addControl(layerControl)
       return () => map.removeControl(layerControl)
     }
-  }, [ map, layers ])
+  }, [ map, layers, additionalLayers ])
 
   return null
 }
