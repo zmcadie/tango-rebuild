@@ -34,17 +34,13 @@ const InfoControl = Control.extend({
 
   display: function(feature, displayProperties=[{ label: "Description", property: "description" }]) {
     const { name, gx_media_links } = feature.properties
-    // let formattedDescription = (description || "")
-    //   .replace(/<img.*\/>/g, "")
-    //   .replace(/<br>/g, "\r")
-    //   .trim()
 
-    const urlRegExp = /(https?:\/\/([a-zA-Z0-9]*\.)?|www\.)[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)?(\/[a-zA-Z0-9-]+)*(\/)?/g
+    const urlRegExp = /(https?:\/\/([a-zA-Z0-9]*\.)?|www\.)[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)?)*(\?([a-zA-Z0-9-]+\=[a-zA-Z0-9-]+\&?)*)?(\/)?/g
 
     const formatDisplayValue = value => value
       .replace(/<img.*\/>/g, "")
       .replace(/^\s*(<br>)*|(<br>)*\s*$/g, "")
-      .replace(urlRegExp, "<a href='$&'>$&</a>")
+      .replace(urlRegExp, match => `<a target="_blank" href="${match.slice(0,4) === "http" ? "" : "https://"}${match}">${match}</a>`)
       .trim()
 
     const displayPropValues = displayProperties.map(item => ({
