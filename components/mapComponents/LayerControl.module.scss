@@ -55,6 +55,10 @@
   right: 0;
   top: 10px;
   width: 34px;
+
+  .expanded & {
+    display: none;
+  }
 }
 
 .lists-container {
@@ -62,6 +66,7 @@
   background-clip: inherit;
   border: 2px solid #00000033;
   border-radius: 4px;
+  padding-bottom: 10px;
   padding-right: 38px;
   opacity: 0;
   pointer-events: none;
@@ -73,6 +78,7 @@
 
   .expanded & {
     max-width: 331px;
+    padding-right: 14px;
   }
 
   .layers-list-label {
@@ -93,7 +99,7 @@
 .layers {
   display: flex;
   flex-shrink: 0;
-  justify-content: end;
+  justify-content: flex-end;
   list-style: none;
   margin: 0;
   flex-wrap: wrap;
@@ -131,15 +137,15 @@
       background-repeat: no-repeat;
       border: 2px solid #ddd;
       border-radius: 8px;
-      height: 60px;
+      height: 48px;
       position: relative;
-      width: 60px;
+      width: 48px;
 
       &.additional-layers-toggle::after {
         color: #aaa;
         content: "+";
         font-family: monospace;
-        font-size: 48px;
+        font-size: 36px;
         position: absolute;
         left: 1px;
         right: 0;
