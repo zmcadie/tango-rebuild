@@ -1,0 +1,1210 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4909425,
+              43.6474756,
+              0
+            ],
+            [
+              -79.4899442,
+              43.6472479,
+              0
+            ],
+            [
+              -79.4891658,
+              43.646861,
+              0
+            ],
+            [
+              -79.488838,
+              43.6462723,
+              0
+            ],
+            [
+              -79.4885391,
+              43.6457883,
+              0
+            ],
+            [
+              -79.4886264,
+              43.6452112,
+              0
+            ],
+            [
+              -79.489273,
+              43.64415,
+              0
+            ],
+            [
+              -79.4898787,
+              43.64353,
+              0
+            ],
+            [
+              -79.4892226,
+              43.6433262,
+              0
+            ],
+            [
+              -79.4883949,
+              43.6434019,
+              0
+            ],
+            [
+              -79.486954,
+              43.643398,
+              0
+            ],
+            [
+              -79.4856539,
+              43.6432497,
+              0
+            ],
+            [
+              -79.4846865,
+              43.6422783,
+              0
+            ],
+            [
+              -79.4846512,
+              43.640921,
+              0
+            ],
+            [
+              -79.484383,
+              43.639801,
+              0
+            ],
+            [
+              -79.481117,
+              43.640362,
+              0
+            ],
+            [
+              -79.477852,
+              43.638489,
+              0
+            ],
+            [
+              -79.474327,
+              43.63377,
+              0
+            ],
+            [
+              -79.470734,
+              43.631969,
+              0
+            ],
+            [
+              -79.46283,
+              43.636009,
+              0
+            ],
+            [
+              -79.466949,
+              43.638618,
+              0
+            ],
+            [
+              -79.462916,
+              43.6393481,
+              0
+            ],
+            [
+              -79.462917,
+              43.6409478,
+              0
+            ],
+            [
+              -79.467468,
+              43.6421595,
+              0
+            ],
+            [
+              -79.4699569,
+              43.6465658,
+              0
+            ],
+            [
+              -79.470734,
+              43.64986,
+              0
+            ],
+            [
+              -79.4696953,
+              43.6500458,
+              0
+            ],
+            [
+              -79.469193,
+              43.651039,
+              0
+            ],
+            [
+              -79.4702643,
+              43.6529568,
+              0
+            ],
+            [
+              -79.484917,
+              43.6498024,
+              0
+            ],
+            [
+              -79.4850766,
+              43.6493105,
+              0
+            ],
+            [
+              -79.4910933,
+              43.6479285,
+              0
+            ],
+            [
+              -79.4909425,
+              43.6474756,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Swansea Area Ratepayers Association",
+        "styleUrl": "#poly-F4EB37-4301-184",
+        "styleHash": "-4fb64e5f",
+        "styleMapHash": {
+          "normal": "#poly-F4EB37-4301-184-normal",
+          "highlight": "#poly-F4EB37-4301-184-highlight"
+        },
+        "description": "www.swansearatepayers.ca",
+        "stroke": "#f4eb37",
+        "stroke-opacity": 1,
+        "stroke-width": 4.301,
+        "fill": "#f4eb37",
+        "fill-opacity": 0.7215686274509804
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.402098,
+              43.7250579,
+              0
+            ],
+            [
+              -79.400429,
+              43.716591,
+              0
+            ],
+            [
+              -79.3868692,
+              43.7192415,
+              0
+            ],
+            [
+              -79.3838895,
+              43.7198933,
+              0
+            ],
+            [
+              -79.3791279,
+              43.7206522,
+              0
+            ],
+            [
+              -79.3797693,
+              43.7246859,
+              0
+            ],
+            [
+              -79.3812072,
+              43.7262349,
+              0
+            ],
+            [
+              -79.3822354,
+              43.7274149,
+              0
+            ],
+            [
+              -79.383619,
+              43.7276866,
+              0
+            ],
+            [
+              -79.3865905,
+              43.7282994,
+              0
+            ],
+            [
+              -79.3943793,
+              43.7267332,
+              0
+            ],
+            [
+              -79.402098,
+              43.7250579,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Lawrence Park Ratepayers' Association",
+        "styleUrl": "#poly-F4EB37-5701-156",
+        "styleHash": "-1a2eea98",
+        "styleMapHash": {
+          "normal": "#poly-F4EB37-5701-156-normal",
+          "highlight": "#poly-F4EB37-5701-156-highlight"
+        },
+        "description": "http://www.lpra.ca/",
+        "stroke": "#f4eb37",
+        "stroke-opacity": 1,
+        "stroke-width": 5.701,
+        "fill": "#f4eb37",
+        "fill-opacity": 0.611764705882353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.365829,
+              43.655361,
+              0
+            ],
+            [
+              -79.363426,
+              43.649841,
+              0
+            ],
+            [
+              -79.3621902,
+              43.65015,
+              0
+            ],
+            [
+              -79.3623656,
+              43.6506627,
+              0
+            ],
+            [
+              -79.359916,
+              43.6512412,
+              0
+            ],
+            [
+              -79.3574482,
+              43.6518183,
+              0
+            ],
+            [
+              -79.356697,
+              43.650051,
+              0
+            ],
+            [
+              -79.356007,
+              43.6503583,
+              0
+            ],
+            [
+              -79.3519603,
+              43.6527017,
+              0
+            ],
+            [
+              -79.3509605,
+              43.6537719,
+              0
+            ],
+            [
+              -79.350937,
+              43.6548,
+              0
+            ],
+            [
+              -79.35463,
+              43.657871,
+              0
+            ],
+            [
+              -79.3556017,
+              43.661618,
+              0
+            ],
+            [
+              -79.358013,
+              43.6611313,
+              0
+            ],
+            [
+              -79.357353,
+              43.65942,
+              0
+            ],
+            [
+              -79.357979,
+              43.659161,
+              0
+            ],
+            [
+              -79.35952,
+              43.65823,
+              0
+            ],
+            [
+              -79.3605196,
+              43.6578865,
+              0
+            ],
+            [
+              -79.3630754,
+              43.6573097,
+              0
+            ],
+            [
+              -79.365044,
+              43.656914,
+              0
+            ],
+            [
+              -79.364838,
+              43.656101,
+              0
+            ],
+            [
+              -79.365982,
+              43.655788,
+              0
+            ],
+            [
+              -79.365829,
+              43.655361,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Corktown Residents and Business Association",
+        "styleUrl": "#poly-F4EB37-4001-168",
+        "styleHash": "-1018bb7e",
+        "styleMapHash": {
+          "normal": "#poly-F4EB37-4001-168-normal",
+          "highlight": "#poly-F4EB37-4001-168-highlight"
+        },
+        "description": "<img src=\"https://doc-08-40-mymaps.googleusercontent.com/untrusted/hostedimage/ruikq26ut40p57anvak0hiq714/qc1hbh1km3fcrrrl377rpb25i0/1615818126000/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N/12516780231192321238/5AF2TALrvr4TGisUPrKDC7NeUWhvIy644xGxDJgfKC6WfSCNgXUCPm0i0FFX9pjIrc7hPlJXJ2T-4eNpy0yJtgw_BqmgQXcNDS5-k71CUXP6bnO2fx1Zi1WjQvx7IOUHuVT6Y8_CJa-D_dTJJ1T6SvODWTATkAQHauWN09I9TSqEYitaMK8lssdoE2T3DfvW6dofvCC-Gaolj?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>www.corktown.ca",
+        "stroke": "#f4eb37",
+        "stroke-opacity": 1,
+        "stroke-width": 4.001,
+        "fill": "#f4eb37",
+        "fill-opacity": 0.6588235294117647,
+        "gx_media_links": "https://doc-08-40-mymaps.googleusercontent.com/untrusted/hostedimage/ruikq26ut40p57anvak0hiq714/qc1hbh1km3fcrrrl377rpb25i0/1615818126000/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N/12516780231192321238/5AF2TALrvr4TGisUPrKDC7NeUWhvIy644xGxDJgfKC6WfSCNgXUCPm0i0FFX9pjIrc7hPlJXJ2T-4eNpy0yJtgw_BqmgQXcNDS5-k71CUXP6bnO2fx1Zi1WjQvx7IOUHuVT6Y8_CJa-D_dTJJ1T6SvODWTATkAQHauWN09I9TSqEYitaMK8lssdoE2T3DfvW6dofvCC-Gaolj?session=0&fife"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4783842,
+              43.6507407,
+              0
+            ],
+            [
+              -79.4720264,
+              43.6521242,
+              0
+            ],
+            [
+              -79.4670193,
+              43.6532657,
+              0
+            ],
+            [
+              -79.4695667,
+              43.6594965,
+              0
+            ],
+            [
+              -79.4692273,
+              43.6599165,
+              0
+            ],
+            [
+              -79.4692617,
+              43.6602769,
+              0
+            ],
+            [
+              -79.4695426,
+              43.6603627,
+              0
+            ],
+            [
+              -79.4698343,
+              43.6606193,
+              0
+            ],
+            [
+              -79.4701706,
+              43.6607774,
+              0
+            ],
+            [
+              -79.470464,
+              43.6614323,
+              0
+            ],
+            [
+              -79.4708643,
+              43.6624669,
+              0
+            ],
+            [
+              -79.4737204,
+              43.6618545,
+              0
+            ],
+            [
+              -79.4744914,
+              43.6612365,
+              0
+            ],
+            [
+              -79.4879264,
+              43.6582875,
+              0
+            ],
+            [
+              -79.4862333,
+              43.6540022,
+              0
+            ],
+            [
+              -79.4843556,
+              43.6494734,
+              0
+            ],
+            [
+              -79.4783842,
+              43.6507407,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Bloor West Village Residents Association",
+        "styleUrl": "#poly-F4EB37-4801-168",
+        "styleHash": "-522f218e",
+        "styleMapHash": {
+          "normal": "#poly-F4EB37-4801-168-normal",
+          "highlight": "#poly-F4EB37-4801-168-highlight"
+        },
+        "description": "<img src=\"https://doc-0g-40-mymaps.googleusercontent.com/untrusted/hostedimage/ruikq26ut40p57anvak0hiq714/160sutakjd2146oqgdb066e9a4/1615818126000/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N/12516780231192321238/5AF2TALqyui6lUXjaA-X7xGhwDTicYPEheG1v7eCOvCPAnejOgPbpaO-W4I3m64nLQkU9bM6CFx6wRGUcCs_hjFdNxSBvjyUH-WUE0Dd4Q3_cCKekOE64hqdxE5XqtQfb3tlQM_ptVKj-Dak4PPD7pqVWEd1LNTkquSYmbYOKEhPUR3B-8TB_iwDiqnghAvGV4Atf5UiuKqaA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>http://www.bwvra.ca/",
+        "stroke": "#f4eb37",
+        "stroke-opacity": 1,
+        "stroke-width": 4.801,
+        "fill": "#f4eb37",
+        "fill-opacity": 0.6588235294117647,
+        "gx_media_links": "https://doc-0g-40-mymaps.googleusercontent.com/untrusted/hostedimage/ruikq26ut40p57anvak0hiq714/160sutakjd2146oqgdb066e9a4/1615818126000/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N/12516780231192321238/5AF2TALqyui6lUXjaA-X7xGhwDTicYPEheG1v7eCOvCPAnejOgPbpaO-W4I3m64nLQkU9bM6CFx6wRGUcCs_hjFdNxSBvjyUH-WUE0Dd4Q3_cCKekOE64hqdxE5XqtQfb3tlQM_ptVKj-Dak4PPD7pqVWEd1LNTkquSYmbYOKEhPUR3B-8TB_iwDiqnghAvGV4Atf5UiuKqaA?session=0&fife"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.5054441,
+              43.6334318,
+              0
+            ],
+            [
+              -79.499039,
+              43.634701,
+              0
+            ],
+            [
+              -79.493378,
+              43.636009,
+              0
+            ],
+            [
+              -79.4850718,
+              43.6382469,
+              0
+            ],
+            [
+              -79.4854584,
+              43.6387596,
+              0
+            ],
+            [
+              -79.4865316,
+              43.6389618,
+              0
+            ],
+            [
+              -79.4870688,
+              43.6399873,
+              0
+            ],
+            [
+              -79.487342,
+              43.6409429,
+              0
+            ],
+            [
+              -79.4876965,
+              43.6415507,
+              0
+            ],
+            [
+              -79.4895744,
+              43.6410095,
+              0
+            ],
+            [
+              -79.490445,
+              43.6418319,
+              0
+            ],
+            [
+              -79.4912299,
+              43.6438345,
+              0
+            ],
+            [
+              -79.4919397,
+              43.6448278,
+              0
+            ],
+            [
+              -79.49295,
+              43.645821,
+              0
+            ],
+            [
+              -79.4930516,
+              43.6474992,
+              0
+            ],
+            [
+              -79.491737,
+              43.648991,
+              0
+            ],
+            [
+              -79.4912435,
+              43.6499679,
+              0
+            ],
+            [
+              -79.491222,
+              43.6510379,
+              0
+            ],
+            [
+              -79.4921514,
+              43.6517666,
+              0
+            ],
+            [
+              -79.4935745,
+              43.6521692,
+              0
+            ],
+            [
+              -79.4964905,
+              43.651875,
+              0
+            ],
+            [
+              -79.499428,
+              43.652031,
+              0
+            ],
+            [
+              -79.5021493,
+              43.6524071,
+              0
+            ],
+            [
+              -79.503197,
+              43.65387,
+              0
+            ],
+            [
+              -79.5024682,
+              43.6556379,
+              0
+            ],
+            [
+              -79.5005806,
+              43.6570642,
+              0
+            ],
+            [
+              -79.4998127,
+              43.6577525,
+              0
+            ],
+            [
+              -79.4996457,
+              43.6587203,
+              0
+            ],
+            [
+              -79.505524,
+              43.662708,
+              0
+            ],
+            [
+              -79.516037,
+              43.658184,
+              0
+            ],
+            [
+              -79.5142567,
+              43.6541642,
+              0
+            ],
+            [
+              -79.5122612,
+              43.6499419,
+              0
+            ],
+            [
+              -79.5105878,
+              43.6459524,
+              0
+            ],
+            [
+              -79.508743,
+              43.641171,
+              0
+            ],
+            [
+              -79.5085293,
+              43.640299,
+              0
+            ],
+            [
+              -79.5085303,
+              43.6392407,
+              0
+            ],
+            [
+              -79.5083328,
+              43.6387705,
+              0
+            ],
+            [
+              -79.5080174,
+              43.6383857,
+              0
+            ],
+            [
+              -79.5073222,
+              43.6376006,
+              0
+            ],
+            [
+              -79.5069992,
+              43.6370359,
+              0
+            ],
+            [
+              -79.5054441,
+              43.6334318,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Kingsway Park Ratepayers Association",
+        "styleUrl": "#poly-F4EB37-3701-194",
+        "styleHash": "55295893",
+        "styleMapHash": {
+          "normal": "#poly-F4EB37-3701-194-normal",
+          "highlight": "#poly-F4EB37-3701-194-highlight"
+        },
+        "description": "http://www.kingswayratepayers.com",
+        "stroke": "#f4eb37",
+        "stroke-opacity": 1,
+        "stroke-width": 3.701,
+        "fill": "#f4eb37",
+        "fill-opacity": 0.7607843137254902
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.398102,
+              43.67786,
+              0
+            ],
+            [
+              -79.399689,
+              43.677021,
+              0
+            ],
+            [
+              -79.4145044,
+              43.6738293,
+              0
+            ],
+            [
+              -79.411148,
+              43.66523,
+              0
+            ],
+            [
+              -79.3943425,
+              43.668743,
+              0
+            ],
+            [
+              -79.398102,
+              43.67786,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Annex Residents' Association",
+        "styleUrl": "#poly-F4EB37-3401-189",
+        "styleHash": "722d9306",
+        "styleMapHash": {
+          "normal": "#poly-F4EB37-3401-189-normal",
+          "highlight": "#poly-F4EB37-3401-189-highlight"
+        },
+        "description": "<img src=\"https://doc-0o-40-mymaps.googleusercontent.com/untrusted/hostedimage/ruikq26ut40p57anvak0hiq714/9i7js25cieof664fvroj16trv4/1615818126000/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N/12516780231192321238/5AF2TALr3iGwvjcy41TP4Z5mG9HWEt7Wm1P9OCIF7ArNgTRrwA3b6deARRce5CDGY5QhlrHtDoY25naiP9i-1qlerzsGP52IwQKqreZCIah0PAHhToEAroTzTSjKM6XzMbu3eJvh30u9RTu_mvpIcvzNAg5bAovKuEwKezKMkjd-aJvl0pzKHvIzzM1xJPmjVEFvyK6VGy5oQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>http://www.theara.org",
+        "stroke": "#f4eb37",
+        "stroke-opacity": 1,
+        "stroke-width": 3.401,
+        "fill": "#f4eb37",
+        "fill-opacity": 0.7411764705882353,
+        "gx_media_links": "https://doc-0o-40-mymaps.googleusercontent.com/untrusted/hostedimage/ruikq26ut40p57anvak0hiq714/9i7js25cieof664fvroj16trv4/1615818126000/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N/12516780231192321238/5AF2TALr3iGwvjcy41TP4Z5mG9HWEt7Wm1P9OCIF7ArNgTRrwA3b6deARRce5CDGY5QhlrHtDoY25naiP9i-1qlerzsGP52IwQKqreZCIah0PAHhToEAroTzTSjKM6XzMbu3eJvh30u9RTu_mvpIcvzNAg5bAovKuEwKezKMkjd-aJvl0pzKHvIzzM1xJPmjVEFvyK6VGy5oQ?session=0&fife"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -79.379784,
+                  43.669949,
+                  0
+                ],
+                [
+                  -79.379822,
+                  43.669979,
+                  0
+                ],
+                [
+                  -79.3798067,
+                  43.6699441,
+                  0
+                ],
+                [
+                  -79.379784,
+                  43.669949,
+                  0
+                ]
+              ]
+            ]
+          },
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -79.379914,
+                  43.6698199,
+                  0
+                ],
+                [
+                  -79.3860464,
+                  43.6686111,
+                  0
+                ],
+                [
+                  -79.3830191,
+                  43.6614048,
+                  0
+                ],
+                [
+                  -79.3816935,
+                  43.6614693,
+                  0
+                ],
+                [
+                  -79.3798958,
+                  43.6618365,
+                  0
+                ],
+                [
+                  -79.3768153,
+                  43.6624467,
+                  0
+                ],
+                [
+                  -79.379914,
+                  43.6698199,
+                  0
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      "properties": {
+        "name": "Church Wellesley Neighbourhood Association",
+        "styleUrl": "#poly-F4EB37-5601-163",
+        "styleHash": "628e4836",
+        "styleMapHash": {
+          "normal": "#poly-F4EB37-5601-163-normal",
+          "highlight": "#poly-F4EB37-5601-163-highlight"
+        },
+        "description": "http://www.cwna.ca/",
+        "stroke": "#f4eb37",
+        "stroke-opacity": 1,
+        "stroke-width": 5.601,
+        "fill": "#f4eb37",
+        "fill-opacity": 0.6392156862745098
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3329617,
+              43.746761,
+              0
+            ],
+            [
+              -79.31897,
+              43.749149,
+              0
+            ],
+            [
+              -79.318283,
+              43.749023,
+              0
+            ],
+            [
+              -79.3127937,
+              43.7501555,
+              0
+            ],
+            [
+              -79.3154769,
+              43.7579685,
+              0
+            ],
+            [
+              -79.317299,
+              43.757675,
+              0
+            ],
+            [
+              -79.319183,
+              43.758045,
+              0
+            ],
+            [
+              -79.320946,
+              43.759285,
+              0
+            ],
+            [
+              -79.324165,
+              43.761299,
+              0
+            ],
+            [
+              -79.333008,
+              43.759563,
+              0
+            ],
+            [
+              -79.3354086,
+              43.758386,
+              0
+            ],
+            [
+              -79.33455,
+              43.755472,
+              0
+            ],
+            [
+              -79.3337344,
+              43.752558,
+              0
+            ],
+            [
+              -79.3329617,
+              43.746761,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Don Valley East Residents Association",
+        "styleUrl": "#poly-F4EB37-4101-184",
+        "styleHash": "40cf4b25",
+        "styleMapHash": {
+          "normal": "#poly-F4EB37-4101-184-normal",
+          "highlight": "#poly-F4EB37-4101-184-highlight"
+        },
+        "description": "https://www.facebook.com/DonValleyEastRACA/",
+        "stroke": "#f4eb37",
+        "stroke-opacity": 1,
+        "stroke-width": 4.101,
+        "fill": "#f4eb37",
+        "fill-opacity": 0.7215686274509804
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.585785,
+              43.637848,
+              0
+            ],
+            [
+              -79.585228,
+              43.636604,
+              0
+            ],
+            [
+              -79.585823,
+              43.635578,
+              0
+            ],
+            [
+              -79.585571,
+              43.63443,
+              0
+            ],
+            [
+              -79.585701,
+              43.633312,
+              0
+            ],
+            [
+              -79.584923,
+              43.631386,
+              0
+            ],
+            [
+              -79.586258,
+              43.629459,
+              0
+            ],
+            [
+              -79.585136,
+              43.628716,
+              0
+            ],
+            [
+              -79.581406,
+              43.627937,
+              0
+            ],
+            [
+              -79.57943,
+              43.626724,
+              0
+            ],
+            [
+              -79.576729,
+              43.626289,
+              0
+            ],
+            [
+              -79.575142,
+              43.625576,
+              0
+            ],
+            [
+              -79.573639,
+              43.625919,
+              0
+            ],
+            [
+              -79.571106,
+              43.626663,
+              0
+            ],
+            [
+              -79.569649,
+              43.627037,
+              0
+            ],
+            [
+              -79.568443,
+              43.626881,
+              0
+            ],
+            [
+              -79.567329,
+              43.628216,
+              0
+            ],
+            [
+              -79.564499,
+              43.628281,
+              0
+            ],
+            [
+              -79.563637,
+              43.627224,
+              0
+            ],
+            [
+              -79.563385,
+              43.626972,
+              0
+            ],
+            [
+              -79.556816,
+              43.628494,
+              0
+            ],
+            [
+              -79.559433,
+              43.636261,
+              0
+            ],
+            [
+              -79.562263,
+              43.635609,
+              0
+            ],
+            [
+              -79.563507,
+              43.635204,
+              0
+            ],
+            [
+              -79.564369,
+              43.636574,
+              0
+            ],
+            [
+              -79.565353,
+              43.636604,
+              0
+            ],
+            [
+              -79.567802,
+              43.636074,
+              0
+            ],
+            [
+              -79.569092,
+              43.636852,
+              0
+            ],
+            [
+              -79.569908,
+              43.638248,
+              0
+            ],
+            [
+              -79.571495,
+              43.641262,
+              0
+            ],
+            [
+              -79.573853,
+              43.640827,
+              0
+            ],
+            [
+              -79.574112,
+              43.641697,
+              0
+            ],
+            [
+              -79.575485,
+              43.642071,
+              0
+            ],
+            [
+              -79.575867,
+              43.642628,
+              0
+            ],
+            [
+              -79.583595,
+              43.640144,
+              0
+            ],
+            [
+              -79.585785,
+              43.637848,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Markland Wood Homeowners Association",
+        "styleUrl": "#poly-F4EB37-4201-189",
+        "styleHash": "b174a2a",
+        "styleMapHash": {
+          "normal": "#poly-F4EB37-4201-189-normal",
+          "highlight": "#poly-F4EB37-4201-189-highlight"
+        },
+        "description": "http://www.marklandwood.org/",
+        "stroke": "#f4eb37",
+        "stroke-opacity": 1,
+        "stroke-width": 4.201,
+        "fill": "#f4eb37",
+        "fill-opacity": 0.7411764705882353
+      }
+    }
+  ]
+}

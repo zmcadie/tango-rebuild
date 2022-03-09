@@ -1,0 +1,442 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.317039,
+              43.821461,
+              0
+            ],
+            [
+              -79.311157,
+              43.80864,
+              0
+            ],
+            [
+              -79.307259,
+              43.809479,
+              0
+            ],
+            [
+              -79.305496,
+              43.810345,
+              0
+            ],
+            [
+              -79.303864,
+              43.811523,
+              0
+            ],
+            [
+              -79.302017,
+              43.81205,
+              0
+            ],
+            [
+              -79.307037,
+              43.823692,
+              0
+            ],
+            [
+              -79.317039,
+              43.821461,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Heathwood Ratepayers Association",
+        "styleUrl": "#poly-F8971B-1401-156",
+        "styleHash": "-4b3ae05c",
+        "styleMapHash": {
+          "normal": "#poly-F8971B-1401-156-normal",
+          "highlight": "#poly-F8971B-1401-156-highlight"
+        },
+        "description": "http://heathwoodratepayers.org/",
+        "stroke": "#f8971b",
+        "stroke-opacity": 1,
+        "stroke-width": 1.401,
+        "fill": "#f8971b",
+        "fill-opacity": 0.611764705882353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.296401,
+              43.801186,
+              0
+            ],
+            [
+              -79.2955963,
+              43.8004503,
+              0
+            ],
+            [
+              -79.295135,
+              43.7994979,
+              0
+            ],
+            [
+              -79.288569,
+              43.7841789,
+              0
+            ],
+            [
+              -79.2871634,
+              43.7813981,
+              0
+            ],
+            [
+              -79.2859297,
+              43.7785862,
+              0
+            ],
+            [
+              -79.2777758,
+              43.7837761,
+              0
+            ],
+            [
+              -79.2786341,
+              43.7852632,
+              0
+            ],
+            [
+              -79.286273,
+              43.8037258,
+              0
+            ],
+            [
+              -79.296401,
+              43.801186,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Agincourt Village Community Association",
+        "styleUrl": "#poly-F8971B-1801-145",
+        "styleHash": "-49acbaf6",
+        "styleMapHash": {
+          "normal": "#poly-F8971B-1801-145-normal",
+          "highlight": "#poly-F8971B-1801-145-highlight"
+        },
+        "description": "http://www.avcatoronto.ca",
+        "stroke": "#f8971b",
+        "stroke-opacity": 1,
+        "stroke-width": 1.801,
+        "fill": "#f8971b",
+        "fill-opacity": 0.5686274509803921
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.2621962,
+              43.8199129,
+              0
+            ],
+            [
+              -79.271758,
+              43.8179038,
+              0
+            ],
+            [
+              -79.2691187,
+              43.811571,
+              0
+            ],
+            [
+              -79.2672186,
+              43.809544,
+              0
+            ],
+            [
+              -79.2664461,
+              43.8080574,
+              0
+            ],
+            [
+              -79.2579179,
+              43.8099762,
+              0
+            ],
+            [
+              -79.2621962,
+              43.8199129,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Richmond Park Community Association (RPCA)",
+        "styleUrl": "#poly-F8971B-2101-156-nodesc",
+        "styleHash": "37b95279",
+        "styleMapHash": {
+          "normal": "#poly-F8971B-2101-156-nodesc-normal",
+          "highlight": "#poly-F8971B-2101-156-nodesc-highlight"
+        },
+        "stroke": "#f8971b",
+        "stroke-opacity": 1,
+        "stroke-width": 2.101,
+        "fill": "#f8971b",
+        "fill-opacity": 0.611764705882353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.2920324,
+              43.8144996,
+              0
+            ],
+            [
+              -79.2901976,
+              43.810489,
+              0
+            ],
+            [
+              -79.2892589,
+              43.8084838,
+              0
+            ],
+            [
+              -79.2882987,
+              43.806494,
+              0
+            ],
+            [
+              -79.2873009,
+              43.8055803,
+              0
+            ],
+            [
+              -79.2867323,
+              43.8047906,
+              0
+            ],
+            [
+              -79.2860028,
+              43.8037685,
+              0
+            ],
+            [
+              -79.2775397,
+              43.8057036,
+              0
+            ],
+            [
+              -79.2819265,
+              43.8155867,
+              0
+            ],
+            [
+              -79.2829937,
+              43.815287,
+              0
+            ],
+            [
+              -79.2840072,
+              43.8148247,
+              0
+            ],
+            [
+              -79.2879554,
+              43.8140428,
+              0
+            ],
+            [
+              -79.288567,
+              43.8140331,
+              0
+            ],
+            [
+              -79.2891785,
+              43.8141473,
+              0
+            ],
+            [
+              -79.2901441,
+              43.814577,
+              0
+            ],
+            [
+              -79.2907074,
+              43.8147318,
+              0
+            ],
+            [
+              -79.2912063,
+              43.8147163,
+              0
+            ],
+            [
+              -79.2920324,
+              43.8144996,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Rosewood Taxpayers' Association (RTA)",
+        "styleUrl": "#poly-F8971B-1501-158-nodesc",
+        "styleHash": "-5c54a34d",
+        "styleMapHash": {
+          "normal": "#poly-F8971B-1501-158-nodesc-normal",
+          "highlight": "#poly-F8971B-1501-158-nodesc-highlight"
+        },
+        "stroke": "#f8971b",
+        "stroke-opacity": 1,
+        "stroke-width": 1.501,
+        "fill": "#f8971b",
+        "fill-opacity": 0.6196078431372549
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.2589248,
+              43.7895737,
+              0
+            ],
+            [
+              -79.2783869,
+              43.7852828,
+              0
+            ],
+            [
+              -79.2769277,
+              43.7830674,
+              0
+            ],
+            [
+              -79.2747177,
+              43.7777382,
+              0
+            ],
+            [
+              -79.2554916,
+              43.7816423,
+              0
+            ],
+            [
+              -79.2576374,
+              43.7872192,
+              0
+            ],
+            [
+              -79.2589248,
+              43.7895737,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "C.D. Farquharson Community Association (CDFCA)",
+        "styleUrl": "#poly-F8971B-1801-148",
+        "styleHash": "3f3aa6aa",
+        "styleMapHash": {
+          "normal": "#poly-F8971B-1801-148-normal",
+          "highlight": "#poly-F8971B-1801-148-highlight"
+        },
+        "description": "cdfarquharson@gmail.com)",
+        "stroke": "#f8971b",
+        "stroke-opacity": 1,
+        "stroke-width": 1.801,
+        "fill": "#f8971b",
+        "fill-opacity": 0.5803921568627451
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.2772608,
+              43.805843,
+              0
+            ],
+            [
+              -79.2667036,
+              43.8080884,
+              0
+            ],
+            [
+              -79.2674117,
+              43.8094666,
+              0
+            ],
+            [
+              -79.2688494,
+              43.8110305,
+              0
+            ],
+            [
+              -79.2693644,
+              43.8117738,
+              0
+            ],
+            [
+              -79.2721067,
+              43.817806,
+              0
+            ],
+            [
+              -79.2817656,
+              43.8155944,
+              0
+            ],
+            [
+              -79.2772608,
+              43.805843,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Brimley Forest Community Association (BFCA)",
+        "styleUrl": "#poly-F8971B-1301-143-nodesc",
+        "styleHash": "-7cedf48b",
+        "styleMapHash": {
+          "normal": "#poly-F8971B-1301-143-nodesc-normal",
+          "highlight": "#poly-F8971B-1301-143-nodesc-highlight"
+        },
+        "stroke": "#f8971b",
+        "stroke-opacity": 1,
+        "stroke-width": 1.301,
+        "fill": "#f8971b",
+        "fill-opacity": 0.5607843137254902
+      }
+    }
+  ]
+}

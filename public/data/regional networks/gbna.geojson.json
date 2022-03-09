@@ -1,0 +1,495 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.307899,
+              43.673958,
+              0
+            ],
+            [
+              -79.310089,
+              43.672218,
+              0
+            ],
+            [
+              -79.311501,
+              43.669422,
+              0
+            ],
+            [
+              -79.312408,
+              43.667282,
+              0
+            ],
+            [
+              -79.305672,
+              43.668804,
+              0
+            ],
+            [
+              -79.307899,
+              43.673958,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "The Beach Triangle Residents Association",
+        "styleUrl": "#poly-7C3592-1200-212",
+        "styleHash": "-6db801ff",
+        "styleMapHash": {
+          "normal": "#poly-7C3592-1200-212-normal",
+          "highlight": "#poly-7C3592-1200-212-highlight"
+        },
+        "description": "http://www.beachtriangle.com/",
+        "stroke": "#7c3592",
+        "stroke-opacity": 1,
+        "stroke-width": 1.2,
+        "fill": "#7c3592",
+        "fill-opacity": 0.8313725490196079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.297943,
+              43.67054,
+              0
+            ],
+            [
+              -79.296631,
+              43.667065,
+              0
+            ],
+            [
+              -79.293846,
+              43.667809,
+              0
+            ],
+            [
+              -79.295151,
+              43.67104,
+              0
+            ],
+            [
+              -79.297943,
+              43.67054,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Toronto Beach East Residents' Association",
+        "styleUrl": "#poly-7C3592-1200-219",
+        "styleHash": "6897c8",
+        "styleMapHash": {
+          "normal": "#poly-7C3592-1200-219-normal",
+          "highlight": "#poly-7C3592-1200-219-highlight"
+        },
+        "description": "http://torontobeacheast.com/",
+        "stroke": "#7c3592",
+        "stroke-opacity": 1,
+        "stroke-width": 1.2,
+        "fill": "#7c3592",
+        "fill-opacity": 0.8588235294117647
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.321281,
+              43.678169,
+              0
+            ],
+            [
+              -79.319054,
+              43.672771,
+              0
+            ],
+            [
+              -79.312569,
+              43.67445,
+              0
+            ],
+            [
+              -79.312271,
+              43.675098,
+              0
+            ],
+            [
+              -79.309532,
+              43.676189,
+              0
+            ],
+            [
+              -79.307083,
+              43.676899,
+              0
+            ],
+            [
+              -79.30455,
+              43.677368,
+              0
+            ],
+            [
+              -79.303841,
+              43.677608,
+              0
+            ],
+            [
+              -79.303947,
+              43.677921,
+              0
+            ],
+            [
+              -79.303932,
+              43.678471,
+              0
+            ],
+            [
+              -79.302078,
+              43.679089,
+              0
+            ],
+            [
+              -79.299591,
+              43.67926,
+              0
+            ],
+            [
+              -79.299698,
+              43.67976,
+              0
+            ],
+            [
+              -79.303017,
+              43.679649,
+              0
+            ],
+            [
+              -79.30397,
+              43.680759,
+              0
+            ],
+            [
+              -79.304962,
+              43.680531,
+              0
+            ],
+            [
+              -79.305679,
+              43.682281,
+              0
+            ],
+            [
+              -79.303436,
+              43.682755,
+              0
+            ],
+            [
+              -79.30307,
+              43.68288,
+              0
+            ],
+            [
+              -79.303497,
+              43.683872,
+              0
+            ],
+            [
+              -79.303841,
+              43.684914,
+              0
+            ],
+            [
+              -79.321281,
+              43.678169,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Beach Hill Neighbourhood Association",
+        "styleUrl": "#poly-7C3592-1301-214",
+        "styleHash": "79e9d2fd",
+        "styleMapHash": {
+          "normal": "#poly-7C3592-1301-214-normal",
+          "highlight": "#poly-7C3592-1301-214-highlight"
+        },
+        "description": "http://www.beachhill.org/",
+        "stroke": "#7c3592",
+        "stroke-opacity": 1,
+        "stroke-width": 1.301,
+        "fill": "#7c3592",
+        "fill-opacity": 0.8392156862745098
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.310689,
+              43.6807841,
+              0
+            ],
+            [
+              -79.307899,
+              43.673958,
+              0
+            ],
+            [
+              -79.305582,
+              43.6762216,
+              0
+            ],
+            [
+              -79.3027496,
+              43.6775252,
+              0
+            ],
+            [
+              -79.2979431,
+              43.6788598,
+              0
+            ],
+            [
+              -79.2978573,
+              43.6800703,
+              0
+            ],
+            [
+              -79.2991018,
+              43.6812186,
+              0
+            ],
+            [
+              -79.300217,
+              43.684013,
+              0
+            ],
+            [
+              -79.3078136,
+              43.6821187,
+              0
+            ],
+            [
+              -79.310689,
+              43.6807841,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Norwood Park Neighbourhood Association",
+        "styleUrl": "#poly-7C3592-1200-209",
+        "styleHash": "-5554162a",
+        "styleMapHash": {
+          "normal": "#poly-7C3592-1200-209-normal",
+          "highlight": "#poly-7C3592-1200-209-highlight"
+        },
+        "description": "www.norwoodpark.caÂ ",
+        "stroke": "#7c3592",
+        "stroke-opacity": 1,
+        "stroke-width": 1.2,
+        "fill": "#7c3592",
+        "fill-opacity": 0.8196078431372549
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.2841244,
+              43.6807609,
+              0
+            ],
+            [
+              -79.2875147,
+              43.6892564,
+              0
+            ],
+            [
+              -79.300705,
+              43.686245,
+              0
+            ],
+            [
+              -79.3062261,
+              43.6839068,
+              0
+            ],
+            [
+              -79.303841,
+              43.677608,
+              0
+            ],
+            [
+              -79.2925532,
+              43.680089,
+              0
+            ],
+            [
+              -79.2841244,
+              43.6807609,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "East Toronto Neighbourhood Association",
+        "styleUrl": "#poly-7C3592-1200-156",
+        "styleHash": "f889bdc",
+        "styleMapHash": {
+          "normal": "#poly-7C3592-1200-156-normal",
+          "highlight": "#poly-7C3592-1200-156-highlight"
+        },
+        "description": "www.East-Toronto.ca",
+        "stroke": "#7c3592",
+        "stroke-opacity": 1,
+        "stroke-width": 1.2,
+        "fill": "#7c3592",
+        "fill-opacity": 0.611764705882353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.2971974,
+              43.6743399,
+              0
+            ],
+            [
+              -79.2957169,
+              43.6708749,
+              0
+            ],
+            [
+              -79.2945367,
+              43.671197,
+              0
+            ],
+            [
+              -79.2932493,
+              43.668279,
+              0
+            ],
+            [
+              -79.2923159,
+              43.6685506,
+              0
+            ],
+            [
+              -79.2918331,
+              43.6686671,
+              0
+            ],
+            [
+              -79.2915702,
+              43.6687292,
+              0
+            ],
+            [
+              -79.2912966,
+              43.6687913,
+              0
+            ],
+            [
+              -79.2858133,
+              43.6702964,
+              0
+            ],
+            [
+              -79.2802225,
+              43.6715373,
+              0
+            ],
+            [
+              -79.2813056,
+              43.6744409,
+              0
+            ],
+            [
+              -79.2805141,
+              43.6746425,
+              0
+            ],
+            [
+              -79.282177,
+              43.6787706,
+              0
+            ],
+            [
+              -79.2833787,
+              43.6788638,
+              0
+            ],
+            [
+              -79.286769,
+              43.6872433,
+              0
+            ],
+            [
+              -79.3003726,
+              43.6843273,
+              0
+            ],
+            [
+              -79.2962533,
+              43.6746114,
+              0
+            ],
+            [
+              -79.2971974,
+              43.6743399,
+              0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Balmy Beach Residents Association",
+        "styleUrl": "#poly-7C3592-1200-214",
+        "styleHash": "5b5ae141",
+        "styleMapHash": {
+          "normal": "#poly-7C3592-1200-214-normal",
+          "highlight": "#poly-7C3592-1200-214-highlight"
+        },
+        "description": "http://www.balmybeachra.org/",
+        "stroke": "#7c3592",
+        "stroke-opacity": 1,
+        "stroke-width": 1.2,
+        "fill": "#7c3592",
+        "fill-opacity": 0.8392156862745098
+      }
+    }
+  ]
+}

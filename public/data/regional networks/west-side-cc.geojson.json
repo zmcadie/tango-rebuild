@@ -1,0 +1,766 @@
+{
+    "type": "Feature Collection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.4248438,
+                            43.6502987,
+                            0
+                        ],
+                        [
+                            -79.4223529,
+                            43.6435458,
+                            0
+                        ],
+                        [
+                            -79.420567,
+                            43.6438949,
+                            0
+                        ],
+                        [
+                            -79.418793,
+                            43.644211,
+                            0
+                        ],
+                        [
+                            -79.4151663,
+                            43.6450196,
+                            0
+                        ],
+                        [
+                            -79.4178057,
+                            43.6517271,
+                            0
+                        ],
+                        [
+                            -79.4248438,
+                            43.6502987,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Ossington Community Association",
+                "styleUrl": "#poly-009D57-1701-143",
+                "styleHash": "-4fd929f8",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1701-143-normal",
+                    "highlight": "#poly-009D57-1701-143-highlight"
+                },
+                "description": "https://ossingtoncommunity.wordpress.com/",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.701,
+                "fill": "#009d57",
+                "fill-opacity": 0.5607843137254902
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.4423778,
+                            43.6569728,
+                            0
+                        ],
+                        [
+                            -79.4385805,
+                            43.6576573,
+                            0
+                        ],
+                        [
+                            -79.4348689,
+                            43.6583417,
+                            0
+                        ],
+                        [
+                            -79.437035,
+                            43.663898,
+                            0
+                        ],
+                        [
+                            -79.44442,
+                            43.662346,
+                            0
+                        ],
+                        [
+                            -79.443985,
+                            43.661755,
+                            0
+                        ],
+                        [
+                            -79.4423778,
+                            43.6569728,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Bloordale CIA",
+                "styleUrl": "#poly-009D57-1200-76",
+                "styleHash": "-5184354e",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1200-76-normal",
+                    "highlight": "#poly-009D57-1200-76-highlight"
+                },
+                "description": "www.twitter.com/BloordaleCIA",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2,
+                "fill": "#009d57",
+                "fill-opacity": 0.2980392156862745
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.4448433,
+                            43.6349882,
+                            0
+                        ],
+                        [
+                            -79.44001,
+                            43.63203,
+                            0
+                        ],
+                        [
+                            -79.435463,
+                            43.630039,
+                            0
+                        ],
+                        [
+                            -79.430229,
+                            43.62886,
+                            0
+                        ],
+                        [
+                            -79.423119,
+                            43.62891,
+                            0
+                        ],
+                        [
+                            -79.4268524,
+                            43.6414572,
+                            0
+                        ],
+                        [
+                            -79.4342014,
+                            43.6448214,
+                            0
+                        ],
+                        [
+                            -79.4378548,
+                            43.646612,
+                            0
+                        ],
+                        [
+                            -79.4409934,
+                            43.648092,
+                            0
+                        ],
+                        [
+                            -79.439194,
+                            43.643509,
+                            0
+                        ],
+                        [
+                            -79.4409983,
+                            43.6431345,
+                            0
+                        ],
+                        [
+                            -79.442711,
+                            43.642792,
+                            0
+                        ],
+                        [
+                            -79.4472643,
+                            43.6419034,
+                            0
+                        ],
+                        [
+                            -79.4460036,
+                            43.6388556,
+                            0
+                        ],
+                        [
+                            -79.4448433,
+                            43.6349882,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Parkdale Residents Association",
+                "styleUrl": "#poly-009D57-1301-148",
+                "styleHash": "-2c16e3a8",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1301-148-normal",
+                    "highlight": "#poly-009D57-1301-148-highlight"
+                },
+                "description": "www.parkdale.to",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.301,
+                "fill": "#009d57",
+                "fill-opacity": 0.5803921568627451
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.451668,
+                            43.653496,
+                            0
+                        ],
+                        [
+                            -79.449432,
+                            43.647381,
+                            0
+                        ],
+                        [
+                            -79.4472804,
+                            43.6419695,
+                            0
+                        ],
+                        [
+                            -79.4449295,
+                            43.6424714,
+                            0
+                        ],
+                        [
+                            -79.4408292,
+                            43.6432785,
+                            0
+                        ],
+                        [
+                            -79.4391223,
+                            43.6435811,
+                            0
+                        ],
+                        [
+                            -79.43763,
+                            43.643806,
+                            0
+                        ],
+                        [
+                            -79.43969,
+                            43.650139,
+                            0
+                        ],
+                        [
+                            -79.448792,
+                            43.652409,
+                            0
+                        ],
+                        [
+                            -79.449005,
+                            43.652752,
+                            0
+                        ],
+                        [
+                            -79.451279,
+                            43.653622,
+                            0
+                        ],
+                        [
+                            -79.451668,
+                            43.653496,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Roncesvalles-Macdonell Residents' Association",
+                "styleUrl": "#poly-009D57-1601-150",
+                "styleHash": "f72ba5d",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1601-150-normal",
+                    "highlight": "#poly-009D57-1601-150-highlight"
+                },
+                "description": "www.rmra-to.org",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.601,
+                "fill": "#009d57",
+                "fill-opacity": 0.5882352941176471
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.411072,
+                            43.665077,
+                            0
+                        ],
+                        [
+                            -79.407629,
+                            43.6565323,
+                            0
+                        ],
+                        [
+                            -79.4002459,
+                            43.6580097,
+                            0
+                        ],
+                        [
+                            -79.4006459,
+                            43.658898,
+                            0
+                        ],
+                        [
+                            -79.4008848,
+                            43.658996,
+                            0
+                        ],
+                        [
+                            -79.4010861,
+                            43.6590357,
+                            0
+                        ],
+                        [
+                            -79.4014728,
+                            43.6592332,
+                            0
+                        ],
+                        [
+                            -79.4016825,
+                            43.6595084,
+                            0
+                        ],
+                        [
+                            -79.4016132,
+                            43.6599775,
+                            0
+                        ],
+                        [
+                            -79.4012274,
+                            43.660365,
+                            0
+                        ],
+                        [
+                            -79.40377,
+                            43.666721,
+                            0
+                        ],
+                        [
+                            -79.411072,
+                            43.665077,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Harbord Village Residents' Association",
+                "styleUrl": "#poly-009D57-1401-148",
+                "styleHash": "ba64f96",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1401-148-normal",
+                    "highlight": "#poly-009D57-1401-148-highlight"
+                },
+                "description": "www.harbordvillage.com",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.401,
+                "fill": "#009d57",
+                "fill-opacity": 0.5803921568627451
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.4254889,
+                            43.6341654,
+                            0
+                        ],
+                        [
+                            -79.4253804,
+                            43.6339167,
+                            0
+                        ],
+                        [
+                            -79.4187519,
+                            43.6356534,
+                            0
+                        ],
+                        [
+                            -79.4156999,
+                            43.6365274,
+                            0
+                        ],
+                        [
+                            -79.4139449,
+                            43.6370534,
+                            0
+                        ],
+                        [
+                            -79.4119873,
+                            43.6375653,
+                            0
+                        ],
+                        [
+                            -79.4103173,
+                            43.6376508,
+                            0
+                        ],
+                        [
+                            -79.4086473,
+                            43.637643,
+                            0
+                        ],
+                        [
+                            -79.4099228,
+                            43.6403833,
+                            0
+                        ],
+                        [
+                            -79.4111127,
+                            43.6436672,
+                            0
+                        ],
+                        [
+                            -79.4155427,
+                            43.6426808,
+                            0
+                        ],
+                        [
+                            -79.417983,
+                            43.641978,
+                            0
+                        ],
+                        [
+                            -79.4175919,
+                            43.6408414,
+                            0
+                        ],
+                        [
+                            -79.4273349,
+                            43.6388844,
+                            0
+                        ],
+                        [
+                            -79.4254889,
+                            43.6341654,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Liberty Village Residents Association",
+                "styleUrl": "#poly-009D57-1701-138",
+                "styleHash": "-6d128fe3",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1701-138-normal",
+                    "highlight": "#poly-009D57-1701-138-highlight"
+                },
+                "description": "<img src=\"https://doc-00-40-mymaps.googleusercontent.com/untrusted/hostedimage/ruikq26ut40p57anvak0hiq714/t0b0vjllmv2l56e9n6ie811r0o/1615818126000/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N/12516780231192321238/5AF2TALpOTeo8fowdNmv-TL3TE8ljhydSX71KQyFdxlLxzvKT4QGBEoD529YoyqQ94FFBdqfl7WWbiO3SnwHSCNkiIFOASbtgYak53hbZpE1rNu5OkcaDm1CkzgwmdtVpOduIDX0GZpqmXTratmQo0Ln6YKwCLG0DYwTbr5gzcE9k_PIIET87HAtff92graG_gxbVnxSEiuPL?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>www.lvra.ca<br><br>www.facebook.com/groups/134014576700915/",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.701,
+                "fill": "#009d57",
+                "fill-opacity": 0.5411764705882353,
+                "gx_media_links": "https://doc-00-40-mymaps.googleusercontent.com/untrusted/hostedimage/ruikq26ut40p57anvak0hiq714/t0b0vjllmv2l56e9n6ie811r0o/1615818126000/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N/12516780231192321238/5AF2TALpOTeo8fowdNmv-TL3TE8ljhydSX71KQyFdxlLxzvKT4QGBEoD529YoyqQ94FFBdqfl7WWbiO3SnwHSCNkiIFOASbtgYak53hbZpE1rNu5OkcaDm1CkzgwmdtVpOduIDX0GZpqmXTratmQo0Ln6YKwCLG0DYwTbr5gzcE9k_PIIET87HAtff92graG_gxbVnxSEiuPL?session=0&fife"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.418793,
+                            43.644211,
+                            0
+                        ],
+                        [
+                            -79.4207475,
+                            43.6494589,
+                            0
+                        ],
+                        [
+                            -79.4311098,
+                            43.6495235,
+                            0
+                        ],
+                        [
+                            -79.4287263,
+                            43.6429568,
+                            0
+                        ],
+                        [
+                            -79.427901,
+                            43.6424893,
+                            0
+                        ],
+                        [
+                            -79.418793,
+                            43.644211,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Beaconsfield Village Residents' Association",
+                "styleUrl": "#poly-009D57-1401-140",
+                "styleHash": "-7ff82552",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1401-140-normal",
+                    "highlight": "#poly-009D57-1401-140-highlight"
+                },
+                "description": "http://www.beaconsfieldvillagera.com/",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.401,
+                "fill": "#009d57",
+                "fill-opacity": 0.5490196078431373
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.4038367,
+                            43.6471158,
+                            0
+                        ],
+                        [
+                            -79.4025707,
+                            43.6440414,
+                            0
+                        ],
+                        [
+                            -79.3953824,
+                            43.6455165,
+                            0
+                        ],
+                        [
+                            -79.3965626,
+                            43.6485908,
+                            0
+                        ],
+                        [
+                            -79.4038367,
+                            43.6471158,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Garment District Neighbourhood Association",
+                "styleUrl": "#poly-009D57-1200-148",
+                "styleHash": "-a5b7a64",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1200-148-normal",
+                    "highlight": "#poly-009D57-1200-148-highlight"
+                },
+                "description": "http://www.gdnatoronto.org/",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2,
+                "fill": "#009d57",
+                "fill-opacity": 0.5803921568627451
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.4252488,
+                            43.6515,
+                            0
+                        ],
+                        [
+                            -79.4245259,
+                            43.6495874,
+                            0
+                        ],
+                        [
+                            -79.4230306,
+                            43.6495224,
+                            0
+                        ],
+                        [
+                            -79.4210136,
+                            43.6495223,
+                            0
+                        ],
+                        [
+                            -79.4220114,
+                            43.6519522,
+                            0
+                        ],
+                        [
+                            -79.4223996,
+                            43.6518528,
+                            0
+                        ],
+                        [
+                            -79.4229059,
+                            43.6519551,
+                            0
+                        ],
+                        [
+                            -79.4252488,
+                            43.6515,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Lakeview Avenue Neighbourhood Association (LANA)",
+                "styleUrl": "#poly-009D57-1200-156",
+                "styleHash": "-7db1afb2",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1200-156-normal",
+                    "highlight": "#poly-009D57-1200-156-highlight"
+                },
+                "description": "https://www.facebook.com/groups/212005619340306/<br><br>LakeviewNbrhdAssoc@gmail.com",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2,
+                "fill": "#009d57",
+                "fill-opacity": 0.611764705882353
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.399841,
+                            43.657875,
+                            0
+                        ],
+                        [
+                            -79.396203,
+                            43.6488669,
+                            0
+                        ],
+                        [
+                            -79.3868849,
+                            43.6508434,
+                            0
+                        ],
+                        [
+                            -79.3906682,
+                            43.6597649,
+                            0
+                        ],
+                        [
+                            -79.399841,
+                            43.657875,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Grange Community Association",
+                "styleUrl": "#poly-009D57-1701-148",
+                "styleHash": "-4d2216b0",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1701-148-normal",
+                    "highlight": "#poly-009D57-1701-148-highlight"
+                },
+                "description": "http://grangecommunity.ca",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.701,
+                "fill": "#009d57",
+                "fill-opacity": 0.5803921568627451
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -79.3958759,
+                            43.6586635,
+                            0
+                        ],
+                        [
+                            -79.3937731,
+                            43.6538043,
+                            0
+                        ],
+                        [
+                            -79.3913698,
+                            43.6543166,
+                            0
+                        ],
+                        [
+                            -79.3933439,
+                            43.6591447,
+                            0
+                        ],
+                        [
+                            -79.3958759,
+                            43.6586635,
+                            0
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "name": "Baldwin Village Community Association",
+                "styleUrl": "#poly-009D57-1200-76",
+                "styleHash": "-5184354e",
+                "styleMapHash": {
+                    "normal": "#poly-009D57-1200-76-normal",
+                    "highlight": "#poly-009D57-1200-76-highlight"
+                },
+                "description": "www.baldwinvillage.ca",
+                "stroke": "#009d57",
+                "stroke-opacity": 1,
+                "stroke-width": 1.2,
+                "fill": "#009d57",
+                "fill-opacity": 0.2980392156862745
+            }
+        }
+    ]
+}
