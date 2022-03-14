@@ -41,23 +41,69 @@
   }
 }
 
-.inner-toggle {
-  background-color: transparent;
-  background-clip: inherit;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='20' width='20' viewbox='0 0 40 40' stroke-width='2' stroke='black' stroke-linecap='round'%3E%3Cline x1='10%25' y1='10%25' x2='90%25' y2='90%25' /%3E%3Cline x1='90%25' y1='10%25' x2='10%25' y2='90%25' /%3E%3C/svg%3E%0A");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  border: none;
-  box-sizing: content-box;
-  height: 30px;
+.container-actions {
+  display: flex;
   position: absolute;
-  right: 0;
-  top: 10px;
-  width: 34px;
+  right: 25px;
+  top: 12px;
+
+  button {
+    background-color: transparent;
+    background-clip: inherit;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 7px 5px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: content-box;
+    height: 18px;
+    overflow: hidden;
+    position: relative;
+    transition: width 0.2s;
+    width: 18px;
+
+    &::after {
+      left: 22px;
+      opacity: 0;
+      top: 2px;
+      transition: opacity 0.2s;
+      position: absolute;
+    }
+    
+    &:hover {
+      background-color: #ddd;
+      width: 46px;
+  
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.collapse-container {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='10' width='10' viewbox='0 0 40 40' stroke-width='2' stroke='black' stroke-linecap='round'%3E%3Cline x1='10%25' y1='50%25' x2='90%25' y2='50%25' /%3E%3C/svg%3E%0A");
+  display: none;
+
+  &::after {
+    content: "less";
+    left: 23px;
+  }
+  
+  &:hover {
+    width: 40px;
+  }
 
   .expanded & {
-    display: none;
+    display: initial;
+  }
+}
+
+.inner-toggle {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='10' width='10' viewbox='0 0 40 40' stroke-width='2' stroke='black' stroke-linecap='round'%3E%3Cline x1='10%25' y1='10%25' x2='90%25' y2='90%25' /%3E%3Cline x1='90%25' y1='10%25' x2='10%25' y2='90%25' /%3E%3C/svg%3E%0A");
+
+  &::after {
+    content: "close";
   }
 }
 
@@ -66,8 +112,8 @@
   background-clip: inherit;
   border: 2px solid #00000033;
   border-radius: 4px;
-  padding-bottom: 10px;
-  padding-right: 38px;
+  // padding-bottom: 10px;
+  padding-right: 20px;
   opacity: 0;
   pointer-events: none;
 
@@ -77,14 +123,14 @@
   }
 
   .expanded & {
-    max-width: 331px;
-    padding-right: 14px;
+    max-width: 311px;
+    // padding-right: 14px;
   }
 
   .layers-list-label {
     color: #444;
     font-size: 14px;
-    margin: 10px 20px 0;
+    margin: 10px 20px 0 33px;
   }
 }
 
@@ -99,7 +145,7 @@
 .layers {
   display: flex;
   flex-shrink: 0;
-  justify-content: flex-end;
+  // justify-content: flex-end;
   list-style: none;
   margin: 0;
   flex-wrap: wrap;
@@ -129,19 +175,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10px;
     margin-left: 20px;
     margin-top: 5px;
 
-    .layer-toggle {
-      background-size: contain;
-      background-repeat: no-repeat;
-      border: 2px solid #ddd;
-      border-radius: 8px;
-      height: 48px;
-      position: relative;
-      width: 48px;
-
-      &.additional-layers-toggle::after {
+    &.additional-layers-toggle {
+      .expanded & {
+        display: none;
+      }
+      
+      button::after {
         color: #aaa;
         content: "+";
         font-family: monospace;
@@ -151,12 +194,17 @@
         right: 0;
         top: 1px;
         bottom: 0;
-
-        .expanded & {
-          content: "-";
-          top: -2px;
-        }
       }
+    }
+
+    .layer-toggle {
+      background-size: contain;
+      background-repeat: no-repeat;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      height: 48px;
+      position: relative;
+      width: 48px;
     }
 
     .layer-label {

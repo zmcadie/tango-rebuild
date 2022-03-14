@@ -1,12 +1,10 @@
 import { useEffect } from "react";
 import L, { Control, control } from "leaflet";
 
-import GeoJSONLayer from "./GeoJSONLayer"
 import { useMapContext } from "context/mapContext"
 import { domUtils } from "utils"
 
 import styles from './LayerControl.module.scss'
-import mapStyles from './MapContainer.module.scss'
 
 const { createElement } = domUtils
 
@@ -64,40 +62,52 @@ Control.LayerControl = Control.extend({
     }, listsContainer)
     
     createElement("h1", {
-      class: `${styles["only-expanded"]} ${styles["layers-list-label"]}`,
-      text: "Primary Layers"
+      class: styles["layers-list-label"],
+      text: "Groups"
     }, listsContainer)
     
     const layersList = createElement("ul", styles.layers, listsContainer)
     this.layers.forEach(this.createFeaturesToggle(layersList))
 
-    const additionalLayersToggleContainer = createElement("li", `${styles.item} ${styles["additional-layers-toggle-container"]}`, layersList)
+    const additionalLayersToggleContainer = createElement("li", `${styles.item} ${styles["additional-layers-toggle"]}`, layersList)
     const additionalLayersLabel = createElement("div", { text: "More", class: styles["layer-label"] }, additionalLayersToggleContainer)
       
-    const expandContainer = () => {
-      container.classList.add(styles.expanded)
-      additionalLayersLabel.innerText = "Less"
-    }
-    const collapseContainer = () => {
-      container.classList.remove(styles.expanded)
-      additionalLayersLabel.innerText = "More"
-    }
+    // const expandContainer = () => {
+    //   container.classList.add(styles.expanded)
+    //   additionalLayersLabel.innerText = "Less"
+    // }
+    // const collapseContainer = () => {
+    //   container.classList.remove(styles.expanded)
+    //   additionalLayersLabel.innerText = "More"
+    // }
     
     createElement("button", {
-      class: `${styles["layer-toggle"]} ${styles["additional-layers-toggle"]}`,
+      class: styles["layer-toggle"],
       onClick: function() {
-        const isExpanded = container.classList.contains(styles.expanded)
-        isExpanded ? collapseContainer() : expandContainer()
+        // const isExpanded = container.classList.contains(styles.expanded)
+        // isExpanded ? collapseContainer() : expandContainer()
+        container.classList.add(styles.expanded)
       }
     }, additionalLayersToggleContainer, true)
+
+    const containerActions = createElement("div", styles["container-actions"], listsContainer)
+
+    createElement("button", {
+      class: styles["collapse-container"],
+      onClick: () => {
+        // collapseContainer()
+        container.classList.remove(styles.expanded)
+      }
+    }, containerActions)
 
     createElement("button", {
       class: styles["inner-toggle"],
       onClick: () => {
         container.classList.toggle(styles.open)
-        collapseContainer()
+        // collapseContainer()
+        container.classList.remove(styles.expanded)
       }
-    }, listsContainer)
+    }, containerActions)
 
     return container
   },
