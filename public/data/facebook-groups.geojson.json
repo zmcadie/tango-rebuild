@@ -1,0 +1,3278 @@
+{
+  "type": "FeatureCollection",
+  "name": "Groups",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Annex",
+        "description": "https:\/\/www.facebook.com\/groups\/TheAnnexToronto\/  (4.5K+ members)<br><br>Annex Parents (1.3K+ members)<br>https:\/\/www.facebook.com\/groups\/257698830966199\/ ",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4144518,
+              43.6738476
+            ],
+            [
+              -79.4109542,
+              43.6652024
+            ],
+            [
+              -79.3943166,
+              43.6687776
+            ],
+            [
+              -79.3980931,
+              43.6772826
+            ],
+            [
+              -79.4144518,
+              43.6738476
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Beaches (2 Groups)\n",
+        "description": "The Beach(es), Toronto<br>https:\/\/www.facebook.com\/groups\/BeachesToronto\/  <br><br>The Beaches Toronto <br>https:\/\/www.facebook.com\/groups\/torontobeaches\/",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3121387,
+              43.6677157
+            ],
+            [
+              -79.309993,
+              43.6630901
+            ],
+            [
+              -79.2793942,
+              43.671658
+            ],
+            [
+              -79.2822264,
+              43.6782072
+            ],
+            [
+              -79.2836213,
+              43.6783935
+            ],
+            [
+              -79.2841579,
+              43.6808145
+            ],
+            [
+              -79.2943717,
+              43.6801317
+            ],
+            [
+              -79.301324,
+              43.6782694
+            ],
+            [
+              -79.3065597,
+              43.6754139
+            ],
+            [
+              -79.3097354,
+              43.6724341
+            ],
+            [
+              -79.3121387,
+              43.6677157
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Birch Cliff Community Group",
+        "description": "https:\/\/www.facebook.com\/groups\/birchcliffvillage  (4.8K+)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.2785149,
+              43.6717912
+            ],
+            [
+              -79.2728722,
+              43.6795507
+            ],
+            [
+              -79.2672283,
+              43.6847958
+            ],
+            [
+              -79.260276,
+              43.6919332
+            ],
+            [
+              -79.2527661,
+              43.6965255
+            ],
+            [
+              -79.2589887,
+              43.7101451
+            ],
+            [
+              -79.2655117,
+              43.7006521
+            ],
+            [
+              -79.2640099,
+              43.6968978
+            ],
+            [
+              -79.2712623,
+              43.6946328
+            ],
+            [
+              -79.2769918,
+              43.6917007
+            ],
+            [
+              -79.2870979,
+              43.6890783
+            ],
+            [
+              -79.2828916,
+              43.6791158
+            ],
+            [
+              -79.281776,
+              43.6787591
+            ],
+            [
+              -79.2785149,
+              43.6717912
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leslieville",
+        "description": "I am a Leslievillian!  (24K+ members)<br>https:\/\/www.facebook.com\/groups\/2253273170<br><br>Friends of Leslieville (5K+ members)<br>https:\/\/www.facebook.com\/groups\/friendsofleslieville\/about<br><br>Leslieville Collective (4K+ members)<br>https:\/\/www.facebook.com\/groups\/leslievillecollective",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3282477,
+              43.6708065
+            ],
+            [
+              -79.3328835,
+              43.6696894
+            ],
+            [
+              -79.3436543,
+              43.6675161
+            ],
+            [
+              -79.3464868,
+              43.6516509
+            ],
+            [
+              -79.3148582,
+              43.6620833
+            ],
+            [
+              -79.3177545,
+              43.6687268
+            ],
+            [
+              -79.3267132,
+              43.6675782
+            ],
+            [
+              -79.3282477,
+              43.6708065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liberty Village \n",
+        "description": "Liberty Village Residents Association (15K+ members)  <br>https:\/\/www.facebook.com\/groups\/134014576700915",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4254779,
+              43.6345495
+            ],
+            [
+              -79.4104039,
+              43.6383698
+            ],
+            [
+              -79.4111764,
+              43.640078
+            ],
+            [
+              -79.4207894,
+              43.6402954
+            ],
+            [
+              -79.4271946,
+              43.6388745
+            ],
+            [
+              -79.4254779,
+              43.6345495
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midtown Toronto Residents Group\n",
+        "description": "https:\/\/www.facebook.com\/groups\/708120669357031<br><br>2K+ members",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4112179,
+              43.7108088
+            ],
+            [
+              -79.4082714,
+              43.7043294
+            ],
+            [
+              -79.405961,
+              43.6990423
+            ],
+            [
+              -79.4044664,
+              43.6952757
+            ],
+            [
+              -79.3827083,
+              43.6993714
+            ],
+            [
+              -79.3877432,
+              43.7154307
+            ],
+            [
+              -79.4112179,
+              43.7108088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Regal Heights\n",
+        "description": "https:\/\/www.facebook.com\/groups\/2089003027838452<br><br>400+ members",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4408259,
+              43.6731604
+            ],
+            [
+              -79.4382725,
+              43.6738822
+            ],
+            [
+              -79.4355689,
+              43.6742935
+            ],
+            [
+              -79.4302044,
+              43.6748676
+            ],
+            [
+              -79.4326935,
+              43.6802682
+            ],
+            [
+              -79.4431219,
+              43.6779404
+            ],
+            [
+              -79.4408259,
+              43.6731604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seaton Village\n",
+        "description": null,
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4183356,
+              43.663588
+            ],
+            [
+              -79.411319,
+              43.6651713
+            ],
+            [
+              -79.4149668,
+              43.6737079
+            ],
+            [
+              -79.4216187,
+              43.6723111
+            ],
+            [
+              -79.4183356,
+              43.663588
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St Clair West (2 groups!)\n",
+        "description": "<img src=\"https:\/\/doc-00-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/0ski2fujn3bl06f3t8d2jep5bs\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vakfIE4c7PzYzlPRegRIC1_jaNjv-dANOjU0YmiZfG3GCSbSDWVKJS8UJj7_LGKgKVYei39QzmGeyTj5ZeeQvq5cVX1gsWXV9LRFFr7DXVyV35bd70XErU6DCgVJW4i6_ypTUu1sGAAI7iS7pcqmZj6KP7roJJi6i1WCokiZ_s33KoVLVfSFiSAzFAb7fW7B7I?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>St Clair West Residents Group https:\/\/www.facebook.com\/groups\/stclairwestresidents<br><br>Hillcrest Village, Humewood and Wychwood<br>https:\/\/www.facebook.com\/groups\/hillcrestvillagehumewoodandwychwood\/about<br><br><img src=\"https:\/\/doc-0k-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/vg4pd6fimn6rgg7kpf914kdabc\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vY-5orrXpDu8jYPWUh7SDPq0qiqm3Q6FrWJTqa8TBwee5pWwjNFFnQ1XCiI5iQjH9iYGWR0y0NfVJvT1T-kZOc72jMWAxY_lQ9xeyrxqMj4eJRyFFrMCkVhYPzeWjZ-8AqUxV4R73tuQPtpcM8d-QeI669WQZEx4Q-xkavBOEQxqHowyCvBB7VfF8x5B-h61_Q?session=0&fife\" height=\"200\" width=\"auto\" \/>",
+        "gx_media_links": "https:\/\/doc-00-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/0ski2fujn3bl06f3t8d2jep5bs\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vakfIE4c7PzYzlPRegRIC1_jaNjv-dANOjU0YmiZfG3GCSbSDWVKJS8UJj7_LGKgKVYei39QzmGeyTj5ZeeQvq5cVX1gsWXV9LRFFr7DXVyV35bd70XErU6DCgVJW4i6_ypTUu1sGAAI7iS7pcqmZj6KP7roJJi6i1WCokiZ_s33KoVLVfSFiSAzFAb7fW7B7I?session=0&fife https:\/\/doc-0k-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/vg4pd6fimn6rgg7kpf914kdabc\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vY-5orrXpDu8jYPWUh7SDPq0qiqm3Q6FrWJTqa8TBwee5pWwjNFFnQ1XCiI5iQjH9iYGWR0y0NfVJvT1T-kZOc72jMWAxY_lQ9xeyrxqMj4eJRyFFrMCkVhYPzeWjZ-8AqUxV4R73tuQPtpcM8d-QeI669WQZEx4Q-xkavBOEQxqHowyCvBB7VfF8x5B-h61_Q?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.451315,
+              43.6714047
+            ],
+            [
+              -79.4413756,
+              43.6731066
+            ],
+            [
+              -79.443581,
+              43.6781918
+            ],
+            [
+              -79.4322407,
+              43.6803844
+            ],
+            [
+              -79.4309418,
+              43.6776723
+            ],
+            [
+              -79.4005462,
+              43.6832768
+            ],
+            [
+              -79.404151,
+              43.6907248
+            ],
+            [
+              -79.4184655,
+              43.6877897
+            ],
+            [
+              -79.4206546,
+              43.6873505
+            ],
+            [
+              -79.4230584,
+              43.6875009
+            ],
+            [
+              -79.4283809,
+              43.6886082
+            ],
+            [
+              -79.4319503,
+              43.6886386
+            ],
+            [
+              -79.4353265,
+              43.6894136
+            ],
+            [
+              -79.4346976,
+              43.6877363
+            ],
+            [
+              -79.4421553,
+              43.6862671
+            ],
+            [
+              -79.4553405,
+              43.6837567
+            ],
+            [
+              -79.4523195,
+              43.6754863
+            ],
+            [
+              -79.4551857,
+              43.6748583
+            ],
+            [
+              -79.451315,
+              43.6714047
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Topham Park Community Group",
+        "description": "https:\/\/www.facebook.com\/groups\/tophamparkcommunityassociation\/   (1.4K+ Members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3057497,
+              43.7142983
+            ],
+            [
+              -79.3123587,
+              43.7056589
+            ],
+            [
+              -79.3080028,
+              43.7067447
+            ],
+            [
+              -79.2963942,
+              43.7092109
+            ],
+            [
+              -79.2990979,
+              43.7157251
+            ],
+            [
+              -79.3057497,
+              43.7142983
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Junction Triangle Community Group",
+        "description": "https:\/\/www.facebook.com\/groups\/JTParents<br><br>(7.6K+ members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4569992,
+              43.664418
+            ],
+            [
+              -79.4495534,
+              43.6570754
+            ],
+            [
+              -79.442687,
+              43.658395
+            ],
+            [
+              -79.4464635,
+              43.6666532
+            ],
+            [
+              -79.4569992,
+              43.664418
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caledonia, McRoberts and area Residents Group",
+        "description": "https:\/\/www.facebook.com\/groups\/521515881289481  (810+ members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4566817,
+              43.6840612
+            ],
+            [
+              -79.4606299,
+              43.683006
+            ],
+            [
+              -79.4559092,
+              43.6751846
+            ],
+            [
+              -79.4533343,
+              43.6758054
+            ],
+            [
+              -79.4566817,
+              43.6840612
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markland Wood Families\n",
+        "description": "https:\/\/www.facebook.com\/groups\/359010811562163 (650+ members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.5848475,
+              43.6394901
+            ],
+            [
+              -79.5827017,
+              43.6324085
+            ],
+            [
+              -79.5751486,
+              43.6270657
+            ],
+            [
+              -79.5581542,
+              43.6289295
+            ],
+            [
+              -79.5649348,
+              43.6459497
+            ],
+            [
+              -79.575492,
+              43.6436517
+            ],
+            [
+              -79.5848475,
+              43.6394901
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "West end groups (multiple)\n",
+        "description": "Junction High Park Bloor West Village Community Group <br>https:\/\/www.facebook.com\/groups\/JunctionHighParkBWV  <br><br>Bloor West Village - High Park - Junction - Swansea: Care in our Community<br>https:\/\/www.facebook.com\/groups\/637791486816758\/ ",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4575698,
+              43.6642075
+            ],
+            [
+              -79.4608743,
+              43.66666
+            ],
+            [
+              -79.4689853,
+              43.6671257
+            ],
+            [
+              -79.4803149,
+              43.666629
+            ],
+            [
+              -79.500571,
+              43.6656666
+            ],
+            [
+              -79.5047335,
+              43.6629499
+            ],
+            [
+              -79.4985964,
+              43.6606057
+            ],
+            [
+              -79.4976952,
+              43.6571438
+            ],
+            [
+              -79.5016649,
+              43.6549471
+            ],
+            [
+              -79.5009996,
+              43.6530609
+            ],
+            [
+              -79.4911504,
+              43.6534494
+            ],
+            [
+              -79.4895951,
+              43.6507712
+            ],
+            [
+              -79.4916446,
+              43.648031
+            ],
+            [
+              -79.4884645,
+              43.6462765
+            ],
+            [
+              -79.4894044,
+              43.6435903
+            ],
+            [
+              -79.484937,
+              43.6435439
+            ],
+            [
+              -79.4840747,
+              43.6407644
+            ],
+            [
+              -79.4807197,
+              43.6407646
+            ],
+            [
+              -79.4762098,
+              43.6375347
+            ],
+            [
+              -79.4750478,
+              43.6365098
+            ],
+            [
+              -79.4662916,
+              43.6380801
+            ],
+            [
+              -79.4709295,
+              43.6443334
+            ],
+            [
+              -79.4701604,
+              43.6526983
+            ],
+            [
+              -79.4525371,
+              43.6565706
+            ],
+            [
+              -79.4537871,
+              43.6603579
+            ],
+            [
+              -79.4575698,
+              43.6642075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parkdale & Roncesvalles (two groups)\n",
+        "description": "Parkdale community updates  (6.4K members)<br>https:\/\/www.facebook.com\/groups\/127561803997335<br><br>Roncy\/Parkdale Friendly Neighbours  (7.3K Members)<br>https:\/\/www.facebook.com\/groups\/102292200215789\/",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4594163,
+              43.6544928
+            ],
+            [
+              -79.4539866,
+              43.640068
+            ],
+            [
+              -79.4458122,
+              43.6383757
+            ],
+            [
+              -79.4422502,
+              43.6366053
+            ],
+            [
+              -79.4361992,
+              43.6341206
+            ],
+            [
+              -79.4320793,
+              43.6335615
+            ],
+            [
+              -79.4288285,
+              43.6336469
+            ],
+            [
+              -79.4256849,
+              43.6342603
+            ],
+            [
+              -79.4272781,
+              43.6383135
+            ],
+            [
+              -79.4287534,
+              43.6422423
+            ],
+            [
+              -79.4339352,
+              43.6446958
+            ],
+            [
+              -79.4392461,
+              43.6469161
+            ],
+            [
+              -79.4504464,
+              43.6566044
+            ],
+            [
+              -79.4594163,
+              43.6544928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weston Village Neighbours",
+        "description": "https:\/\/www.facebook.com\/groups\/westonvillageneighbours\/    (2.2K+ members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.5103839,
+              43.6931662
+            ],
+            [
+              -79.5021012,
+              43.6945315
+            ],
+            [
+              -79.5067361,
+              43.7107265
+            ],
+            [
+              -79.5217993,
+              43.7150693
+            ],
+            [
+              -79.5308545,
+              43.7136735
+            ],
+            [
+              -79.5313266,
+              43.7055148
+            ],
+            [
+              -79.5208552,
+              43.7006439
+            ],
+            [
+              -79.5187094,
+              43.6982238
+            ],
+            [
+              -79.5122292,
+              43.6974792
+            ],
+            [
+              -79.5112422,
+              43.6967655
+            ],
+            [
+              -79.5118001,
+              43.6936937
+            ],
+            [
+              -79.5103839,
+              43.6931662
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upper Village, Cedarvale, Forest Hill, and Allenby \n",
+        "description": "https:\/\/www.facebook.com\/groups\/1593228874323460\/  (2.8K members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4116755,
+              43.7111369
+            ],
+            [
+              -79.4379826,
+              43.7057081
+            ],
+            [
+              -79.4345494,
+              43.6991928
+            ],
+            [
+              -79.4385834,
+              43.6979827
+            ],
+            [
+              -79.4369096,
+              43.6934991
+            ],
+            [
+              -79.4355579,
+              43.6900547
+            ],
+            [
+              -79.4329188,
+              43.6891397
+            ],
+            [
+              -79.4265033,
+              43.6888761
+            ],
+            [
+              -79.4236172,
+              43.6878986
+            ],
+            [
+              -79.4203824,
+              43.6876348
+            ],
+            [
+              -79.4041869,
+              43.6909546
+            ],
+            [
+              -79.4093152,
+              43.7046533
+            ],
+            [
+              -79.4116755,
+              43.7111369
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cliffside Village",
+        "description": "https:\/\/www.facebook.com\/groups\/155845807790543\/   (2.3K members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.253444,
+              43.6991559
+            ],
+            [
+              -79.2492173,
+              43.6998075
+            ],
+            [
+              -79.2434989,
+              43.702274
+            ],
+            [
+              -79.2442014,
+              43.7037864
+            ],
+            [
+              -79.2409478,
+              43.706373
+            ],
+            [
+              -79.2420675,
+              43.7077284
+            ],
+            [
+              -79.2410414,
+              43.7090838
+            ],
+            [
+              -79.2393892,
+              43.7149308
+            ],
+            [
+              -79.2414277,
+              43.7206537
+            ],
+            [
+              -79.2597525,
+              43.7165285
+            ],
+            [
+              -79.2585938,
+              43.7099834
+            ],
+            [
+              -79.253444,
+              43.6991559
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carleton Village\/Silverthorn Residents",
+        "description": "https:\/\/www.facebook.com\/groups\/CVSRA\/about (900+ Members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4613883,
+              43.6830769
+            ],
+            [
+              -79.4675681,
+              43.6816182
+            ],
+            [
+              -79.4690273,
+              43.6820217
+            ],
+            [
+              -79.4749925,
+              43.6816182
+            ],
+            [
+              -79.4726751,
+              43.6802837
+            ],
+            [
+              -79.4649932,
+              43.6729896
+            ],
+            [
+              -79.4597575,
+              43.6675263
+            ],
+            [
+              -79.4492862,
+              43.6674021
+            ],
+            [
+              -79.451389,
+              43.6709409
+            ],
+            [
+              -79.4563243,
+              43.6748831
+            ],
+            [
+              -79.4613883,
+              43.6830769
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Golden Mile and Neighbourhoods Community Association",
+        "description": "https:\/\/www.facebook.com\/groups\/GoldenMileToronto\/about  (605 Members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3094137,
+              43.7473403
+            ],
+            [
+              -79.320316,
+              43.7362708
+            ],
+            [
+              -79.3251645,
+              43.7332323
+            ],
+            [
+              -79.3233296,
+              43.7309533
+            ],
+            [
+              -79.3175465,
+              43.7332636
+            ],
+            [
+              -79.3174818,
+              43.7304419
+            ],
+            [
+              -79.3237042,
+              43.7228124
+            ],
+            [
+              -79.322438,
+              43.7216031
+            ],
+            [
+              -79.3159368,
+              43.715679
+            ],
+            [
+              -79.3189389,
+              43.7111041
+            ],
+            [
+              -79.3252019,
+              43.7081422
+            ],
+            [
+              -79.3310321,
+              43.7035829
+            ],
+            [
+              -79.3175952,
+              43.7039258
+            ],
+            [
+              -79.3138884,
+              43.704525
+            ],
+            [
+              -79.3106105,
+              43.7087848
+            ],
+            [
+              -79.3061566,
+              43.7144966
+            ],
+            [
+              -79.2990935,
+              43.7160708
+            ],
+            [
+              -79.2959079,
+              43.7090994
+            ],
+            [
+              -79.2797623,
+              43.7127051
+            ],
+            [
+              -79.2759433,
+              43.7220093
+            ],
+            [
+              -79.2684725,
+              43.7310621
+            ],
+            [
+              -79.2858961,
+              43.7381941
+            ],
+            [
+              -79.2964533,
+              43.7616924
+            ],
+            [
+              -79.2998873,
+              43.7608088
+            ],
+            [
+              -79.3094137,
+              43.7473403
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bedford Park Residents Organization Group",
+        "description": "https:\/\/www.facebook.com\/groups\/270865950530110\/  (750+ members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4052869,
+              43.7359829
+            ],
+            [
+              -79.4190198,
+              43.7330681
+            ],
+            [
+              -79.415372,
+              43.7224
+            ],
+            [
+              -79.4026691,
+              43.7252223
+            ],
+            [
+              -79.4052869,
+              43.7359829
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilson Heights\/Clanton Park Community",
+        "description": "https:\/\/www.facebook.com\/groups\/1569731473299945\/   (2.2K+ members)",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4389011,
+              43.7552081
+            ],
+            [
+              -79.4601013,
+              43.7506823
+            ],
+            [
+              -79.4582988,
+              43.7476442
+            ],
+            [
+              -79.4505741,
+              43.7389631
+            ],
+            [
+              -79.4488574,
+              43.7336298
+            ],
+            [
+              -79.4464542,
+              43.7317072
+            ],
+            [
+              -79.4425918,
+              43.7321413
+            ],
+            [
+              -79.4345237,
+              43.7365446
+            ],
+            [
+              -79.4389011,
+              43.7552081
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rockcliffe-Smythe Community Association (RSCA)",
+        "description": "<img src=\"https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/s24j2rjdm1gj9he48vip8hh8bg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZ2mr-1wxh8D4YAm6I4VkRkMadIAFPHdiiRkoG99N4NtLoKOctNAhC9WYnglw78Rv47eVTFk_laasplfbxxhWQe2WuPVoaCEyK9zYTZCVbzu_GuPs3noCIEk7FxQBDR0v_In6e4ZTBsAYRIMyiTSjl8JEQyRqZ04-nzrBMRIwtPUuc0N3GFGCRMj1t580j3dVs?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/RockcliffeSmytheCA<br><br>Also: Black Creek Alliance:<br>https:\/\/www.facebook.com\/groups\/388321934838024\/permalink\/1685994425070762",
+        "gx_media_links": "https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/s24j2rjdm1gj9he48vip8hh8bg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZ2mr-1wxh8D4YAm6I4VkRkMadIAFPHdiiRkoG99N4NtLoKOctNAhC9WYnglw78Rv47eVTFk_laasplfbxxhWQe2WuPVoaCEyK9zYTZCVbzu_GuPs3noCIEk7FxQBDR0v_In6e4ZTBsAYRIMyiTSjl8JEQyRqZ04-nzrBMRIwtPUuc0N3GFGCRMj1t580j3dVs?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4894602,
+              43.6866914
+            ],
+            [
+              -79.5000603,
+              43.6829363
+            ],
+            [
+              -79.5008757,
+              43.6802672
+            ],
+            [
+              -79.5056393,
+              43.6795844
+            ],
+            [
+              -79.5069267,
+              43.6785291
+            ],
+            [
+              -79.5092442,
+              43.6755184
+            ],
+            [
+              -79.5084717,
+              43.6750528
+            ],
+            [
+              -79.5066263,
+              43.6752701
+            ],
+            [
+              -79.5022919,
+              43.669124
+            ],
+            [
+              -79.5067551,
+              43.666889
+            ],
+            [
+              -79.5060684,
+              43.6655851
+            ],
+            [
+              -79.5008757,
+              43.6661129
+            ],
+            [
+              -79.4810702,
+              43.6674943
+            ],
+            [
+              -79.4730182,
+              43.667941
+            ],
+            [
+              -79.4652694,
+              43.667489
+            ],
+            [
+              -79.462854,
+              43.6674647
+            ],
+            [
+              -79.4619408,
+              43.6677818
+            ],
+            [
+              -79.4617154,
+              43.6686429
+            ],
+            [
+              -79.4646119,
+              43.6714676
+            ],
+            [
+              -79.4699337,
+              43.6766048
+            ],
+            [
+              -79.4752981,
+              43.6810742
+            ],
+            [
+              -79.4794609,
+              43.6834018
+            ],
+            [
+              -79.4867994,
+              43.68725
+            ],
+            [
+              -79.4894602,
+              43.6866914
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Etobicoke Community Group",
+        "description": "<img src=\"https:\/\/doc-08-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/q0r665751oojo1quqehhhhqnl8\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vasDsOAt6ffgC72Ty-zAuD6siO_1ySbgbG8dXIPtRUEkOhNa1tmIHR24HnBTekM3EBz7CUckFWj72kh72gVE_TG3a13dd7_sIXOw_Q7ndlRR0T3xCH-TLURVdgTI64RW-hTEdiqw5SpmCiJ6xhoCJCH1ADret8mlqQ7JFZPSUL7iC0Cwp8ujzgB10oQbk1Ujz4?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/etobicoke\/about",
+        "gx_media_links": "https:\/\/doc-08-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/q0r665751oojo1quqehhhhqnl8\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vasDsOAt6ffgC72Ty-zAuD6siO_1ySbgbG8dXIPtRUEkOhNa1tmIHR24HnBTekM3EBz7CUckFWj72kh72gVE_TG3a13dd7_sIXOw_Q7ndlRR0T3xCH-TLURVdgTI64RW-hTEdiqw5SpmCiJ6xhoCJCH1ADret8mlqQ7JFZPSUL7iC0Cwp8ujzgB10oQbk1Ujz4?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.5570619,
+              43.6051885
+            ],
+            [
+              -79.5465905,
+              43.5961138
+            ],
+            [
+              -79.5476205,
+              43.5916381
+            ],
+            [
+              -79.5428998,
+              43.5934097
+            ],
+            [
+              -79.5246179,
+              43.6027024
+            ],
+            [
+              -79.5187814,
+              43.5897731
+            ],
+            [
+              -79.5047052,
+              43.5941246
+            ],
+            [
+              -79.497667,
+              43.599719
+            ],
+            [
+              -79.4925172,
+              43.6025781
+            ],
+            [
+              -79.487539,
+              43.6087931
+            ],
+            [
+              -79.4859941,
+              43.6146347
+            ],
+            [
+              -79.4817025,
+              43.6192329
+            ],
+            [
+              -79.476896,
+              43.6251977
+            ],
+            [
+              -79.4715745,
+              43.6304164
+            ],
+            [
+              -79.4732911,
+              43.6320316
+            ],
+            [
+              -79.4770677,
+              43.6288011
+            ],
+            [
+              -79.4945771,
+              43.622961
+            ],
+            [
+              -79.5155198,
+              43.6191086
+            ],
+            [
+              -79.5455606,
+              43.6133918
+            ],
+            [
+              -79.5512254,
+              43.6111547
+            ],
+            [
+              -79.5570619,
+              43.6051885
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverside Neighbours Group",
+        "description": "<img src=\"https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/ees9o8jpqogv28veu6mv0514k8\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbY52rrdaHlk_GshEb2pbtNC85GMQvhMKnMULehy5AxeccIyVoICBkN2iLFVTfIJQ4vUEEsGSySJuRR_uB7uXMb51CeqxLzsMXShqPrHdHmyX8LuXljEs-JiA1nb5huHzf5aLMoBGTfE3ctogiFFlRsLEJHEevGZWN4GbpiqR-Zfkqvg443XvfD4_kdczOsnl0?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/161113190566632\/",
+        "gx_media_links": "https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/ees9o8jpqogv28veu6mv0514k8\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbY52rrdaHlk_GshEb2pbtNC85GMQvhMKnMULehy5AxeccIyVoICBkN2iLFVTfIJQ4vUEEsGSySJuRR_uB7uXMb51CeqxLzsMXShqPrHdHmyX8LuXljEs-JiA1nb5huHzf5aLMoBGTfE3ctogiFFlRsLEJHEevGZWN4GbpiqR-Zfkqvg443XvfD4_kdczOsnl0?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3481521,
+              43.6662349
+            ],
+            [
+              -79.3499116,
+              43.6658934
+            ],
+            [
+              -79.3558125,
+              43.6646361
+            ],
+            [
+              -79.3551902,
+              43.6630062
+            ],
+            [
+              -79.3547503,
+              43.6618265
+            ],
+            [
+              -79.353664,
+              43.6584307
+            ],
+            [
+              -79.352406,
+              43.6570219
+            ],
+            [
+              -79.3503971,
+              43.6572276
+            ],
+            [
+              -79.3483023,
+              43.6568123
+            ],
+            [
+              -79.3475486,
+              43.6566998
+            ],
+            [
+              -79.3466233,
+              43.6568667
+            ],
+            [
+              -79.3463417,
+              43.6574372
+            ],
+            [
+              -79.3461351,
+              43.6583492
+            ],
+            [
+              -79.3459312,
+              43.6604372
+            ],
+            [
+              -79.3481521,
+              43.6662349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Long Branch (Two groups)\n",
+        "description": "<img src=\"https:\/\/doc-0o-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/nnl5bjvl2conrerht6vqam0514\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vax6tkzInyywGUcERns5OebjS8x2a70fZ3pCEKuetZDIFFjoKMSw8lOUrz-3oMXAakccAeuzXKz31UD1Y294_sWYbJwvEtzbjNqNUP6LPM_qP-PThY7WQyYZx65A9NDsuivv35-qe57bKOu2YLx9MR31cxGqV6n5IKsQuIjbF2p4Wso6gWkmOPEQcG05ijfrPg?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/LongBranchTO\/<br><br>https:\/\/www.facebook.com\/LongBranchNeighbourhoodAssociation<br><br><img src=\"https:\/\/doc-0g-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/icr9b9f55480ksggotitf6l3sc\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZvrNsA-MTIJmcSjGshfEVJrPoGAImnCkSJQ3IOkkWJZgUkHUJyVra26Wn20zENnKksjN3TgC6l6Tefgx7hs4n6A6kMwmqhhb6co5qqRorI2QfwCr2GEbIBC392h9yGUeq2l6Hr1qVULp7BOoTDH2rE5J6sheVRaCAHmkYHavQ8z8BOiHp2DyZ6-TZxyytPvrs?session=0&fife\" height=\"200\" width=\"auto\" \/>",
+        "gx_media_links": "https:\/\/doc-0o-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/nnl5bjvl2conrerht6vqam0514\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vax6tkzInyywGUcERns5OebjS8x2a70fZ3pCEKuetZDIFFjoKMSw8lOUrz-3oMXAakccAeuzXKz31UD1Y294_sWYbJwvEtzbjNqNUP6LPM_qP-PThY7WQyYZx65A9NDsuivv35-qe57bKOu2YLx9MR31cxGqV6n5IKsQuIjbF2p4Wso6gWkmOPEQcG05ijfrPg?session=0&fife https:\/\/doc-0g-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/icr9b9f55480ksggotitf6l3sc\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZvrNsA-MTIJmcSjGshfEVJrPoGAImnCkSJQ3IOkkWJZgUkHUJyVra26Wn20zENnKksjN3TgC6l6Tefgx7hs4n6A6kMwmqhhb6co5qqRorI2QfwCr2GEbIBC392h9yGUeq2l6Hr1qVULp7BOoTDH2rE5J6sheVRaCAHmkYHavQ8z8BOiHp2DyZ6-TZxyytPvrs?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.5247253,
+              43.6017403
+            ],
+            [
+              -79.5336946,
+              43.5973582
+            ],
+            [
+              -79.5470842,
+              43.5908312
+            ],
+            [
+              -79.5402607,
+              43.5859821
+            ],
+            [
+              -79.537557,
+              43.5878161
+            ],
+            [
+              -79.5351538,
+              43.5879094
+            ],
+            [
+              -79.5311626,
+              43.5883756
+            ],
+            [
+              -79.5287594,
+              43.5890905
+            ],
+            [
+              -79.5194467,
+              43.589992
+            ],
+            [
+              -79.5247253,
+              43.6017403
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Victoria Village Toronto- Community Page",
+        "description": "https:\/\/www.facebook.com\/groups\/951102131582834\/",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3246906,
+              43.73329
+            ],
+            [
+              -79.3241757,
+              43.7313674
+            ],
+            [
+              -79.3228024,
+              43.7309953
+            ],
+            [
+              -79.3203991,
+              43.7326698
+            ],
+            [
+              -79.3174809,
+              43.7318015
+            ],
+            [
+              -79.3155926,
+              43.7294447
+            ],
+            [
+              -79.3165367,
+              43.7281422
+            ],
+            [
+              -79.3192833,
+              43.7277081
+            ],
+            [
+              -79.3198841,
+              43.7260954
+            ],
+            [
+              -79.3183392,
+              43.7267157
+            ],
+            [
+              -79.3131893,
+              43.7265916
+            ],
+            [
+              -79.3085545,
+              43.7259094
+            ],
+            [
+              -79.3041771,
+              43.7252271
+            ],
+            [
+              -79.3101853,
+              43.7415379
+            ],
+            [
+              -79.3157643,
+              43.7410418
+            ],
+            [
+              -79.3246906,
+              43.73329
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Don Mills Community",
+        "description": "https:\/\/www.facebook.com\/groups\/1765670037036784\/",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3428658,
+              43.7497171
+            ],
+            [
+              -79.3482731,
+              43.7512671
+            ],
+            [
+              -79.355912,
+              43.7533131
+            ],
+            [
+              -79.3592594,
+              43.7525691
+            ],
+            [
+              -79.3553112,
+              43.735021
+            ],
+            [
+              -79.3552254,
+              43.7328504
+            ],
+            [
+              -79.3529292,
+              43.7292997
+            ],
+            [
+              -79.349818,
+              43.7264466
+            ],
+            [
+              -79.3482301,
+              43.7240585
+            ],
+            [
+              -79.3444536,
+              43.7230971
+            ],
+            [
+              -79.3378446,
+              43.7268498
+            ],
+            [
+              -79.3317078,
+              43.7306797
+            ],
+            [
+              -79.334626,
+              43.731548
+            ],
+            [
+              -79.3353985,
+              43.7338427
+            ],
+            [
+              -79.3353985,
+              43.7373776
+            ],
+            [
+              -79.3359135,
+              43.739672
+            ],
+            [
+              -79.3369434,
+              43.7425865
+            ],
+            [
+              -79.339175,
+              43.7440747
+            ],
+            [
+              -79.3428658,
+              43.7497171
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flemingdon Park",
+        "description": "<img src=\"https:\/\/doc-0s-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/jhiec0ccj724j20p4jqlhcv3bg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbXup7hQcr2ItUd4cAsGt-sKPudc7ri9AMJ3tonV1pg4wX884iNJ2NL6otRN_zoBPo4XayVpL0-wBS71ixTVXVnMkl2i5cwvfxKgHtjQXjVPF45LkVnz-EvVWk31jkqEFLL_cM4EpHg21eWbHiiIrVncy8yvqPmvOrPunnhWOBuo7zsCLN1UpM3f9uvu9vZJd8?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/flemingdonpark\/",
+        "gx_media_links": "https:\/\/doc-0s-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/jhiec0ccj724j20p4jqlhcv3bg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbXup7hQcr2ItUd4cAsGt-sKPudc7ri9AMJ3tonV1pg4wX884iNJ2NL6otRN_zoBPo4XayVpL0-wBS71ixTVXVnMkl2i5cwvfxKgHtjQXjVPF45LkVnz-EvVWk31jkqEFLL_cM4EpHg21eWbHiiIrVncy8yvqPmvOrPunnhWOBuo7zsCLN1UpM3f9uvu9vZJd8?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3383465,
+              43.7202541
+            ],
+            [
+              -79.3332825,
+              43.7079705
+            ],
+            [
+              -79.330493,
+              43.7091493
+            ],
+            [
+              -79.3289052,
+              43.710173
+            ],
+            [
+              -79.3262873,
+              43.7126237
+            ],
+            [
+              -79.3257724,
+              43.7141746
+            ],
+            [
+              -79.3268452,
+              43.7163769
+            ],
+            [
+              -79.3290768,
+              43.7194166
+            ],
+            [
+              -79.330536,
+              43.7224251
+            ],
+            [
+              -79.3383465,
+              43.7202541
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Willowdale Neighbours Connect",
+        "description": "<img src=\"https:\/\/doc-14-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/65vk90kfn3dm0ngjotjn9kn8d4\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbPx08brx4FKrqmd2q7IVA5R2ifF_PiIem4Yb8aTVQs8Vei72e1_RHb1JKYqdvopFaNa5YeF9SvrYEod5KCt11SNqteP2vAod5Uncqv7_yzCHcPt8-I1bXEhYD6jcZLg5tCaJ_8BQkyMPggnRnuKtGNmQm1BeRXnvJgVnWuXtL6V6_BOPsAGxCO1AVGOWJupI4?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/WillowdaleNeighbours\/",
+        "gx_media_links": "https:\/\/doc-14-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/65vk90kfn3dm0ngjotjn9kn8d4\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbPx08brx4FKrqmd2q7IVA5R2ifF_PiIem4Yb8aTVQs8Vei72e1_RHb1JKYqdvopFaNa5YeF9SvrYEod5KCt11SNqteP2vAod5Uncqv7_yzCHcPt8-I1bXEhYD6jcZLg5tCaJ_8BQkyMPggnRnuKtGNmQm1BeRXnvJgVnWuXtL6V6_BOPsAGxCO1AVGOWJupI4?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4443581,
+              43.7810435
+            ],
+            [
+              -79.442663,
+              43.7742416
+            ],
+            [
+              -79.4543569,
+              43.7712196
+            ],
+            [
+              -79.4494748,
+              43.7702359
+            ],
+            [
+              -79.4454511,
+              43.7702437
+            ],
+            [
+              -79.4444321,
+              43.7667804
+            ],
+            [
+              -79.4430644,
+              43.7624454
+            ],
+            [
+              -79.439205,
+              43.7609599
+            ],
+            [
+              -79.4377491,
+              43.7557548
+            ],
+            [
+              -79.429274,
+              43.7572441
+            ],
+            [
+              -79.4241467,
+              43.7524716
+            ],
+            [
+              -79.4212498,
+              43.7510959
+            ],
+            [
+              -79.412377,
+              43.7531669
+            ],
+            [
+              -79.4089973,
+              43.7540288
+            ],
+            [
+              -79.4059932,
+              43.7559927
+            ],
+            [
+              -79.3978392,
+              43.7608316
+            ],
+            [
+              -79.3894273,
+              43.7635315
+            ],
+            [
+              -79.3877957,
+              43.7643715
+            ],
+            [
+              -79.393718,
+              43.7919489
+            ],
+            [
+              -79.4443581,
+              43.7810435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cabbagetown (Multiple groups)\n",
+        "description": "<img src=\"https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/4a3mgb8jo78hhd2bukjqjf09ao\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaJ9tWC-sODGoqeJnzlIezOLjCKN78uCAjOfcQ6s8_1djlYIWetM5G-FuIC7QYoE6v8OQzAhtKZQDhSU2N3bKdcAfS0DGwuuqPWmZYkoIqzIPTUi-GS0KIkDvJvM9z_m4aWji6LDkP-hRbQ1GHP4keLZCVFJ-myKyiQsDB4m-62gCmHCmIMvQXENA0-nB8-Mk4?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>Four Facebook groups:<br><br>Cabbagetown Residents Association:<br>https:\/\/www.facebook.com\/cabbagetowner\/<br><br>Life in Cabbagetown:<br>https:\/\/www.facebook.com\/groups\/cabbagetown\/<br><br>Friends of Cabbagetown, Seaton, Ontario & Berkeley Street:  https:\/\/www.facebook.com\/groups\/221171558565191\/<br><br>Cabbagetown Parents:<br>https:\/\/www.facebook.com\/groups\/174214579444593\/",
+        "gx_media_links": "https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/4a3mgb8jo78hhd2bukjqjf09ao\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaJ9tWC-sODGoqeJnzlIezOLjCKN78uCAjOfcQ6s8_1djlYIWetM5G-FuIC7QYoE6v8OQzAhtKZQDhSU2N3bKdcAfS0DGwuuqPWmZYkoIqzIPTUi-GS0KIkDvJvM9z_m4aWji6LDkP-hRbQ1GHP4keLZCVFJ-myKyiQsDB4m-62gCmHCmIMvQXENA0-nB8-Mk4?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3632306,
+              43.6701263
+            ],
+            [
+              -79.3636597,
+              43.6704057
+            ],
+            [
+              -79.3695821,
+              43.6688226
+            ],
+            [
+              -79.3693675,
+              43.6681086
+            ],
+            [
+              -79.3742598,
+              43.6667427
+            ],
+            [
+              -79.3720711,
+              43.6613408
+            ],
+            [
+              -79.3710518,
+              43.6583448
+            ],
+            [
+              -79.3659557,
+              43.6595711
+            ],
+            [
+              -79.3669213,
+              43.6618997
+            ],
+            [
+              -79.3591965,
+              43.6635761
+            ],
+            [
+              -79.359497,
+              43.6647558
+            ],
+            [
+              -79.3632306,
+              43.6701263
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moss Park Neighbours",
+        "description": "<img src=\"https:\/\/doc-0k-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/hougfnuaprfb1va1pu0gflm01g\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaNOOyd8S9stSRT1Umri5MpoJNR5BAdyVYJQbgKDYcYVBi8HKnurI2R-DkgaRtcXwR8ajDuwyDcIwoBCmhuQkYVHq1RNWWnYNQCQI28phefDJxqw7XRpavoVyPXaM3pD1B2PUesYytlTN-A2WNGZjomnl4abNomL7sVFqjbQxZCRHkOxNhz-dD8C7q4INUpS6M?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/1756869317868117\/",
+        "gx_media_links": "https:\/\/doc-0k-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/hougfnuaprfb1va1pu0gflm01g\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaNOOyd8S9stSRT1Umri5MpoJNR5BAdyVYJQbgKDYcYVBi8HKnurI2R-DkgaRtcXwR8ajDuwyDcIwoBCmhuQkYVHq1RNWWnYNQCQI28phefDJxqw7XRpavoVyPXaM3pD1B2PUesYytlTN-A2WNGZjomnl4abNomL7sVFqjbQxZCRHkOxNhz-dD8C7q4INUpS6M?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3727476,
+              43.6555304
+            ],
+            [
+              -79.372179,
+              43.6540478
+            ],
+            [
+              -79.364583,
+              43.6556469
+            ],
+            [
+              -79.3650551,
+              43.6568422
+            ],
+            [
+              -79.3674154,
+              43.6562989
+            ],
+            [
+              -79.3679304,
+              43.6562523
+            ],
+            [
+              -79.3693466,
+              43.656229
+            ],
+            [
+              -79.3727476,
+              43.6555304
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Christie Pits (Two groups)\n",
+        "description": "<img src=\"https:\/\/doc-0k-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/en620ja3g6o19a61h26kr0k42c\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbeZ3WBhTnw3Gkg_1hHdhQDE8uWUXuUleVqWnx2-hNrafTwch6AunHflx6g3aCEBd-y-JUWKYzZy-78bTeC_Mt4Q67xKV3-gVJnLAR3W_YuZua7WhJx3sFVwVov744542mQV1R6H-ZWV9ShvduvZZHniDjSPFUDfrbKOPLqh5qlLA4RSAeevYnYY9E5mxcZia4?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>Christie PIts Neighbourhood<br>https:\/\/www.facebook.com\/groups\/498494053663345\/<br><br>Christie Pits Living<br>https:\/\/www.facebook.com\/groups\/ChristiePitsLiving",
+        "gx_media_links": "https:\/\/doc-0k-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/en620ja3g6o19a61h26kr0k42c\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbeZ3WBhTnw3Gkg_1hHdhQDE8uWUXuUleVqWnx2-hNrafTwch6AunHflx6g3aCEBd-y-JUWKYzZy-78bTeC_Mt4Q67xKV3-gVJnLAR3W_YuZua7WhJx3sFVwVov744542mQV1R6H-ZWV9ShvduvZZHniDjSPFUDfrbKOPLqh5qlLA4RSAeevYnYY9E5mxcZia4?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4285467,
+              43.6699173
+            ],
+            [
+              -79.4254568,
+              43.6622494
+            ],
+            [
+              -79.4191482,
+              43.6636775
+            ],
+            [
+              -79.4190624,
+              43.6641121
+            ],
+            [
+              -79.4215515,
+              43.6713141
+            ],
+            [
+              -79.4285467,
+              43.6699173
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Palmerston-Little Italy Neighbours",
+        "description": "<img src=\"https:\/\/doc-0k-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/eif2nfficptp4uqtnn43tjtnqc\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vYKwYdCpX_7LsZszguMQhql6whTqQEyLjQ_WICfmSZOq5L0l7Ug3EYv6SRBrg1hqbMhBimrZI-hx0eGjr3Fp59nflq1kX7iGY8nd-mfCwQEFQGiJBuKMw3ZB5Q_CDN9fOlhpHdQeW8dLzVNJrgxzx4FYSSVOt1jVCUNbnFqJmVhmwbgPh-M7ak8kYFuBXzxAvo?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/1069278969750894\/",
+        "gx_media_links": "https:\/\/doc-0k-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/eif2nfficptp4uqtnn43tjtnqc\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vYKwYdCpX_7LsZszguMQhql6whTqQEyLjQ_WICfmSZOq5L0l7Ug3EYv6SRBrg1hqbMhBimrZI-hx0eGjr3Fp59nflq1kX7iGY8nd-mfCwQEFQGiJBuKMw3ZB5Q_CDN9fOlhpHdQeW8dLzVNJrgxzx4FYSSVOt1jVCUNbnFqJmVhmwbgPh-M7ak8kYFuBXzxAvo?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4216031,
+              43.6625517
+            ],
+            [
+              -79.4186849,
+              43.6551934
+            ],
+            [
+              -79.4166249,
+              43.6553176
+            ],
+            [
+              -79.4154662,
+              43.6552244
+            ],
+            [
+              -79.4078702,
+              43.6565285
+            ],
+            [
+              -79.4114751,
+              43.6647869
+            ],
+            [
+              -79.4216031,
+              43.6625517
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Church Wellesley Neighbourhood Association",
+        "description": "<img src=\"https:\/\/doc-10-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/cp2em8n7q734qm5tjg9u27eoik\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaMkILGbdFeLnA3HCauV3hUPZnuwQE3OpNVFp1sFGZgibE8u3Vju_1_QKq70Mcu43KI8jWK5XQFiCm3JJ_Oz-fWxCQOJtvzvOZPigfVzfuMM6cp5efOMD-qX635yWrjsxCz2lh4xI5qNDSAyDZ9TYv9XNcqsM0OQCY74wQGtokJ-uu7gqyarcsgmTIlm88PusM?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>Note: There's a Page and a Group<br><br>PAGE: https:\/\/www.facebook.com\/CWNA.TO\/<br><br>GROUP: https:\/\/www.facebook.com\/groups\/ChurchWellesleyNeighbourhoodAssociation\/",
+        "gx_media_links": "https:\/\/doc-10-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/cp2em8n7q734qm5tjg9u27eoik\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaMkILGbdFeLnA3HCauV3hUPZnuwQE3OpNVFp1sFGZgibE8u3Vju_1_QKq70Mcu43KI8jWK5XQFiCm3JJ_Oz-fWxCQOJtvzvOZPigfVzfuMM6cp5efOMD-qX635yWrjsxCz2lh4xI5qNDSAyDZ9TYv9XNcqsM0OQCY74wQGtokJ-uu7gqyarcsgmTIlm88PusM?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3860325,
+              43.6686266
+            ],
+            [
+              -79.3828568,
+              43.6616727
+            ],
+            [
+              -79.3819985,
+              43.6615795
+            ],
+            [
+              -79.3770203,
+              43.662573
+            ],
+            [
+              -79.3800673,
+              43.6698062
+            ],
+            [
+              -79.3860325,
+              43.6686266
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ossington Community Association",
+        "description": "<img src=\"https:\/\/doc-0s-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/rp9lqc6f9m29u7299tcufelpsg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZKRT17xZjIc3mFP192ZaDSCInU7biTFIYfn426qX4cQhMAE13ZC6o3xAu2xIAcHstsRfQo_jc-nYDA6kHgqo3FprxIY-FkD0HC0-O61vHuV8mPAzxnE9SH-MndRydsBQZK5Eq4zFYw95zLNDMr-xiqshTugf0ni2B5SCmRAHMOpN5oHAOqic4M0rwHoTAgtH0?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/OssingtonCommunityAssociation\/about",
+        "gx_media_links": "https:\/\/doc-0s-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/rp9lqc6f9m29u7299tcufelpsg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZKRT17xZjIc3mFP192ZaDSCInU7biTFIYfn426qX4cQhMAE13ZC6o3xAu2xIAcHstsRfQo_jc-nYDA6kHgqo3FprxIY-FkD0HC0-O61vHuV8mPAzxnE9SH-MndRydsBQZK5Eq4zFYw95zLNDMr-xiqshTugf0ni2B5SCmRAHMOpN5oHAOqic4M0rwHoTAgtH0?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.417799,
+              43.6516377
+            ],
+            [
+              -79.4248586,
+              43.6501472
+            ],
+            [
+              -79.4223266,
+              43.6436259
+            ],
+            [
+              -79.4151812,
+              43.6450234
+            ],
+            [
+              -79.417799,
+              43.6516377
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East York (Two groups)\n",
+        "description": "<img src=\"https:\/\/doc-14-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/aoo7g03tqpjh2eqie0lim8stbg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZjLqwoyls_Nnv1FYN6aT340lP7AVWshGoSn_dNeEpe-FBbYlDoRC3rR5XNMVgJAaCtqxHLziA9-HKzKMJxt5F0pHsgmubUBzLTHl5nal0vCoWGsRTgr5b_ofwlKtPW8uNNeBWSZygCy6yh-7ev4vnzjApmwhvPaxFRegCVHYdaFt00kzE-mpHoeolXpTn27aA?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>I'm From East York<br>https:\/\/www.facebook.com\/groups\/EastYork\/<br><br>The Danforth- EastYork - Woodbine Community (The 'DEWC')<br>https:\/\/www.facebook.com\/groups\/347406968800751\/",
+        "gx_media_links": "https:\/\/doc-14-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/aoo7g03tqpjh2eqie0lim8stbg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZjLqwoyls_Nnv1FYN6aT340lP7AVWshGoSn_dNeEpe-FBbYlDoRC3rR5XNMVgJAaCtqxHLziA9-HKzKMJxt5F0pHsgmubUBzLTHl5nal0vCoWGsRTgr5b_ofwlKtPW8uNNeBWSZygCy6yh-7ev4vnzjApmwhvPaxFRegCVHYdaFt00kzE-mpHoeolXpTn27aA?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3591789,
+              43.6894818
+            ],
+            [
+              -79.3615822,
+              43.6781231
+            ],
+            [
+              -79.2945484,
+              43.6931434
+            ],
+            [
+              -79.3191818,
+              43.7013968
+            ],
+            [
+              -79.3290524,
+              43.7005281
+            ],
+            [
+              -79.3367771,
+              43.6987286
+            ],
+            [
+              -79.3426136,
+              43.6966187
+            ],
+            [
+              -79.3458752,
+              43.6972393
+            ],
+            [
+              -79.3518833,
+              43.6971772
+            ],
+            [
+              -79.3559174,
+              43.6936399
+            ],
+            [
+              -79.3591789,
+              43.6894818
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Our Riverdale\n",
+        "description": "<img src=\"https:\/\/doc-00-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/kffsu7ftqt7is3hlnipd1ki0v4\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZB5aXmghgFmLrjfMlBwyBqn-_hibCX3iEYlBpAN46uROE7kS9h0mN_gx3VewghPERtQu9ddMMptOatnZBM1eDAlDlKl6GjQe427QHJlEGxwSjRLwXwKyCw-6prz9v96GxNXeUcS-OXZFDpQjN9iZMMuh_HRK2OeJlTyWzT_aH_oOyka1DBmdKZg2uwbEqqLYY?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/OurRiverdale\/",
+        "gx_media_links": "https:\/\/doc-00-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/kffsu7ftqt7is3hlnipd1ki0v4\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZB5aXmghgFmLrjfMlBwyBqn-_hibCX3iEYlBpAN46uROE7kS9h0mN_gx3VewghPERtQu9ddMMptOatnZBM1eDAlDlKl6GjQe427QHJlEGxwSjRLwXwKyCw-6prz9v96GxNXeUcS-OXZFDpQjN9iZMMuh_HRK2OeJlTyWzT_aH_oOyka1DBmdKZg2uwbEqqLYY?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3371604,
+              43.6721861
+            ],
+            [
+              -79.3398211,
+              43.6781456
+            ],
+            [
+              -79.357116,
+              43.6745452
+            ],
+            [
+              -79.3545411,
+              43.6718447
+            ],
+            [
+              -79.3539402,
+              43.6709755
+            ],
+            [
+              -79.3529961,
+              43.6700443
+            ],
+            [
+              -79.352567,
+              43.6684301
+            ],
+            [
+              -79.3531249,
+              43.6673746
+            ],
+            [
+              -79.3523953,
+              43.6657604
+            ],
+            [
+              -79.3430827,
+              43.6677471
+            ],
+            [
+              -79.3404648,
+              43.669827
+            ],
+            [
+              -79.3371604,
+              43.6721861
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "DNA Bulletin Board",
+        "description": "<img src=\"https:\/\/doc-00-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/9mhntvsvniku11sq7d2jajjtlg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZIQMqQ6U8mbYbydzE88hgS0b-K77kOpwZBnS-CPIm8Pb24-LItZBwDsTFbeu6XuLJSnLwIgSXqe4m7LUzQRqGGrpR4ySxcFM57EIhYxDdVM9Kf92A2UaD7JqxB8S_qundnxgA3KzmQwZsXr-dfhPQlsZD1XOiTTseFOkdb2sbW-F20gLy8ya5yDKEaIQ502ME?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/DNABulletinBoard\/",
+        "gx_media_links": "https:\/\/doc-00-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/9mhntvsvniku11sq7d2jajjtlg\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZIQMqQ6U8mbYbydzE88hgS0b-K77kOpwZBnS-CPIm8Pb24-LItZBwDsTFbeu6XuLJSnLwIgSXqe4m7LUzQRqGGrpR4ySxcFM57EIhYxDdVM9Kf92A2UaD7JqxB8S_qundnxgA3KzmQwZsXr-dfhPQlsZD1XOiTTseFOkdb2sbW-F20gLy8ya5yDKEaIQ502ME?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4406028,
+              43.6728743
+            ],
+            [
+              -79.4391222,
+              43.6691494
+            ],
+            [
+              -79.429595,
+              43.6710895
+            ],
+            [
+              -79.4310541,
+              43.674535
+            ],
+            [
+              -79.4353456,
+              43.6741004
+            ],
+            [
+              -79.4379957,
+              43.673596
+            ],
+            [
+              -79.4406028,
+              43.6728743
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Danforth (Two Groups)\n",
+        "description": "<img src=\"https:\/\/doc-0s-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/niqvem6blnigq9mrgb3ecaooj8\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vYl3iFbse4LXrdPLZfkwrR6CmwLyQp2nFIlraD6P2sOf0Zlj9tv4i0STexzVeuPqardRFsBYe5-LQkMyDgU88dpilgMVlp18oHN5-KWysZbWcKBpuEXIHLoT6ERp-z12KkCGgfubHdMYtscbMI1W5ap5JyuQv4IBirDjz_AO3XvhKGOREcJAAYN8IeR-_s-5M4?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>The Danforth- EastYork - Woodbine Community (The 'DEWC')<br>https:\/\/www.facebook.com\/groups\/347406968800751\/<br><br>The Danforth Community<br>https:\/\/www.facebook.com\/groups\/669971656821375",
+        "gx_media_links": "https:\/\/doc-0s-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/niqvem6blnigq9mrgb3ecaooj8\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vYl3iFbse4LXrdPLZfkwrR6CmwLyQp2nFIlraD6P2sOf0Zlj9tv4i0STexzVeuPqardRFsBYe5-LQkMyDgU88dpilgMVlp18oHN5-KWysZbWcKBpuEXIHLoT6ERp-z12KkCGgfubHdMYtscbMI1W5ap5JyuQv4IBirDjz_AO3XvhKGOREcJAAYN8IeR-_s-5M4?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3586754,
+              43.6765486
+            ],
+            [
+              -79.3571412,
+              43.6748346
+            ],
+            [
+              -79.339809,
+              43.6783848
+            ],
+            [
+              -79.3402646,
+              43.6792961
+            ],
+            [
+              -79.3354045,
+              43.6803278
+            ],
+            [
+              -79.3346965,
+              43.6790162
+            ],
+            [
+              -79.331377,
+              43.6797158
+            ],
+            [
+              -79.3293881,
+              43.6754804
+            ],
+            [
+              -79.3003891,
+              43.6866769
+            ],
+            [
+              -79.2881225,
+              43.6892731
+            ],
+            [
+              -79.2896675,
+              43.6936485
+            ],
+            [
+              -79.3614269,
+              43.6778413
+            ],
+            [
+              -79.3607378,
+              43.6761087
+            ],
+            [
+              -79.3586754,
+              43.6765486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Thorncliffe Park Community\n",
+        "description": "<img src=\"https:\/\/doc-0o-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/38feuvlq5vdpekbd28d0v84afo\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbAIeE_Xe-RydUXF__YY5mTyfWm6bK6qnnVGzssGYBkwJ0AE-FYfYxb48wmJnFB6xPTyfA8rWswqaW98agz4Pky-7Patd28ld8NEkq8Dr8PFIBoJE8ngfYQz477ZmtQ8TNwpk_aYdT3ca5Z0TuGi3F8foNDRreJBPrsHWSCAnqtnCVP3ClyKGqOApv9s8Ehg2c?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/Thorncliffe\/",
+        "gx_media_links": "https:\/\/doc-0o-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/38feuvlq5vdpekbd28d0v84afo\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbAIeE_Xe-RydUXF__YY5mTyfWm6bK6qnnVGzssGYBkwJ0AE-FYfYxb48wmJnFB6xPTyfA8rWswqaW98agz4Pky-7Patd28ld8NEkq8Dr8PFIBoJE8ngfYQz477ZmtQ8TNwpk_aYdT3ca5Z0TuGi3F8foNDRreJBPrsHWSCAnqtnCVP3ClyKGqOApv9s8Ehg2c?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.357778,
+              43.7022381
+            ],
+            [
+              -79.353229,
+              43.7024242
+            ],
+            [
+              -79.3518128,
+              43.7018968
+            ],
+            [
+              -79.3504824,
+              43.7005317
+            ],
+            [
+              -79.349667,
+              43.6987632
+            ],
+            [
+              -79.3422426,
+              43.699756
+            ],
+            [
+              -79.3396248,
+              43.7018658
+            ],
+            [
+              -79.3382086,
+              43.7037273
+            ],
+            [
+              -79.3381657,
+              43.7058679
+            ],
+            [
+              -79.3386807,
+              43.7083808
+            ],
+            [
+              -79.3403114,
+              43.710149
+            ],
+            [
+              -79.3437876,
+              43.71322
+            ],
+            [
+              -79.3455042,
+              43.7143367
+            ],
+            [
+              -79.3482508,
+              43.7145849
+            ],
+            [
+              -79.3491949,
+              43.7117
+            ],
+            [
+              -79.3501391,
+              43.7092804
+            ],
+            [
+              -79.3520273,
+              43.7078844
+            ],
+            [
+              -79.3545593,
+              43.7053405
+            ],
+            [
+              -79.357778,
+              43.7022381
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jane Finch Action Against Poverty (JFAAP)",
+        "description": "<img src=\"https:\/\/doc-0o-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/a25noqlngc5fdtevkeehvu1dr4\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbPFSVHK2Bc5ZuF_hRDyFBgXMVj9IRw5ygTOp02B5fgO3CP1GIzyR6ZL5f_CUKnzZ6YoyYJdBp6RB8oVaVd5U4WAKw2FSlxV1n-JoccKP0o5ln_uSoUVI5MzzW3Zax0pn0yRBLXGphTWaKGuOtbPTsS1TBSo0XFRWcVKSMcJ0avT2GstcchgTiQMSIovKVW_dU?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/146684785355236",
+        "gx_media_links": "https:\/\/doc-0o-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/a25noqlngc5fdtevkeehvu1dr4\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbPFSVHK2Bc5ZuF_hRDyFBgXMVj9IRw5ygTOp02B5fgO3CP1GIzyR6ZL5f_CUKnzZ6YoyYJdBp6RB8oVaVd5U4WAKw2FSlxV1n-JoccKP0o5ln_uSoUVI5MzzW3Zax0pn0yRBLXGphTWaKGuOtbPTsS1TBSo0XFRWcVKSMcJ0avT2GstcchgTiQMSIovKVW_dU?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.5336181,
+              43.7718931
+            ],
+            [
+              -79.5257217,
+              43.7369891
+            ],
+            [
+              -79.4872695,
+              43.7448025
+            ],
+            [
+              -79.4922449,
+              43.7666083
+            ],
+            [
+              -79.5054623,
+              43.7632451
+            ],
+            [
+              -79.5118171,
+              43.7766032
+            ],
+            [
+              -79.5336181,
+              43.7718931
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "York University > CURRENT STUDENTS",
+        "description": "<img src=\"https:\/\/doc-0g-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/8ihbif5b2cqk4jfli30jlb5kno\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaXj83_hGb4iKt_iuyKwfgL-uM8myPWao75JvD5eInr6shL1zdFK9KsOEhkF6LS5tlQ-pf69bmbOMH2r9nmvQH-0oOEYXotbsRsFFzGF3shl_FZzH-6VmmRkjntrtg979IWwpSvXJEBjWI1PoepxZwh6ISBr6rmtj3nfmBm_NMfw9D3jUe9ZndvvViZ5IsavCg?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/YorkU",
+        "gx_media_links": "https:\/\/doc-0g-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/8ihbif5b2cqk4jfli30jlb5kno\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaXj83_hGb4iKt_iuyKwfgL-uM8myPWao75JvD5eInr6shL1zdFK9KsOEhkF6LS5tlQ-pf69bmbOMH2r9nmvQH-0oOEYXotbsRsFFzGF3shl_FZzH-6VmmRkjntrtg979IWwpSvXJEBjWI1PoepxZwh6ISBr6rmtj3nfmBm_NMfw9D3jUe9ZndvvViZ5IsavCg?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.5112824,
+              43.776448
+            ],
+            [
+              -79.5070338,
+              43.7683289
+            ],
+            [
+              -79.4937729,
+              43.7712111
+            ],
+            [
+              -79.4949745,
+              43.7806001
+            ],
+            [
+              -79.5112824,
+              43.776448
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "York Village Housing Association",
+        "description": "<img src=\"https:\/\/doc-04-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/kfcdq2fphmsn3i3japc1980hj0\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbQuonGFOhZj5B2seB5yWz_6WGbzq5HRpD3wmFvgUUjWYoZaZ7UHvwvyc5mAP3ozB_qvd4ya_tLc_z3HFkDZAbhF9xTFGAR9WDcJj4GaZxSU1pgdch06YtybxiQBNIQSrefEvNWF9BPgXFMCKB7sOEMKSga6gaKmSlD7haCaP_uQmfAabhGuO2XK88i73CnOZw?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/yorkvha\/",
+        "gx_media_links": "https:\/\/doc-04-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/kfcdq2fphmsn3i3japc1980hj0\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbQuonGFOhZj5B2seB5yWz_6WGbzq5HRpD3wmFvgUUjWYoZaZ7UHvwvyc5mAP3ozB_qvd4ya_tLc_z3HFkDZAbhF9xTFGAR9WDcJj4GaZxSU1pgdch06YtybxiQBNIQSrefEvNWF9BPgXFMCKB7sOEMKSga6gaKmSlD7haCaP_uQmfAabhGuO2XK88i73CnOZw?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.5066154,
+              43.7677046
+            ],
+            [
+              -79.5050705,
+              43.7635826
+            ],
+            [
+              -79.4930113,
+              43.7665579
+            ],
+            [
+              -79.4952858,
+              43.7699049
+            ],
+            [
+              -79.5066154,
+              43.7677046
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brockton Triangle Neighbours",
+        "description": "<img src=\"https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/4m2plp0lib2qlr7lapcq02fams\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaq_b2H1rEx92BIGmFbAgEnz0kkOsBjxVJu6IteMqY8UmYVtzoq5wb9Y8pffZY2koFHPMPsvyUyo3e3d_cskoTXqRqQAHialvKmueuZaLDCsebXjmiZsynAkh9HyPeJRjiiCJ8cBuQ1XndCkFFURW6JoQ49ut_itzrfkLkxCTmrT9Hty-k6Q7t2G0S1EAOqwLU?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/BrocktonVillage\/about",
+        "gx_media_links": "https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/4m2plp0lib2qlr7lapcq02fams\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaq_b2H1rEx92BIGmFbAgEnz0kkOsBjxVJu6IteMqY8UmYVtzoq5wb9Y8pffZY2koFHPMPsvyUyo3e3d_cskoTXqRqQAHialvKmueuZaLDCsebXjmiZsynAkh9HyPeJRjiiCJ8cBuQ1XndCkFFURW6JoQ49ut_itzrfkLkxCTmrT9Hty-k6Q7t2G0S1EAOqwLU?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4292612,
+              43.6432453
+            ],
+            [
+              -79.4354838,
+              43.6596095
+            ],
+            [
+              -79.4449252,
+              43.6576224
+            ],
+            [
+              -79.442994,
+              43.6529961
+            ],
+            [
+              -79.4416636,
+              43.6500461
+            ],
+            [
+              -79.4400865,
+              43.6484314
+            ],
+            [
+              -79.4388956,
+              43.6476551
+            ],
+            [
+              -79.4292612,
+              43.6432453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dufferin Grove Community Group",
+        "description": "<img src=\"https:\/\/doc-04-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/8hqmbbffpdeg6os8armgmvsves\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaD-LjnwSUfWmaxm-HKky2Ubuy_HV_btnhQulxBwnnNfi07aMpC4jcu-AyE8puHVZHYH0t7V1x8Ti434F52dS5c_dPjJGFiCRcTkWsAZNOWUWYLjUreRXishZYBPasy5nfO7h-FC3dJq5m2YasXJSRI-_3h7BhgdzXFWF5guiJWnQLb0Y3dyzDXm8EgbnvIIYs?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/211012622425276\/",
+        "gx_media_links": "https:\/\/doc-04-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/8hqmbbffpdeg6os8armgmvsves\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaD-LjnwSUfWmaxm-HKky2Ubuy_HV_btnhQulxBwnnNfi07aMpC4jcu-AyE8puHVZHYH0t7V1x8Ti434F52dS5c_dPjJGFiCRcTkWsAZNOWUWYLjUreRXishZYBPasy5nfO7h-FC3dJq5m2YasXJSRI-_3h7BhgdzXFWF5guiJWnQLb0Y3dyzDXm8EgbnvIIYs?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4324798,
+              43.6528302
+            ],
+            [
+              -79.4229311,
+              43.6545069
+            ],
+            [
+              -79.4256348,
+              43.6615393
+            ],
+            [
+              -79.4349903,
+              43.6596455
+            ],
+            [
+              -79.4324798,
+              43.6528302
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dovercourt Park Parents",
+        "description": "<img src=\"https:\/\/doc-0o-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/n7oqng77trd4gkugeha4rc2s88\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbFp8p1LviC_fCxgI4TK-ylxGtV8sF8rEy3-RriGB0PH16b6hhwMxLDZs9cf-UBP2ECZDZdxc2ddM4gKesBrEWBTBjvRFkSdBJQplWZRc-Un1cevmE0pmUQL3Gbqkp-kvw0pJ1WS3pWrYDQzTOanSOywfCaOgy8sRMbEKgwdoMVjGsFMYItZFNjeiMFTbdPerU?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/1423640331277802\/",
+        "gx_media_links": "https:\/\/doc-0o-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/n7oqng77trd4gkugeha4rc2s88\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbFp8p1LviC_fCxgI4TK-ylxGtV8sF8rEy3-RriGB0PH16b6hhwMxLDZs9cf-UBP2ECZDZdxc2ddM4gKesBrEWBTBjvRFkSdBJQplWZRc-Un1cevmE0pmUQL3Gbqkp-kvw0pJ1WS3pWrYDQzTOanSOywfCaOgy8sRMbEKgwdoMVjGsFMYItZFNjeiMFTbdPerU?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4389435,
+              43.668923
+            ],
+            [
+              -79.4351455,
+              43.659951
+            ],
+            [
+              -79.4258758,
+              43.6620777
+            ],
+            [
+              -79.4296094,
+              43.67077
+            ],
+            [
+              -79.4389435,
+              43.668923
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roxton Road Neighbourhood",
+        "description": "<img src=\"https:\/\/doc-04-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/qlnt0ge87369pe09a1fnml2t8s\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbdcT1_gIpr4x3Odwx9sv0ZuC2EV2OzcDg298XSaKcNkSUwe3HYlfl7ddt1-cxX5_ZrF_4lgu_Odmr-bE1eEgLtPcfbOr8_qucddSukUP2qfmtd8JRk6RfDtuCXnU8u39_mZy8a89ThKQSjYYbuxyCFq9i7-bgzrTcS8u7bVEQWlwN8TDX62jDFhlStzEZhbMY?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/148683053166309\/",
+        "gx_media_links": "https:\/\/doc-04-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/qlnt0ge87369pe09a1fnml2t8s\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbdcT1_gIpr4x3Odwx9sv0ZuC2EV2OzcDg298XSaKcNkSUwe3HYlfl7ddt1-cxX5_ZrF_4lgu_Odmr-bE1eEgLtPcfbOr8_qucddSukUP2qfmtd8JRk6RfDtuCXnU8u39_mZy8a89ThKQSjYYbuxyCFq9i7-bgzrTcS8u7bVEQWlwN8TDX62jDFhlStzEZhbMY?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4219378,
+              43.6547772
+            ],
+            [
+              -79.4212083,
+              43.654979
+            ],
+            [
+              -79.4236974,
+              43.6620735
+            ],
+            [
+              -79.4246415,
+              43.6618872
+            ],
+            [
+              -79.4219378,
+              43.6547772
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oakwood Vaughan (Page + Group)\n",
+        "description": "<img src=\"https:\/\/doc-0g-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/mc2vv0eajq7o0j4kefuhpftrts\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vYHH6hp8TpNujJlhyaWSTGtoRO9Ed9VstMCxm7uvjX9R028VOkkm-gTclZjLoQDoUn-f1nnAWMzjfQfprGIfsLjU4p3ev9UjXniYJCSzIRCr18KhbuSLPliHeXS74RQR_ymNpZX9a5QBTL2Aye3_uUqDzKmqwSS2ERr93ci0JyKEy8rcGEcQs2UmWWgluuaq5g?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>PAGE:  https:\/\/www.facebook.com\/Oakwood-Vaughan-Community-Organization-817682931932053<br><br>GROUP: https:\/\/www.facebook.com\/groups\/oakwoodvillage\/",
+        "gx_media_links": "https:\/\/doc-0g-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/mc2vv0eajq7o0j4kefuhpftrts\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vYHH6hp8TpNujJlhyaWSTGtoRO9Ed9VstMCxm7uvjX9R028VOkkm-gTclZjLoQDoUn-f1nnAWMzjfQfprGIfsLjU4p3ev9UjXniYJCSzIRCr18KhbuSLPliHeXS74RQR_ymNpZX9a5QBTL2Aye3_uUqDzKmqwSS2ERr93ci0JyKEy8rcGEcQs2UmWWgluuaq5g?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4393491,
+              43.6977167
+            ],
+            [
+              -79.4497346,
+              43.6953275
+            ],
+            [
+              -79.4458723,
+              43.685894
+            ],
+            [
+              -79.435358,
+              43.6880353
+            ],
+            [
+              -79.4393491,
+              43.6977167
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Little Jamaica",
+        "description": "https:\/\/www.facebook.com\/thelittlejamaica\/",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4745859,
+              43.6914243
+            ],
+            [
+              -79.4742426,
+              43.6895003
+            ],
+            [
+              -79.4502959,
+              43.6948376
+            ],
+            [
+              -79.4510683,
+              43.6966993
+            ],
+            [
+              -79.4745859,
+              43.6914243
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Joe Shuster Way Community",
+        "description": "<img src=\"https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/71m8soc4995qdof8fmebu5ioik\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZu3m--bImeZNqMfTd7f_DrOYFa1i_dS4cjUntmBkbRtAIrPxyrIYjZaGR3Yh_Sq-HB8pjSS9j2UkEq1dmHtkE1D9vI8aiVi0WTWxGKs07lVs_Tt0xDfr8mfE42WVD0b1Zsk2wyv7RPLpODC1CE1HdKJUMIspJBwew4kXpowJw83j7MVxmz9anNN0rTyGPC9xc?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/427415504129095\/",
+        "gx_media_links": "https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/71m8soc4995qdof8fmebu5ioik\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZu3m--bImeZNqMfTd7f_DrOYFa1i_dS4cjUntmBkbRtAIrPxyrIYjZaGR3Yh_Sq-HB8pjSS9j2UkEq1dmHtkE1D9vI8aiVi0WTWxGKs07lVs_Tt0xDfr8mfE42WVD0b1Zsk2wyv7RPLpODC1CE1HdKJUMIspJBwew4kXpowJw83j7MVxmz9anNN0rTyGPC9xc?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4283689,
+              43.6419687
+            ],
+            [
+              -79.4272532,
+              43.6390882
+            ],
+            [
+              -79.423423,
+              43.6398724
+            ],
+            [
+              -79.4237878,
+              43.6406255
+            ],
+            [
+              -79.4261052,
+              43.6411496
+            ],
+            [
+              -79.4283689,
+              43.6419687
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bathurst Quay Neighbourhood Association (BQNA)",
+        "description": "https:\/\/www.facebook.com\/groups\/72388881615\/about",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4018425,
+              43.6358126
+            ],
+            [
+              -79.398935,
+              43.6329473
+            ],
+            [
+              -79.3981089,
+              43.6332307
+            ],
+            [
+              -79.3975772,
+              43.6335894
+            ],
+            [
+              -79.3978823,
+              43.6340334
+            ],
+            [
+              -79.3972694,
+              43.6343703
+            ],
+            [
+              -79.3978568,
+              43.6350633
+            ],
+            [
+              -79.3963924,
+              43.6357194
+            ],
+            [
+              -79.3966606,
+              43.6365347
+            ],
+            [
+              -79.3947401,
+              43.637156
+            ],
+            [
+              -79.3919613,
+              43.6376296
+            ],
+            [
+              -79.3924226,
+              43.6384837
+            ],
+            [
+              -79.3956627,
+              43.6377305
+            ],
+            [
+              -79.3981411,
+              43.6368453
+            ],
+            [
+              -79.4009413,
+              43.6358902
+            ],
+            [
+              -79.4018425,
+              43.6358126
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coxwell & Gerrard",
+        "description": "<img src=\"https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/vl82enhlto3i9o5mljvqmp2p58\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZGAoTCjKy3o5_n4vQ3bYwshx9BrGtcqDhcYmSRL415HGfbwtwuQc8xnZAVxidnXOHWr0VTflqETs0_NXommaw6rLcRBQ7Svj5amMS9bFUV2Dxd1eesy3MG822aPnfoCHWNGIzFgYkwaO6DN-lWwWluwpScN019u1XWM2r-YgU2KGAogpxi0IvWXv8EQuRebeE?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/702749939738437\/",
+        "gx_media_links": "https:\/\/doc-0c-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/vl82enhlto3i9o5mljvqmp2p58\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZGAoTCjKy3o5_n4vQ3bYwshx9BrGtcqDhcYmSRL415HGfbwtwuQc8xnZAVxidnXOHWr0VTflqETs0_NXommaw6rLcRBQ7Svj5amMS9bFUV2Dxd1eesy3MG822aPnfoCHWNGIzFgYkwaO6DN-lWwWluwpScN019u1XWM2r-YgU2KGAogpxi0IvWXv8EQuRebeE?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3263998,
+              43.6679503
+            ],
+            [
+              -79.3178168,
+              43.6691299
+            ],
+            [
+              -79.3114224,
+              43.6702164
+            ],
+            [
+              -79.3085041,
+              43.6741586
+            ],
+            [
+              -79.3115511,
+              43.6817628
+            ],
+            [
+              -79.3292752,
+              43.6747483
+            ],
+            [
+              -79.3263998,
+              43.6679503
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pocket Community Association",
+        "description": "<img src=\"https:\/\/doc-14-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/eecfalv6ook42ihmjc8qfj86g4\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaeilUZtl1uegNAhn7pjN4cPv2MW3d6wpEWL8TtUTRYOutfBPr3ijXx4j0r1NVK5cHeSjcbbSYPrSkbHPOFKcdLJ1IRsyRk3U9dNiW8cGHmdL80KTsxJC8RGDoe1mRgZ9AbXnhDwkHY3qu9lwFvYDpYwIDVlPhbweQkoqlmWz6JxR_uypDn2hwDunmbmYr0Xq4?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/Pocket-Community-Association-699721276757023\/about\/?ref=page_internal",
+        "gx_media_links": "https:\/\/doc-14-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/eecfalv6ook42ihmjc8qfj86g4\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vaeilUZtl1uegNAhn7pjN4cPv2MW3d6wpEWL8TtUTRYOutfBPr3ijXx4j0r1NVK5cHeSjcbbSYPrSkbHPOFKcdLJ1IRsyRk3U9dNiW8cGHmdL80KTsxJC8RGDoe1mRgZ9AbXnhDwkHY3qu9lwFvYDpYwIDVlPhbweQkoqlmWz6JxR_uypDn2hwDunmbmYr0Xq4?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3356074,
+              43.6801516
+            ],
+            [
+              -79.3397058,
+              43.6793136
+            ],
+            [
+              -79.3367017,
+              43.6722523
+            ],
+            [
+              -79.3326462,
+              43.6740836
+            ],
+            [
+              -79.3356074,
+              43.6801516
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Newtonbrook Secondary School Friends",
+        "description": "<img src=\"https:\/\/doc-14-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/r4vuuvo2adea8dnkblrg2juans\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZwC-SCIqWP9ND2vmE256VUqYqqpwQOCmfTA2pomhshe6Z18rlxdnfq1czAzkaa4g5_7cos-eF9j_-xlmECEGygj4Abykzo28QiqPrmZE-J84NFWf8xPrWELr91QroPNuXfSKi1VVH-8Smf_yh9BjrpZg7PpZEKxAazY5HAyoE_5tOVhkoqVbBI8b4zAjYatuY?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/1178964892174995",
+        "gx_media_links": "https:\/\/doc-14-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/r4vuuvo2adea8dnkblrg2juans\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vZwC-SCIqWP9ND2vmE256VUqYqqpwQOCmfTA2pomhshe6Z18rlxdnfq1czAzkaa4g5_7cos-eF9j_-xlmECEGygj4Abykzo28QiqPrmZE-J84NFWf8xPrWELr91QroPNuXfSKi1VVH-8Smf_yh9BjrpZg7PpZEKxAazY5HAyoE_5tOVhkoqVbBI8b4zAjYatuY?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.424879,
+              43.7964154
+            ],
+            [
+              -79.4348997,
+              43.7940457
+            ],
+            [
+              -79.4325178,
+              43.7880977
+            ],
+            [
+              -79.4217461,
+              43.7904522
+            ],
+            [
+              -79.424879,
+              43.7964154
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guildwood (multiple groups)\n",
+        "description": "Guildwood Village Community Association<br>https:\/\/www.facebook.com\/GVCA123\/<br><br>Guildwood 4.0<br>https:\/\/www.facebook.com\/groups\/378007563145688\/<br><br>The Guildwood Group<br>https:\/\/www.facebook.com\/groups\/2204526916\/",
+        "gx_media_links": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.2115432,
+              43.7309789
+            ],
+            [
+              -79.2014152,
+              43.7378628
+            ],
+            [
+              -79.1960937,
+              43.7437538
+            ],
+            [
+              -79.1947204,
+              43.7475981
+            ],
+            [
+              -79.1836483,
+              43.7503882
+            ],
+            [
+              -79.1717178,
+              43.75634
+            ],
+            [
+              -79.177211,
+              43.7585717
+            ],
+            [
+              -79.2011577,
+              43.7539841
+            ],
+            [
+              -79.2036468,
+              43.7511322
+            ],
+            [
+              -79.2049343,
+              43.7455519
+            ],
+            [
+              -79.2124874,
+              43.7337697
+            ],
+            [
+              -79.2115432,
+              43.7309789
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scarborough Bluffs Community Association - Forum",
+        "description": "<img src=\"https:\/\/doc-0g-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/g5iuob60gkp8jl074ilrjqokm0\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vae4q2XuCzjZMBZWT5qmjHd83e5-LvDVAVNSsDoUmzxKaJDd9DKvI0UWGajlmCM4fpF6tTyMAey7irw3_IbBLr86tUER9iIwbVpQX94MFQi83flUaNzlLbsv3GRqB288SNC4i2nxfpDtkT0_2ODoQiRukVLnk2fxCtmcU13xdu66Symj7zTpU0YVA5bT-rDptE?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/ScarboroughBluffsCA\/about",
+        "gx_media_links": "https:\/\/doc-0g-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/g5iuob60gkp8jl074ilrjqokm0\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vae4q2XuCzjZMBZWT5qmjHd83e5-LvDVAVNSsDoUmzxKaJDd9DKvI0UWGajlmCM4fpF6tTyMAey7irw3_IbBLr86tUER9iIwbVpQX94MFQi83flUaNzlLbsv3GRqB288SNC4i2nxfpDtkT0_2ODoQiRukVLnk2fxCtmcU13xdu66Symj7zTpU0YVA5bT-rDptE?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.2333035,
+              43.7105472
+            ],
+            [
+              -79.2258362,
+              43.7177436
+            ],
+            [
+              -79.2161373,
+              43.7276062
+            ],
+            [
+              -79.2248062,
+              43.7308314
+            ],
+            [
+              -79.2399124,
+              43.7176816
+            ],
+            [
+              -79.2379383,
+              43.7078793
+            ],
+            [
+              -79.2333035,
+              43.7105472
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North Rosedale Community",
+        "description": "<img src=\"https:\/\/doc-0s-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/lskrjo678lg4euksvu97nuvkn8\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbUYLz0C-oZPht6czUDcBxrL9EWIB6QPigqBYQstIX5m9m2sKV-ns_G8ls7BYJDx7MNDcJnrKG3dTFz9d6oiguutxolj4HaBp_VPUbHRDXoOyld42Zzt0BZJD0ofPDZXXtM5SCOcJlSJpvODfgK5hJrY-2c3pk-i061xC0qxmNNrKhV-611rULdCen4g-Jh3-U?session=0&fife\" height=\"200\" width=\"auto\" \/><br><br>https:\/\/www.facebook.com\/groups\/1935709353325635\/",
+        "gx_media_links": "https:\/\/doc-0s-70-mymaps.googleusercontent.com\/untrusted\/hostedimage\/t0mg9votjudpeifhmtg006v2h0\/lskrjo678lg4euksvu97nuvkn8\/1647526403250\/MGJv-Sgg7zEtgYYEGGNjiePqEVo27H3N\/04191058053883057015\/5AIsG_vbUYLz0C-oZPht6czUDcBxrL9EWIB6QPigqBYQstIX5m9m2sKV-ns_G8ls7BYJDx7MNDcJnrKG3dTFz9d6oiguutxolj4HaBp_VPUbHRDXoOyld42Zzt0BZJD0ofPDZXXtM5SCOcJlSJpvODfgK5hJrY-2c3pk-i061xC0qxmNNrKhV-611rULdCen4g-Jh3-U?session=0&fife"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.3833014,
+              43.6843689
+            ],
+            [
+              -79.3824431,
+              43.6821965
+            ],
+            [
+              -79.3814989,
+              43.6805205
+            ],
+            [
+              -79.378409,
+              43.6798688
+            ],
+            [
+              -79.3748471,
+              43.6797136
+            ],
+            [
+              -79.3718859,
+              43.6789377
+            ],
+            [
+              -79.3696543,
+              43.6791549
+            ],
+            [
+              -79.3688389,
+              43.6803033
+            ],
+            [
+              -79.3676373,
+              43.6823206
+            ],
+            [
+              -79.3676802,
+              43.6845862
+            ],
+            [
+              -79.3681952,
+              43.687131
+            ],
+            [
+              -79.3681952,
+              43.689148
+            ],
+            [
+              -79.3710705,
+              43.6899549
+            ],
+            [
+              -79.3735596,
+              43.6876275
+            ],
+            [
+              -79.3751904,
+              43.6864792
+            ],
+            [
+              -79.3775507,
+              43.6857344
+            ],
+            [
+              -79.3833014,
+              43.6843689
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

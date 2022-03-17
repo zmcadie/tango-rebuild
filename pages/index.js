@@ -15,6 +15,7 @@ const schoolsJson = require("public/data/toronto_schools.geojson.json")
 const librariesJson = require("public/data/toronto_libraries.geojson.json")
 const residentsAssociations = require("public/data/groups.geojson.json")
 const torontoWards = require("public/data/toronto-wards.json")
+const facebookGroups = require("public/data/facebook-groups.geojson.json")
 
 const cansNetwork = require("public/data/regional networks/cans.geojson.json")
 const corraNetwork = require("public/data/regional networks/corra.geojson.json")
@@ -29,6 +30,7 @@ const layerData = {
   schoolsJson,
   librariesJson,
   residentsAssociations,
+  facebookGroups,
   torontoWards,
   cansNetwork,
   corraNetwork,

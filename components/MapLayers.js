@@ -39,6 +39,7 @@ const MapLayers = ({ data }) => {
         schoolsJson,
         librariesJson,
         residentsAssociations,
+        facebookGroups,
         torontoWards,
         cansNetwork,
         corraNetwork,
@@ -79,10 +80,11 @@ const MapLayers = ({ data }) => {
         layer: { add: () => {}, remove: () => {}}
       })
       
+      const facebookGroupsLayer = createLayer({ data: facebookGroups })
       groupsLayers.push({
         label: "Facebook Groups",
         icon: "/img/group-icons/facebook-groups.png",
-        layer: { add: () => {}, remove: () => {}}
+        layer: defaultLayerActions(facebookGroupsLayer)
       })
 
       const cansNetworkLayer = createLayer({ data: cansNetwork })
