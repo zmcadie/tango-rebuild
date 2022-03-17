@@ -9,10 +9,9 @@ import styles from './LayerControl.module.scss'
 const { createElement } = domUtils
 
 Control.LayerControl = Control.extend({
-  initialize: function(options, layers, additionalLayers) {
+  initialize: function(options, layerGroups) {
     L.setOptions(this, options)
-    this.layers = layers
-    this.additionalLayers = additionalLayers
+    this.layerGroups = layerGroups
 
     this.createFeaturesToggle = this.createFeaturesToggle.bind(this)
   },
@@ -48,29 +47,57 @@ Control.LayerControl = Control.extend({
 
     const listsContainer = createElement("div", styles["lists-container"], container)
 
-    createElement("h1", {
-      class: `${styles["only-expanded"]} ${styles["layers-list-label"]}`,
-      text: "Additional Layers"
-    }, listsContainer)
+    this.layerGroups.forEach((layerGroup, index) => {
+      const expandedClass = layerGroup.primary ? "" : styles["only-expanded"]
+      const layersList = createElement("ul", `${styles.layers} ${expandedClass}`, listsContainer, true)
+      layerGroup.layers.forEach(this.createFeaturesToggle(layersList))
 
-    const additionalLayersList = createElement("ul", `${styles["additional-layers"]} ${styles.layers}`, listsContainer)
-    this.layers.forEach(this.createFeaturesToggle(additionalLayersList))
+      if (layerGroup.primary) {
+        const additionalLayersToggleContainer = createElement("li", `${styles.item} ${styles["additional-layers-toggle"]}`, layersList)
+        createElement("button", {
+          class: styles["layer-toggle"],
+          onClick: function() {
+            container.classList.add(styles.expanded)
+          }
+        }, additionalLayersToggleContainer, true)
+      }
 
-    createElement("hr", {
-      class: styles["only-expanded"],
-      style: "margin-left: 20px; border-color: transparent; border-top: 1px solid #aaa;"
-    }, listsContainer)
+      createElement("h1", {
+        class: `${styles["layers-list-label"]} ${expandedClass}`,
+        text: layerGroup.title
+      }, listsContainer, true)
+
+      if (index !== this.layerGroups.length - 1) {
+        createElement("hr", {
+          class: styles["only-expanded"],
+          style: "margin-left: 20px; border-color: transparent; border-top: 1px solid #aaa;"
+        }, listsContainer, true)
+      }
+    })
     
-    createElement("h1", {
-      class: styles["layers-list-label"],
-      text: "Groups"
-    }, listsContainer)
-    
-    const layersList = createElement("ul", styles.layers, listsContainer)
-    this.layers.forEach(this.createFeaturesToggle(layersList))
+    // createElement("h1", {
+    //   class: `${styles["only-expanded"]} ${styles["layers-list-label"]}`,
+    //   text: "Additional Layers"
+    // }, listsContainer)
 
-    const additionalLayersToggleContainer = createElement("li", `${styles.item} ${styles["additional-layers-toggle"]}`, layersList)
-    const additionalLayersLabel = createElement("div", { text: "More", class: styles["layer-label"] }, additionalLayersToggleContainer)
+    // const additionalLayersList = createElement("ul", `${styles["additional-layers"]} ${styles.layers}`, listsContainer)
+    // this.layers.forEach(this.createFeaturesToggle(additionalLayersList))
+
+    // createElement("hr", {
+    //   class: styles["only-expanded"],
+    //   style: "margin-left: 20px; border-color: transparent; border-top: 1px solid #aaa;"
+    // }, listsContainer)
+    
+    // createElement("h1", {
+    //   class: styles["layers-list-label"],
+    //   text: "Groups"
+    // }, listsContainer)
+    
+    // const layersList = createElement("ul", styles.layers, listsContainer)
+    // this.layers.forEach(this.createFeaturesToggle(layersList))
+
+    // const additionalLayersToggleContainer = createElement("li", `${styles.item} ${styles["additional-layers-toggle"]}`, layersList)
+    // const additionalLayersLabel = createElement("div", { text: "More", class: styles["layer-label"] }, additionalLayersToggleContainer)
       
     // const expandContainer = () => {
     //   container.classList.add(styles.expanded)
@@ -81,15 +108,6 @@ Control.LayerControl = Control.extend({
     //   additionalLayersLabel.innerText = "More"
     // }
     
-    createElement("button", {
-      class: styles["layer-toggle"],
-      onClick: function() {
-        // const isExpanded = container.classList.contains(styles.expanded)
-        // isExpanded ? collapseContainer() : expandContainer()
-        container.classList.add(styles.expanded)
-      }
-    }, additionalLayersToggleContainer, true)
-
     const containerActions = createElement("div", styles["container-actions"], listsContainer)
 
     createElement("button", {
@@ -125,16 +143,16 @@ control.layerControl = function(opts, layers, additionalLayers) {
   return new Control.LayerControl(opts, layers, additionalLayers)
 }
 
-const LayerControl = ({ layers=[], additionalLayers=[] }) => {
+const LayerControl = ({ layerGroups }) => {
   const { map } = useMapContext()
   
   useEffect(() => {
     if (map) {
-      const layerControl = control.layerControl({ position: "bottomright" }, layers, additionalLayers)
+      const layerControl = control.layerControl({ position: "bottomright" }, layerGroups)
       map.addControl(layerControl)
       return () => map.removeControl(layerControl)
     }
-  }, [ map, layers, additionalLayers ])
+  }, [ map, layerGroups ])
 
   return null
 }

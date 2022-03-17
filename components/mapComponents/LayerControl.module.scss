@@ -134,12 +134,8 @@
   }
 }
 
-.only-expanded {
+.container:not(.expanded) .only-expanded {
   display: none;
-
-  .expanded & {
-    display: block;
-  }
 }
 
 .layers {
