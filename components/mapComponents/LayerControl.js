@@ -17,12 +17,12 @@ Control.LayerControl = Control.extend({
   },
 
   createFeaturesToggle: function(container) {
-    return ({ icon, label, renderOnLoad, layer }) => {
+    return ({ icon, highlight, label, renderOnLoad, layer }) => {
       const layerFeaturesContainer = createElement("li", `${styles.item} ${renderOnLoad ? styles["layer-visible"] : ""}`, container)
       
       createElement("button", {
         class: styles["layer-toggle"],
-        style: `background-image: url(${icon});`,
+        style: `background-image: url(${icon}); background-color: ${highlight};`,
         onClick: () => {
           const isVisible = layerFeaturesContainer.classList.contains(styles["layer-visible"])
           isVisible ? layer.remove() : layer.add()
@@ -54,6 +54,7 @@ Control.LayerControl = Control.extend({
 
       if (layerGroup.primary) {
         const additionalLayersToggleContainer = createElement("li", `${styles.item} ${styles["additional-layers-toggle"]}`, layersList)
+        createElement("div", { text: "More", class: styles["layer-label"] }, additionalLayersToggleContainer)
         createElement("button", {
           class: styles["layer-toggle"],
           onClick: function() {

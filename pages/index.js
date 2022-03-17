@@ -16,13 +16,26 @@ const librariesJson = require("public/data/toronto_libraries.geojson.json")
 const residentsAssociations = require("public/data/groups.geojson.json")
 const torontoWards = require("public/data/toronto-wards.json")
 
+const cansNetwork = require("public/data/regional networks/cans.geojson.json")
+const corraNetwork = require("public/data/regional networks/corra.geojson.json")
+const fontraNetwork = require("public/data/regional networks/fontra.geojson.json")
+const gbnaNetwork = require("public/data/regional networks/gbna.geojson.json")
+const sescaNetwork = require("public/data/regional networks/sesca.geojson.json")
+const westSideCCNetwork = require("public/data/regional networks/west-side-cc.geojson.json")
+
 const layerData = {
   communityCentresJson,
   civicCentresJson,
   schoolsJson,
   librariesJson,
   residentsAssociations,
-  torontoWards
+  torontoWards,
+  cansNetwork,
+  corraNetwork,
+  fontraNetwork,
+  gbnaNetwork,
+  sescaNetwork,
+  westSideCCNetwork
 }
 
 const torontoBounds = require("public/data/toronto-boundary.geojson.json")

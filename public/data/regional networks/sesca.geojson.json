@@ -82,17 +82,11 @@
       },
       "properties": {
         "name": "Guildwood Village Community Association",
-        "styleUrl": "#poly-3F5BA9-1200-76",
-        "styleHash": "7bba11bd",
-        "styleMapHash": {
-          "normal": "#poly-3F5BA9-1200-76-normal",
-          "highlight": "#poly-3F5BA9-1200-76-highlight"
-        },
         "description": "www.guildwood.on.ca",
-        "stroke": "#3f5ba9",
+        "stroke": "#735348",
         "stroke-opacity": 1,
-        "stroke-width": 1.2,
-        "fill": "#3f5ba9",
+        "stroke-width": 2,
+        "fill": "#735348",
         "fill-opacity": 0.2980392156862745
       }
     },
@@ -202,17 +196,11 @@
       },
       "properties": {
         "name": "Highland Creek Community Association",
-        "styleUrl": "#poly-3F5BA9-1200-76",
-        "styleHash": "7bba11bd",
-        "styleMapHash": {
-          "normal": "#poly-3F5BA9-1200-76-normal",
-          "highlight": "#poly-3F5BA9-1200-76-highlight"
-        },
         "description": "http://highlandcreekcommunity.wordpress.com/",
-        "stroke": "#3f5ba9",
+        "stroke": "#735348",
         "stroke-opacity": 1,
-        "stroke-width": 1.2,
-        "fill": "#3f5ba9",
+        "stroke-width": 2,
+        "fill": "#735348",
         "fill-opacity": 0.2980392156862745
       }
     },
@@ -322,17 +310,11 @@
       },
       "properties": {
         "name": "Centennial Community and Recreation Association",
-        "styleUrl": "#poly-3F5BA9-1200-76",
-        "styleHash": "7bba11bd",
-        "styleMapHash": {
-          "normal": "#poly-3F5BA9-1200-76-normal",
-          "highlight": "#poly-3F5BA9-1200-76-highlight"
-        },
         "description": "www.ccranews.com",
-        "stroke": "#3f5ba9",
+        "stroke": "#735348",
         "stroke-opacity": 1,
-        "stroke-width": 1.2,
-        "fill": "#3f5ba9",
+        "stroke-width": 2,
+        "fill": "#735348",
         "fill-opacity": 0.2980392156862745
       }
     },
@@ -377,17 +359,11 @@
       },
       "properties": {
         "name": "West Rouge Community Association",
-        "styleUrl": "#poly-3F5BA9-1201-115",
-        "styleHash": "7ad76cbc",
-        "styleMapHash": {
-          "normal": "#poly-3F5BA9-1201-115-normal",
-          "highlight": "#poly-3F5BA9-1201-115-highlight"
-        },
         "description": "http://westrouge.org/",
-        "stroke": "#3f5ba9",
+        "stroke": "#735348",
         "stroke-opacity": 1,
-        "stroke-width": 1.201,
-        "fill": "#3f5ba9",
+        "stroke-width": 2,
+        "fill": "#735348",
         "fill-opacity": 0.45098039215686275
       }
     }

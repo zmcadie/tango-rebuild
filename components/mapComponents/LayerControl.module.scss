@@ -1,10 +1,10 @@
 .container {
   align-items: flex-end;
   border: none !important;
+  bottom: 10px;
   display: flex;
   flex-direction: row-reverse;
   font-family: 'Didact Gothic', sans-serif;
-  margin-bottom: 26px;
   overflow-y: auto;
   position: relative;
   overflow: hidden;
@@ -112,7 +112,7 @@
   background-clip: inherit;
   border: 2px solid #00000033;
   border-radius: 4px;
-  // padding-bottom: 10px;
+  // margin-bottom: 10px;
   padding-right: 20px;
   opacity: 0;
   pointer-events: none;

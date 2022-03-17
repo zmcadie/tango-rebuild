@@ -39,7 +39,13 @@ const MapLayers = ({ data }) => {
         schoolsJson,
         librariesJson,
         residentsAssociations,
-        torontoWards
+        torontoWards,
+        cansNetwork,
+        corraNetwork,
+        fontraNetwork,
+        gbnaNetwork,
+        sescaNetwork,
+        westSideCCNetwork
       } = data
 
       const defaultLayerActions = layer => ({
@@ -78,6 +84,49 @@ const MapLayers = ({ data }) => {
         icon: "/img/group-icons/facebook-groups.png",
         layer: { add: () => {}, remove: () => {}}
       })
+
+      const cansNetworkLayer = createLayer({ data: cansNetwork })
+      regionalNetworksLayers.push({
+        label: "CANS",
+        highlight: "#f8971b",
+        layer: defaultLayerActions(cansNetworkLayer)
+      })
+
+      const corraNetworkLayer = createLayer({ data: corraNetwork })
+      regionalNetworksLayers.push({
+        label: "CORRA",
+        highlight: "#f4eb37",
+        layer: defaultLayerActions(corraNetworkLayer)
+      })
+
+      const fontraNetworkLayer = createLayer({ data: fontraNetwork })
+      regionalNetworksLayers.push({
+        label: "FONTRA",
+        highlight: "#db4436",
+        layer: defaultLayerActions(fontraNetworkLayer)
+      })
+
+      const gbnaNetworkLayer = createLayer({ data: gbnaNetwork })
+      regionalNetworksLayers.push({
+        label: "GBNA",
+        highlight: "#7c3592",
+        layer: defaultLayerActions(gbnaNetworkLayer)
+      })
+
+      const sescaNetworkLayer = createLayer({ data: sescaNetwork })
+      regionalNetworksLayers.push({
+        label: "SESCA",
+        highlight: "#735348",
+        layer: defaultLayerActions(sescaNetworkLayer)
+      })
+
+      const westSideCCNetworkLayer = createLayer({ data: westSideCCNetwork })
+      regionalNetworksLayers.push({
+        label: "West Side CC",
+        highlight: "#009d57",
+        layer: defaultLayerActions(westSideCCNetworkLayer)
+      })
+
 
       const meetingPlacesLayer = createLayer({
         data: [
