@@ -69,12 +69,6 @@ const MapLayers = ({ data }) => {
       })
       
       groupsLayers.push({
-        label: "Tenant Groups",
-        icon: "/img/group-icons/tenant-groups.png",
-        layer: { add: () => {}, remove: () => {}}
-      })
-      
-      groupsLayers.push({
         label: "Park Groups",
         icon: "/img/group-icons/park-groups.png",
         layer: { add: () => {}, remove: () => {}}
